@@ -1,0 +1,1236 @@
+<title>Victoria Votes 2026</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Serif+4:wght@400;600;800&display=swap">
+<style>
+/* Layout concept: clean ad-poster. Cream ground, navy ink, one lime highlighter, pill tags, rounded white cards.
+   Compact hero with the date as the highlighted line, then map card + data card, then an icon strip and a lime band. */
+:root{
+  --bg:#F6F3EC; --panel:#FFFFFF; --ink:#0F1B3D; --mute:#5C6682; --rule:#0F1B3D; --hair:rgba(15,27,61,.12);
+  --soft:#E7E4DB; --accent:#D8F23C; --on-accent:#0F1B3D; --navy:#0F1B3D; --on-navy:#FFFFFF;
+  --alp:#E0393E; --lnp:#2559D9; --grn:#1AA15A; --onp:#F58A2B; --ind:#8B6CE8; --oth:#A9B0C2;
+  --shadow:0 14px 36px rgba(15,27,61,.08); --shadow-sm:0 4px 14px rgba(15,27,61,.12); --r:20px;
+  --f-ui:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0B1126; --panel:#131B36; --ink:#EEF1FA; --mute:#9AA5C0; --rule:#EEF1FA; --hair:rgba(238,241,250,.14);
+    --soft:#222C4A; --navy:#1B2650; --alp:#FF5560; --lnp:#5B8CFF; --grn:#33CC80; --onp:#FF9D4D; --ind:#A892FF; --oth:#7C87A3;
+    --shadow:0 14px 36px rgba(0,0,0,.4); --shadow-sm:0 4px 14px rgba(0,0,0,.5); color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0B1126; --panel:#131B36; --ink:#EEF1FA; --mute:#9AA5C0; --rule:#EEF1FA; --hair:rgba(238,241,250,.14);
+  --soft:#222C4A; --navy:#1B2650; --alp:#FF5560; --lnp:#5B8CFF; --grn:#33CC80; --onp:#FF9D4D; --ind:#A892FF; --oth:#7C87A3;
+  --shadow:0 14px 36px rgba(0,0,0,.4); --shadow-sm:0 4px 14px rgba(0,0,0,.5); color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+button,input{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+.wrap{max-width:1500px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.mono{font-variant-numeric:tabular-nums;font-weight:700}
+.lbl{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+
+/* hero */
+.hero{padding-block:20px 18px}
+.hero-in{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:end}
+.pill{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--ink);border-radius:999px;padding:6px 14px;font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;background:var(--panel)}
+.pill i{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 1.5px var(--ink)}
+.pill.quiet{border-color:var(--hair);font-weight:600;letter-spacing:.02em;text-transform:none;font-size:13px;color:var(--mute)}
+.pill.quiet b{color:var(--ink)}
+h1{margin:14px 0 8px;font-size:clamp(29px,4.8vw,62px);line-height:1.12;font-weight:800;letter-spacing:-.04em;text-wrap:balance}
+h1 mark{background:var(--accent);color:var(--on-accent);padding:0 .14em;margin-left:-.04em;border-radius:.14em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.sub{margin:0;font-size:clamp(16px,1.5vw,19px);color:var(--mute);max-width:52ch}
+
+/* map + panel cards */
+.main{display:grid;grid-template-columns:minmax(0,1fr) 440px;gap:20px;align-items:stretch}
+.mapbox,.panel{height:clamp(540px,calc(100vh - 110px),800px);background:var(--panel);border:1px solid var(--hair);border-radius:var(--r);box-shadow:var(--shadow)}
+.mapbox{position:relative;min-width:0;overflow:hidden}
+.mapbox svg{display:block;width:100%;height:100%;touch-action:manipulation}
+.seat{stroke:var(--panel);stroke-width:.6px;vector-effect:non-scaling-stroke;cursor:pointer;shape-rendering:geometricPrecision;transition:opacity .15s}
+.seat:hover{stroke:var(--ink);stroke-width:1.8px}
+.seat{outline:none}
+.seat:focus{outline:none}
+.mapbox svg,.mapbox svg *{outline:none!important;-webkit-tap-highlight-color:transparent}
+.seat.sel,.seat:focus-visible{stroke:var(--ink);stroke-width:3px}
+.slab{font-family:var(--f-ui);font-weight:700;fill:var(--ink);text-anchor:middle;paint-order:stroke;stroke:var(--panel);stroke-width:3px;stroke-linejoin:round;pointer-events:none}
+.tools,.zoom,.legend,.hint,.tip{position:absolute;z-index:3}
+.tools.tl{top:14px;left:14px}
+.tools.tr{top:14px;right:14px}
+.seg{display:flex;gap:2px;background:var(--panel);border:1px solid var(--hair);border-radius:999px;padding:3px;box-shadow:var(--shadow-sm)}
+.seg button{border:0;background:transparent;border-radius:999px;padding:7px 14px;font-size:12px;font-weight:700;white-space:nowrap}
+.seg button:hover:not([aria-pressed="true"]){background:var(--soft)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.zoom{right:14px;top:64px;display:flex;flex-direction:column;gap:8px}
+.zoom button{width:42px;height:42px;border-radius:50%;border:1px solid var(--hair);background:var(--panel);box-shadow:var(--shadow-sm);font-size:22px;font-weight:600;line-height:1;display:flex;align-items:center;justify-content:center}
+.zoom button:hover{background:var(--accent);color:var(--on-accent)}
+.zoom .fit{font-size:11px;font-weight:800}
+.legend{left:14px;bottom:14px;background:var(--panel);border:1px solid var(--hair);border-radius:16px;padding:10px 14px;display:flex;flex-wrap:wrap;gap:6px 14px;max-width:calc(100% - 100px);font-size:12px;font-weight:600;box-shadow:var(--shadow-sm)}
+.legend i{display:inline-block;width:11px;height:11px;margin-right:6px;vertical-align:-1px;border-radius:3px}
+.hint{right:14px;bottom:14px;background:var(--accent);color:var(--on-accent);border-radius:999px;padding:8px 16px;font-size:12px;font-weight:800;box-shadow:var(--shadow-sm)}
+.tip{pointer-events:none;background:var(--panel);color:var(--ink);border:1.5px solid var(--ink);border-radius:14px;padding:8px 13px;font-size:13px;line-height:1.35;max-width:240px;display:none;box-shadow:var(--shadow-sm);z-index:5}
+.tip b{display:block;font-size:14px;font-weight:800}
+
+/* panel */
+.panel{min-width:0;overflow-y:auto;scrollbar-width:thin}
+.find{position:sticky;top:0;z-index:4;background:var(--panel);border-bottom:1px solid var(--hair);padding:14px 18px}
+.find label{display:block;margin-bottom:6px;color:var(--mute)}
+.find input{width:100%;border:1.5px solid var(--hair);background:var(--bg);border-radius:999px;padding:10px 16px;font-size:15px}
+.find input:focus{border-color:var(--ink);outline:none}
+.find input::placeholder{color:var(--mute)}
+.results{display:none;margin-top:8px;border:1px solid var(--hair);border-radius:14px;background:var(--panel);max-height:260px;overflow:auto;box-shadow:var(--shadow-sm)}
+.results.open{display:block}
+.results button{display:flex;width:100%;justify-content:space-between;gap:10px;text-align:left;border:0;border-bottom:1px solid var(--hair);background:transparent;padding:10px 14px}
+.results button:hover,.results button:focus-visible{background:var(--accent);color:var(--on-accent);outline:none}
+.results small{opacity:.7}
+.sec{padding:20px 18px;border-bottom:1px solid var(--hair)}
+.sec:last-child{border-bottom:0}
+.sec h3{margin:0 0 14px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.sec h3 span{color:var(--mute);font-weight:600;letter-spacing:0;text-transform:none;font-size:12px}
+.tag{display:inline-block;border-radius:999px;padding:4px 12px;font-size:12px;font-weight:700;background:var(--soft)}
+.tag.y{background:var(--accent);color:var(--on-accent)}
+.tag.k{background:var(--ink);color:var(--bg)}
+.back{border:0;background:transparent;padding:0;margin-bottom:12px;font-size:12px;font-weight:700;color:var(--mute)}
+.back:hover{color:var(--ink);text-decoration:underline}
+.seat-h{font-weight:800;font-size:clamp(34px,4.2vw,50px);line-height:1.02;letter-spacing:-.035em;margin:4px 0 14px;overflow-wrap:anywhere}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.verdict{margin:14px 0 0;font-size:15px}
+.verdict b{font-weight:800}
+.stack{display:flex;height:14px;border-radius:999px;overflow:hidden;margin-bottom:16px;background:var(--soft)}
+.stack div{height:100%}
+.rows{display:flex;flex-direction:column;gap:12px}
+.row{display:grid;grid-template-columns:14px minmax(0,1fr) auto;gap:4px 12px;align-items:center}
+.row .sw{width:14px;height:14px;border-radius:4px}
+.row .who b{display:block;font-weight:700;overflow-wrap:anywhere}
+.row .who small{color:var(--mute);font-size:13px}
+.row .pct{font-weight:800;font-size:22px;letter-spacing:-.02em}
+.inc{display:inline-block;margin-left:6px;font-size:10px;font-weight:800;letter-spacing:.05em;background:var(--soft);color:var(--ink);border-radius:999px;padding:1px 7px;vertical-align:1px}
+.note{margin:12px 0 0;color:var(--mute);font-size:13px}
+.poll{background:var(--bg);border-radius:14px;padding:12px 14px;margin-top:12px;font-size:14px}
+.poll .lbl{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;color:var(--mute)}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:8px 6px;text-align:right;border-bottom:1px solid var(--hair)}
+th:first-child,td:first-child{text-align:left}
+th{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);font-weight:700}
+.tw{overflow-x:auto}
+.cand{display:grid;grid-template-columns:120px minmax(0,1fr);gap:8px 12px;font-size:14px;margin:0}
+.cand dt{color:var(--mute);font-weight:600}
+.cand dd{margin:0;font-weight:700;overflow-wrap:anywhere}
+.watch{display:flex;flex-direction:column}
+.watch button{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;text-align:left;border:0;border-bottom:1px solid var(--hair);background:transparent;padding:11px 8px;border-radius:10px}
+.watch button:hover{background:var(--soft)}
+.watch b{font-weight:800}
+.watch small{grid-column:1/-1;color:var(--mute);font-size:12.5px}
+details{background:var(--bg);border-radius:14px;padding:12px 14px}
+summary{cursor:pointer;font-weight:800;font-size:13px}
+details p,details li{font-size:14px;margin:8px 0 0}
+details ul{margin:0;padding-left:18px}
+.big3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.big3>div{background:var(--bg);border-radius:14px;padding:12px}
+.big3 .v{font-weight:800;font-size:34px;line-height:1;letter-spacing:-.04em}
+.big3 .l{font-size:12px;color:var(--mute);margin-top:6px;line-height:1.3}
+.tossline{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 0}
+.seatbar{position:relative;display:flex;height:34px;border-radius:999px;overflow:hidden;margin-top:6px}
+.seatbar div{height:100%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;color:#fff;overflow:hidden}
+.seatbar .m{position:absolute;top:0;bottom:0;width:3px;background:var(--panel)}
+.ticks{position:relative;height:16px;margin-bottom:4px;font-size:11px;font-weight:700;color:var(--mute)}
+.ticks span{position:absolute;white-space:nowrap}
+.fhead,.frow{display:grid;grid-template-columns:minmax(0,1fr) 60px 74px 54px;gap:2px 8px;align-items:center}
+.fhead{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);padding-bottom:8px;border-bottom:1px solid var(--hair);margin-bottom:10px}
+.fhead span:not(:first-child),.frow>.mono{text-align:right}
+.frow{padding-bottom:12px}
+.frow .fp{display:flex;gap:10px;align-items:flex-start;min-width:0}
+.frow .sw{flex:none;width:14px;height:14px;margin-top:4px;border-radius:4px}
+.frow b{display:block;font-weight:800;font-size:15px;overflow-wrap:anywhere}
+.frow small{display:block;color:var(--mute);font-size:12.5px;line-height:1.3;overflow-wrap:anywhere}
+.frow .n22{color:var(--mute);font-size:14px;font-weight:600}
+.frow .n26{font-weight:800;font-size:17px}
+.frow .nch{font-size:12.5px;font-weight:700}
+.frow .nch.up::before{content:"\25B2 ";font-size:8px}
+.frow .nch.dn::before{content:"\25BC ";font-size:8px}
+.fb{grid-column:1/-1;display:flex;flex-direction:column;gap:3px;margin-top:5px}
+.fb u{display:block;height:4px;border-radius:99px;background:var(--mute);opacity:.4;text-decoration:none}
+.fb i{display:block;height:9px;border-radius:99px}
+.cmp{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:stretch}
+.cbox{border-radius:16px;padding:14px;display:flex;flex-direction:column;gap:4px;background:var(--bg);font-size:13.5px;min-width:0}
+.cbox b{font-size:19px;line-height:1.15;font-weight:800;letter-spacing:-.02em}
+.cbox.r{background:var(--accent);color:var(--on-accent)}
+.cbox .lbl{color:var(--mute);font-size:10.5px}
+.cbox.r .lbl{color:var(--on-accent);opacity:.7}
+.cmp .arrow{display:flex;align-items:center;font-weight:800;font-size:26px;color:var(--mute)}
+
+
+.tcard{border:1px solid var(--hair);border-radius:14px;padding:12px 14px;margin-bottom:8px;background:var(--panel)}
+.tcard.top{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.tcard .th{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.tcard .th b{font-weight:800;font-size:14.5px}
+.tcard .th small{display:block;color:var(--mute);font-size:12px;font-weight:500;margin-top:2px}
+.twt{text-align:right;flex:none}.twt b{font-size:20px;letter-spacing:-.02em}
+.wbar{height:6px;background:var(--soft);border-radius:99px;margin:10px 0 8px;overflow:hidden}
+.wbar i{display:block;height:100%;background:var(--ink);border-radius:99px}
+.tnums{display:flex;flex-direction:column;gap:2px;font-size:12.5px;color:var(--mute)}
+.tnums b{color:var(--ink);font-weight:700}
+.trusted{background:var(--accent);color:var(--on-accent);border-radius:16px;padding:14px;display:flex;flex-direction:column;gap:4px;font-size:13.5px}
+.trusted b{font-size:17px;font-weight:800;letter-spacing:-.01em}
+.trusted .lbl{font-size:10.5px;opacity:.75}
+.plist{display:flex;flex-direction:column}
+.prow{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:9px 2px;border-bottom:1px solid var(--hair);font-size:14px}
+.prow .pn{font-weight:700}.prow .pn small{display:block;color:var(--mute);font-weight:500;font-size:12px}
+.prow .pc{display:flex;align-items:center;gap:8px;font-weight:600;text-align:right}
+.prow .pc i{width:12px;height:12px;border-radius:4px;flex:none}
+
+/* tabs, news, tracker */
+:root{--up:#12A15A;--down:#E5484D}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--up:#3DD68C;--down:#FF6B6B}}
+:root[data-theme="dark"]{--up:#3DD68C;--down:#FF6B6B}
+.tabs{display:flex;gap:8px;margin:0 0 16px;overflow-x:auto;padding-bottom:2px}
+.tabs button{flex:none;border:1.5px solid var(--hair);background:var(--panel);border-radius:999px;padding:10px 20px;font-size:14px;font-weight:800}
+.tabs button:hover{border-color:var(--ink)}
+.tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.card{background:var(--panel);border:1px solid var(--hair);border-radius:var(--r);box-shadow:var(--shadow);padding:20px}
+.pane-h{margin:0 0 4px;font-size:clamp(26px,3.2vw,38px);font-weight:800;letter-spacing:-.03em;line-height:1.1}
+.pane-sub{margin:0 0 18px;color:var(--mute);max-width:70ch}
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-bottom:16px}
+.tile{background:var(--panel);border:1px solid var(--hair);border-radius:var(--r);padding:16px 18px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:2px;min-width:0}
+.tile .tn{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:800}
+.tile .tn i{width:10px;height:10px;border-radius:3px}
+.tile .tv{font-size:clamp(40px,4.4vw,56px);font-weight:800;letter-spacing:-.05em;line-height:1}
+.tile .td{font-size:13px;font-weight:800}
+.tile .td small{font-weight:600;color:var(--mute);font-size:12px}
+.up{color:var(--up)}.dn{color:var(--down)}.fl{color:var(--mute)}
+.tile svg{display:block;margin-top:6px;width:100%;height:38px}
+.cc-top{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.lg{display:flex;gap:6px;flex-wrap:wrap}
+.lg button{display:inline-flex;align-items:center;gap:7px;border:1.5px solid var(--hair);background:var(--panel);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:700}
+.lg button i{width:10px;height:10px;border-radius:50%}
+.lg button[aria-pressed="false"]{opacity:.45}
+.chart{position:relative;width:100%}
+.chart svg{display:block;touch-action:pan-y;cursor:crosshair}
+.gl{stroke:var(--hair);stroke-width:1}
+.ax{fill:var(--mute);font-size:11px;font-weight:600}
+.ln{fill:none;stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round}
+.endlab{font-size:12px;font-weight:800}
+.refl{stroke:var(--ink);stroke-width:1.2;stroke-dasharray:5 4;opacity:.7}
+.refx{fill:var(--ink);font-size:11px;font-weight:800}
+.ctip{position:absolute;top:6px;left:0;display:none;pointer-events:none;background:var(--panel);border:1.5px solid var(--ink);border-radius:12px;padding:8px 12px;font-size:12.5px;box-shadow:var(--shadow-sm);z-index:3;min-width:130px}
+.ctip b{display:block;margin-bottom:4px}
+.ctip div{display:flex;justify-content:space-between;gap:12px;font-weight:700}
+.ctip i{display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:6px}
+.trk-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:16px}
+.seatpick{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.seatpick select{border:1.5px solid var(--hair);background:var(--bg);border-radius:999px;padding:9px 16px;font-size:15px;font-weight:700;min-width:200px}
+.btn{border:1.5px solid var(--ink);background:var(--accent);color:var(--on-accent);border-radius:999px;padding:9px 16px;font-size:13px;font-weight:800}
+.seatbig{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+.seatbig b{font-size:34px;font-weight:800;letter-spacing:-.04em;line-height:1}
+.mv{display:flex;flex-direction:column}
+.mv button{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;text-align:left;border:0;border-bottom:1px solid var(--hair);background:transparent;padding:11px 6px;border-radius:10px}
+.mv button:hover{background:var(--soft)}
+.mv b{font-weight:800}
+.mv .mvd{font-weight:800;text-align:right;font-size:14px}
+.mv small{grid-column:1/-1;color:var(--mute);font-size:12.5px}
+.mv .flip{display:inline-block;margin-left:6px;background:var(--accent);color:var(--on-accent);border-radius:999px;padding:0 8px;font-size:10.5px;font-weight:800;vertical-align:1px}
+@media (max-width:1000px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.tabs button{padding:9px 16px;font-size:13px}.card{padding:16px}}
+.note.warn{background:var(--accent);color:var(--on-accent);border-radius:12px;padding:10px 12px;font-weight:600;font-size:13px}
+
+/* cinematic dark map + share card */
+.mapbox.dark{--panel:#0E1730;--ink:#EEF1FA;--bg:#0B1126;--mute:#9FA9C2;--hair:rgba(238,241,250,.16);--soft:#1E2A4A;--accent:#D8F23C;--on-accent:#0F1B3D;--alp:#FF5560;--lnp:#5B8CFF;--grn:#33CC80;--onp:#FF9D4D;--ind:#A892FF;--oth:#7C87A3;--shadow-sm:0 6px 18px rgba(0,0,0,.5);color:var(--ink)}
+.mapbox{display:flex;flex-direction:column}
+.mapbox.dark{background:radial-gradient(120% 90% at 50% -10%,#1b3668 0%,#0b1735 52%,#050a1c 100%);border-color:rgba(238,241,250,.14)}
+.mapstage{position:relative;flex:1;min-height:0}
+.maphead{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;padding:16px 16px 0;position:relative;z-index:4}
+.maphead .lbl{display:block;color:var(--mute);margin-bottom:3px;font-size:10.5px}
+.maphead b{display:block;font-size:clamp(24px,2.6vw,34px);font-weight:800;letter-spacing:-.035em;line-height:1.05;color:var(--ink)}
+.mapbox.dark .seat{stroke:rgba(255,255,255,.4);stroke-width:.5px}
+.mapbox.dark .seat:hover{stroke:#fff;stroke-width:1.8px}
+.mapbox.dark .seat.sel,.mapbox.dark .seat:focus-visible{stroke:var(--accent);stroke-width:3px}
+.mapbox.dark .seg,.mapbox.dark .legend{background:rgba(14,23,48,.82);border-color:rgba(238,241,250,.18)}
+.mapbox.dark .zoom button{background:rgba(14,23,48,.9);border-color:rgba(238,241,250,.2);color:var(--ink)}
+.mapbox.dark .zoom button:hover{background:var(--accent);color:var(--on-accent)}
+.legend b{font-weight:800}
+.poster-wrap{display:flex;justify-content:center;padding:4px 0 8px}
+.poster{width:min(100%,400px);aspect-ratio:9/16;border-radius:26px;padding:22px 20px 18px;display:flex;flex-direction:column;gap:12px;background:var(--panel);border:1px solid var(--hair);color:var(--ink);box-shadow:var(--shadow);overflow:hidden}
+.poster .lbl{color:var(--mute);font-size:10.5px}
+.poster .p-t{font-size:32px;font-weight:800;letter-spacing:-.045em;line-height:1.12;margin-top:6px;display:block}
+.poster .p-t mark{background:var(--accent);color:var(--on-accent);padding:0 .12em;border-radius:.14em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.poster .p-leg{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:11.5px;font-weight:700}
+.poster .p-leg i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.poster .p-maps{flex:1;min-height:0;display:flex;flex-direction:column;gap:10px}
+.poster .p-map{display:block;width:100%;flex:1;min-height:0}
+.poster .p-row2{height:39%;display:flex;gap:14px;align-items:stretch;min-height:0}
+.poster .p-inset{position:relative;height:100%;aspect-ratio:1;border:1px solid var(--hair);border-radius:16px;background:var(--bg);overflow:hidden;flex:none}
+.poster .p-inset svg{display:block;width:100%;height:100%}
+.poster .p-inset .lbl{position:absolute;left:8px;top:8px;z-index:2;font-size:9.5px;color:var(--ink);background:var(--panel);padding:2px 8px;border-radius:99px;box-shadow:var(--shadow-sm)}
+.poster .p-stats{flex:1;display:grid;grid-template-columns:1fr 1fr;gap:8px 10px;align-content:center;text-align:left;min-width:0}
+.poster .p-stats b{display:block;font-size:34px;font-weight:800;letter-spacing:-.05em;line-height:1}
+.poster .p-stats span{font-size:11.5px;font-weight:700;color:var(--mute)}
+.poster .p-odds{background:var(--accent);color:var(--on-accent);border-radius:999px;padding:9px 14px;font-size:12.5px;font-weight:800;text-align:center}
+.poster .p-foot{font-size:10px;color:var(--mute);line-height:1.35}
+@media (max-width:520px){.maphead{padding:12px 12px 0}.maphead b{font-size:22px}.maphead .lbl{font-size:9.5px}.mapbox.dark .seg button{padding:6px 7px}}
+
+/* news front page */
+.np-mast{border-top:6px solid var(--ink);padding:10px 0 14px;border-bottom:1.5px solid var(--ink)}
+.np-top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);padding-bottom:8px;border-bottom:1px solid var(--hair)}
+.np-name{margin:12px 0 4px;font-size:clamp(38px,6.4vw,72px);font-weight:800;letter-spacing:-.05em;line-height:1}
+.np-sub{color:var(--mute);font-size:14px;max-width:70ch}
+.np-nav{display:flex;gap:2px;overflow-x:auto;border-bottom:1px solid var(--hair)}
+.np-nav button{border:0;background:none;padding:12px 14px;font-weight:800;font-size:14px;border-bottom:3px solid transparent;white-space:nowrap;margin-bottom:-1px}
+.np-nav button small{color:var(--mute);font-weight:700}
+.np-nav button:hover{background:var(--soft)}
+.np-nav button[aria-pressed="true"]{border-bottom-color:var(--ink)}
+.npress{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:30px;padding-top:22px}
+.nlead{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:22px;color:inherit;text-decoration:none;padding-bottom:22px;border-bottom:1.5px solid var(--ink);align-items:center}
+.nlead h3{margin:8px 0 10px;font-size:clamp(26px,2.8vw,38px);line-height:1.1;font-weight:800;letter-spacing:-.035em}
+.nlead:hover h3,.ncard2:hover h4{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+.nmeta2{font-size:13px;color:var(--mute)}.nmeta2 b{color:var(--ink)}
+.nlead .go{display:inline-block;margin-top:12px;font-size:13px;font-weight:800}
+.ngrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 22px}
+.ncard2{display:flex;flex-direction:column;gap:8px;color:inherit;text-decoration:none;padding:20px 0;border-bottom:1px solid var(--hair)}
+.ncard2 h4{margin:0;font-size:18px;line-height:1.25;font-weight:800;letter-spacing:-.015em}
+.nthumb{position:relative;aspect-ratio:16/9;border-radius:6px;overflow:hidden;display:flex;align-items:flex-end;padding:10px 12px;font-size:12px;font-weight:800;letter-spacing:.05em;text-transform:uppercase}
+.nthumb svg{position:absolute;right:10px;top:8px;width:46%;height:70%;fill:none;stroke:currentColor;stroke-width:1.2;opacity:.3;stroke-linecap:round;stroke-linejoin:round}
+.nthumb.big{aspect-ratio:4/3}
+.t-Polls{background:var(--navy);color:var(--accent)}
+.t-Candidates{background:var(--soft);color:var(--ink)}
+.t-Campaign{background:var(--accent);color:var(--on-accent)}
+.nkick{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.nkick i{width:8px;height:8px;border-radius:2px}
+.k-Polls i{background:var(--lnp)}.k-Candidates i{background:var(--onp)}.k-Campaign i{background:var(--grn)}
+.nrail{display:flex;flex-direction:column;gap:22px;border-left:1px solid var(--hair);padding-left:26px}
+.nr-box h5{margin:0 0 4px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding-bottom:8px;border-bottom:2px solid var(--ink)}
+.nr-box>a{display:block;padding:11px 0;border-bottom:1px solid var(--hair);color:inherit;text-decoration:none;font-weight:700;font-size:14px;line-height:1.35}
+.nr-box>a:hover{text-decoration:underline}
+.nr-t{display:block;font-size:11px;font-weight:800;color:var(--down);letter-spacing:.05em;text-transform:uppercase;margin-bottom:2px}
+.nr-box>a small{display:block;color:var(--mute);font-weight:600;margin-top:2px}
+.nr-poll{background:var(--bg);border-radius:14px;padding:16px;border:1px solid var(--hair)}
+.nr-poll h5{border-bottom-color:var(--hair)}
+.nr-seats{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:10px 0}
+.nr-seats b{display:block;font-size:30px;font-weight:800;letter-spacing:-.05em;line-height:1}
+.nr-seats span{font-size:11px;font-weight:700;color:var(--mute)}
+.nr-poll p{margin:0 0 12px;font-size:13px;color:var(--mute)}
+@media (max-width:1000px){.npress{grid-template-columns:1fr}.nrail{border-left:0;padding-left:0;border-top:1.5px solid var(--ink);padding-top:18px}.ngrid{grid-template-columns:repeat(2,minmax(0,1fr))}.nlead{grid-template-columns:1fr}}
+@media (max-width:520px){.ngrid{grid-template-columns:1fr}.nr-seats b{font-size:26px}}
+
+/* newspaper front page */
+:root{--f-serif:'Source Serif 4',Georgia,'Times New Roman',serif;--link:#1556C8}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--link:#7BA7FF}}
+:root[data-theme="dark"]{--link:#7BA7FF}
+.nf{display:grid;grid-template-columns:minmax(0,1.9fr) minmax(0,1fr) minmax(0,1fr);gap:0 28px;padding-top:24px;align-items:start}
+.nf-c1,.nf-c2,.nf-c3{min-width:0}
+.nf-c2,.nf-c3{border-left:1px solid var(--hair);padding-left:28px}
+.nf a{color:inherit;text-decoration:none}
+.nf a:hover h3,.nf a:hover h4,.nf-bul a:hover,.nf-li a:hover h6{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+.kk{display:block;font-size:14px;font-weight:600;color:var(--link);margin:0 0 8px}
+.nf-lead h3{font-family:var(--f-serif);font-weight:800;font-size:clamp(32px,4.2vw,58px);line-height:1.07;letter-spacing:-.02em;margin:0 0 18px}
+.nf-art{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--navy)}
+.nf-art.s{aspect-ratio:16/9}
+.nf-art svg{position:absolute;inset:0;width:100%;height:100%}
+.nf-pub{position:absolute;left:10px;bottom:10px;background:rgba(15,27,61,.85);color:#fff;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:99px}
+.nf-stand{font-family:var(--f-serif);color:var(--mute);font-size:clamp(17px,1.5vw,20px);line-height:1.45;margin:14px 0 0}
+.nf-meta{font-size:12.5px;color:var(--mute);margin-top:8px}.nf-meta b{color:var(--ink)}
+.nf-link{display:inline-block;margin-top:10px;font-size:13px;font-weight:700;color:var(--link);border:0;background:none;padding:0;text-align:left}
+.nf-link:hover{text-decoration:underline}
+.nf-bul{margin:22px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:18px}
+.nf-bul li{display:grid;grid-template-columns:18px minmax(0,1fr);gap:10px;align-items:start}
+.nf-bul li::before{content:"";width:0;height:0;border-left:14px solid var(--link);border-top:8px solid transparent;border-bottom:8px solid transparent;margin-top:7px}
+.nf-bul a{font-family:var(--f-serif);font-weight:800;font-size:clamp(18px,1.6vw,22px);line-height:1.25}
+.nf-st{padding-bottom:22px;margin-bottom:22px;border-bottom:1px solid var(--hair)}
+.nf-st h4,.nf-card h4{font-family:var(--f-serif);font-weight:800;font-size:clamp(22px,2vw,28px);line-height:1.18;letter-spacing:-.01em;margin:0}
+.nf-st .nf-stand{font-size:17px;margin-top:10px}
+.nf-card{margin-bottom:26px}
+.nf-card h4{font-size:clamp(20px,1.8vw,24px)}
+.nf-c3 .nr-poll{margin-top:4px}
+.nf-more{margin-top:12px;border-top:3px solid var(--ink);padding-top:12px}
+.nf-more h5{margin:0 0 4px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.nf-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0 28px}
+.nf-li{padding:14px 0;border-bottom:1px solid var(--hair)}
+.nf-li h6{font-family:var(--f-serif);font-weight:800;font-size:17px;line-height:1.25;margin:0}
+@media (max-width:1000px){.nf{grid-template-columns:1fr}.nf-c2,.nf-c3{border-left:0;padding-left:0;border-top:1.5px solid var(--ink);padding-top:22px;margin-top:24px}.nf-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.nf-list{grid-template-columns:1fr}.nf-lead h3{font-size:32px}}
+
+/* find your seat, plain summary, copy buttons */
+.hero-find{position:relative;margin-top:16px;max-width:560px}
+.hero-find .lbl{display:block;margin-bottom:6px;color:var(--mute)}
+.hero-find input{width:100%;border:2px solid var(--ink);background:var(--panel);border-radius:999px;padding:14px 20px;font-size:16px;font-weight:600;box-shadow:var(--shadow-sm)}
+.hero-find input:focus{outline:3px solid var(--accent);outline-offset:1px}
+.hero-find .results{position:absolute;left:0;right:0;top:100%;z-index:30;margin-top:8px;border:2px solid var(--ink);border-radius:18px}
+.results .rnote{padding:9px 14px;font-size:12px;color:var(--mute)}
+.results button b{font-weight:800}
+.btnrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.btn.ghost{background:var(--panel);color:var(--ink)}
+.plain{background:var(--accent);color:var(--on-accent);border-radius:16px;padding:14px 16px;margin-bottom:12px}
+.plain .lbl{font-size:10.5px;opacity:.75}
+.plain p{margin:4px 0 0;font-size:16px;line-height:1.4}
+.newhere{margin-bottom:14px}
+.newhere li{margin-top:6px}
+button.pill{font-family:inherit}
+@media (max-width:520px){.pills{flex-wrap:nowrap;overflow-x:auto;padding-bottom:2px}.pills .pill{flex:none;white-space:nowrap}}
+
+.nf-art.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 22%}
+.nf-seat{position:absolute;left:12px;top:10px;color:#fff;font-weight:800;font-size:15px;letter-spacing:-.01em;text-shadow:0 1px 6px rgba(0,0,0,.5)}
+.nf-cap{font-size:11px;color:var(--mute);margin-top:6px;line-height:1.35}
+
+.nf-stb{margin-top:12px}
+.nf-bul li{grid-template-columns:104px minmax(0,1fr);gap:14px}
+.nf-bul li::before{display:none}
+.nf-bt .nf-art{aspect-ratio:4/3}
+.nf-bt .nf-pub{display:none}
+.nf-li .nf-art{margin-bottom:10px}
+.nf-art.chart .nf-pub{bottom:auto;top:8px}
+
+/* ---- professional pass: top bar, hero, footer, calmer accents ---- */
+:root{--r-sm:12px}
+.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:var(--panel);border-bottom:1px solid var(--hair)}
+.tb-in{display:flex;align-items:center;gap:20px;min-height:64px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:800;font-size:17px;letter-spacing:-.02em;white-space:nowrap}
+.logo{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:var(--navy);color:var(--accent);font-size:13px;font-weight:800;letter-spacing:0}
+.brand b{font-weight:800;color:var(--mute)}
+.tabs{display:flex;gap:2px;margin:0 0 0 14px;padding:0;align-self:stretch;overflow:visible}
+.tabs button{border:0;border-radius:0;background:none;padding:0 14px;font-size:14px;font-weight:700;color:var(--mute);border-top:3px solid transparent;border-bottom:3px solid transparent;white-space:nowrap}
+.tabs button:hover{color:var(--ink);border-color:transparent transparent var(--hair) transparent}
+.tabs button[aria-selected="true"]{color:var(--ink);background:none;border-bottom-color:var(--ink)}
+.tb-right{margin-left:auto;display:flex;align-items:center;gap:14px}
+.cd{font-size:13px;color:var(--mute);font-weight:600;white-space:nowrap}
+.cd b{font-size:22px;color:var(--ink);font-weight:800;letter-spacing:-.03em;margin-right:6px;vertical-align:-1px}
+.btn-s{border:1.5px solid var(--ink);background:var(--panel);color:var(--ink);border-radius:999px;padding:8px 16px;font-size:13px;font-weight:700}
+.btn-s:hover{background:var(--ink);color:var(--bg)}
+.hero{padding-block:40px 32px}
+.hero-in{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(300px,.7fr);gap:44px;align-items:center}
+.kicker{margin:0 0 14px;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+h1{font-size:clamp(36px,5vw,64px);margin:0 0 14px}
+.sub{max-width:52ch;margin:0;font-size:clamp(16px,1.4vw,18px)}
+.hero-find{margin-top:24px}
+.hero-meta{margin:14px 0 0;font-size:13px;color:var(--mute)}.hero-meta b{color:var(--ink)}
+.snap{background:var(--navy);color:var(--on-navy);border-radius:var(--r);padding:28px 30px;box-shadow:var(--shadow)}
+.snap .lbl{color:rgba(255,255,255,.65);font-size:11px}
+.snap-big{display:flex;align-items:center;gap:16px;margin:12px 0 20px}
+.snap-big b{font-size:clamp(54px,6vw,80px);font-weight:800;letter-spacing:-.05em;line-height:.9;color:var(--accent)}
+.snap-big span{font-size:14px;line-height:1.35;color:rgba(255,255,255,.88);max-width:17ch}
+.snap-seats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding-top:18px;border-top:1px solid rgba(255,255,255,.18)}
+.snap-seats b{display:block;font-size:30px;font-weight:800;letter-spacing:-.04em;line-height:1}
+.snap-seats span{font-size:11.5px;font-weight:600;color:rgba(255,255,255,.72)}
+.snap-note{margin:14px 0 0;font-size:12px;color:rgba(255,255,255,.62);line-height:1.4}
+.snap-link{margin-top:14px;border:0;background:none;color:#fff;font-weight:700;font-size:13px;padding:0;text-decoration:underline;text-underline-offset:3px}
+.main{margin-top:0}
+/* lime only for the few things that matter */
+.plain{background:var(--panel);color:var(--ink);border:1.5px solid var(--ink)}
+.plain .lbl{opacity:1;color:var(--mute)}
+.hint{background:var(--ink);color:var(--bg)}
+.trusted{background:var(--bg);color:var(--ink);border:1.5px solid var(--ink)}
+.trusted .lbl{opacity:1;color:var(--mute)}
+.btn{box-shadow:none}
+.nf-bul li.noimg{grid-template-columns:minmax(0,1fr)}
+.tabpane-top{padding-top:28px}
+#paneNews,#paneTrack,#panePost{padding-top:28px}
+@media (max-width:1000px){.snap{display:none}.hero{padding-block:22px 6px}}
+@media (max-width:520px){#copyPage{display:none}.tb-in{flex-wrap:nowrap}.tabs{order:0}}
+/* iPhone: no auto-zoom on inputs, thumb-sized targets */
+@media (max-width:1000px){
+  input,select,textarea{font-size:16px!important}
+  body .seg button{min-height:38px;padding-top:8px;padding-bottom:8px}
+  body .mapbox .zoom button{width:44px;height:44px}
+  body .tabs button{min-height:46px}
+  .btn,.btn-s,.snap-link{min-height:40px}
+  .results button{padding:12px 14px}
+  .watch button,.mv button{padding-top:13px;padding-bottom:13px}
+  button,a{-webkit-tap-highlight-color:rgba(15,27,61,.12)}
+}
+@media (max-width:360px){
+  h1{font-size:30px}
+  .brand .bn{font-size:15px}
+  .cd b{font-size:17px}
+  .seg button{padding-left:8px;padding-right:8px;font-size:10.5px}
+  .maphead b{font-size:20px}
+  .legend{font-size:10.5px}
+  .tabs button{padding:0 11px;font-size:13px}
+}
+.my-seat{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin-top:14px;padding:10px 14px;border:1.5px solid var(--ink);border-radius:14px;background:var(--panel);max-width:560px;font-size:14px}
+.my-seat[hidden]{display:none}
+.my-seat .lbl{color:var(--mute);font-size:10.5px}
+.my-seat b{font-size:16px;font-weight:800}
+.my-v{color:var(--mute);font-weight:600}
+.my-b{border:0;background:none;font-weight:700;font-size:13px;text-decoration:underline;text-underline-offset:3px;padding:4px 2px;color:var(--ink)}
+
+.assume{margin:8px 0 0;font-size:12.5px;line-height:1.45;color:var(--mute)}
+.lg-note{color:var(--mute);font-weight:600}
+.np-name{font-family:var(--f-serif);font-weight:800;letter-spacing:-.03em}
+.nf-pub{display:none}
+.fold summary{font-weight:800;font-size:15px;display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.fold summary .fs{font-weight:600;color:var(--mute);font-size:12px}
+.sec details.fold{background:none;padding:0}
+.fold[open] summary{margin-bottom:12px}
+
+/* review fixes: focus, contrast, calmer accents, tap targets */
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:-9999px}
+.skip:focus{position:static;display:block;margin:0 0 12px;padding:10px 16px;border-radius:999px;background:var(--ink);color:var(--bg);font-weight:700;border:0}
+.selpath{stroke:var(--ink);stroke-width:3.4px;vector-effect:non-scaling-stroke;stroke-linejoin:round}
+.mapbox.dark .selpath{stroke:var(--accent)}
+.seat:focus-visible{stroke:var(--ink);stroke-width:4px;stroke-dasharray:7 4}
+.mapbox.dark .seat:focus-visible{stroke:var(--accent)}
+.hero-find input:focus{outline:2px solid var(--ink);outline-offset:2px}
+.endlab{fill:var(--ink)}
+.up{color:var(--ink)}.dn{color:var(--mute)}
+.lg button[aria-pressed="false"]{opacity:.7;text-decoration:line-through}
+.back,.nf-link{min-height:28px;padding:4px 2px}
+.near{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;margin-top:12px;font-size:13px;color:var(--mute)}
+.near button{border:1px solid var(--hair);background:var(--panel);border-radius:999px;padding:6px 12px;font-weight:700;font-size:13px;min-height:32px}
+.near button:hover{border-color:var(--ink)}
+.pred-strip{display:none}
+:root{--shadow:0 1px 2px rgba(15,27,61,.06),0 8px 24px rgba(15,27,61,.05)}
+.plain,.trusted,.my-seat{border:1px solid var(--hair)}
+.note.warn{background:var(--soft);color:var(--ink);border-left:4px solid var(--ink);border-radius:8px}
+.cbox .lbl,.plain .lbl,.trusted .lbl,.snap .lbl,.my-seat .lbl,.maphead .lbl{font-size:12px}
+@media (max-width:1000px){
+  .pred-strip{display:block;margin:10px 0 0;font-size:14px;font-weight:700;line-height:1.45}
+  #panel .find{display:none}
+  body .hint{bottom:62px;right:10px}
+}
+@media (max-width:520px){#zTheme{display:none}}
+/* footer */
+.site-foot{background:var(--navy);color:rgba(255,255,255,.82);margin-top:56px;padding:48px 0 30px}
+.sf-grid{display:grid;grid-template-columns:1.2fr 1fr 1.5fr 1fr;gap:36px}
+.site-foot h5{margin:0 0 12px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#fff}
+.site-foot p,.site-foot .src{margin:0;font-size:13px;line-height:1.65}
+.site-foot a{color:#fff;text-underline-offset:3px}
+.sf-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-top:36px;padding-top:20px;border-top:1px solid rgba(255,255,255,.16);font-size:12px;color:rgba(255,255,255,.62)}
+@media (max-width:1000px){
+  .topbar{position:static}
+  .tb-in{flex-wrap:wrap;gap:6px 16px;padding-block:10px;min-height:0}
+  .tabs{order:3;flex:0 0 100%;width:100%;margin:0;overflow-x:auto;border-top:1px solid var(--hair)}
+  .tabs button{padding:13px 14px}
+  .hero{padding-block:26px 22px}
+  .hero-in{grid-template-columns:1fr;gap:24px}
+  .sf-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:520px){
+  .sf-grid{grid-template-columns:1fr}
+  .brand .bn b{display:none}
+  .cd b{font-size:19px}
+  .btn-s{padding:7px 12px}
+  .snap{padding:22px 20px}
+}
+/* footer */
+.foot{padding-block:20px 40px;color:var(--mute);font-size:12.5px;display:grid;gap:8px;max-width:980px}
+.foot a{color:var(--ink)}
+
+@media (max-width:1000px){
+  .hero{padding-block:18px 14px}
+  .hero-in{grid-template-columns:1fr;gap:16px}
+  .count{justify-self:start;padding:12px 20px;border-radius:20px}
+  .count .num{font-size:52px}
+  .main{grid-template-columns:1fr;gap:12px}
+  .mapbox{height:clamp(360px,64vh,560px)}
+  .panel{height:auto;overflow:visible}
+  .find{position:static}
+  .hint{display:none}
+  .tools.tl{top:10px;left:10px}.tools.tr{top:10px;right:10px}
+  .zoom{top:56px;right:10px}.zoom button{width:38px;height:38px;font-size:20px}
+  .legend{left:10px;right:10px;bottom:10px;max-width:none;flex-wrap:nowrap;overflow-x:auto;white-space:nowrap;gap:12px;font-size:11px;padding:7px 12px;border-radius:999px}
+  .seg button{padding:6px 10px;font-size:11px}
+  .facts{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:520px){
+  .hero{padding-block:14px 12px}.hero-in{gap:12px}
+  .sub{font-size:14.5px}
+  .count{padding:10px 18px;gap:12px}.count .num{font-size:42px}.count .txt b{font-size:14px}
+  .seg button{padding:6px 7px;font-size:10.5px}
+  .cmp{grid-template-columns:1fr}.cmp .arrow{display:none}
+  .fhead,.frow{grid-template-columns:minmax(0,1fr) 50px 62px 48px;gap:2px 6px}
+  .cand{grid-template-columns:96px minmax(0,1fr)}
+  .band{border-radius:22px;font-size:12px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header class="topbar">
+  <div class="wrap tb-in">
+    <a class="brand" href="#" aria-label="Victoria Votes 2026"><span class="logo" aria-hidden="true">VV</span><span class="bn">Victoria Votes <b>2026</b></span></a>
+    <div class="tabs" role="tablist" aria-label="Sections">
+      <button type="button" role="tab" id="tMap" aria-selected="true" aria-controls="paneMap" tabindex="0">Map</button>
+      <button type="button" role="tab" id="tNews" aria-selected="false" aria-controls="paneNews" tabindex="-1">News</button>
+      <button type="button" role="tab" id="tTrack" aria-selected="false" aria-controls="paneTrack" tabindex="-1">Tracker</button>
+      <button type="button" role="tab" id="tPost" aria-selected="false" aria-controls="panePost" tabindex="-1">Share</button>
+    </div>
+    <div class="tb-right"><span class="cd"><b id="days">6</b><span id="dayslbl">days to go</span></span><button type="button" class="btn-s" id="copyPage">Copy link</button></div>
+  </div>
+</header>
+<section class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-l">
+      <p class="kicker">Victorian state election &middot; 88 seats &middot; 45 needed to govern</p>
+      <h1>Victoria votes<br><mark>Saturday 28 November</mark></h1>
+      <p class="sub">Type your suburb to see who is running, how your seat voted in 2022 and what our model estimates for 28 November.</p>
+      <div class="hero-find"><label for="hq" class="lbl">Find your seat</label><input id="hq" type="search" placeholder="Suburb or postcode" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-controls="hres" aria-label="Find your seat by suburb, postcode or candidate"><div class="results" id="hres" role="listbox"></div></div>
+      <div class="my-seat" id="mySeat" hidden></div>
+      <div class="near" id="near"></div>
+      <p class="hero-meta">Polls open 8am&ndash;6pm &middot; Data updated <b>__UPDATED__</b> &middot; Unofficial model estimate</p>
+      <p class="pred-strip" id="predStrip"></p>
+    </div>
+    <aside class="snap" id="snap" aria-label="Prediction snapshot"></aside>
+  </div>
+</section>
+
+<div class="wrap">
+  <div id="paneMap" role="tabpanel" aria-labelledby="tMap"><button type="button" class="skip" id="skipMap">Skip the map and go to seat details</button>
+  <main class="main">
+    <section class="mapbox" id="mapbox" aria-label="Map of Victoria's 88 electorates">
+      <div class="maphead"><div class="mt"><span class="lbl" id="mapKick">Predicted winners &middot; Victorian election &middot; 28 November</span><b id="mapTitle">Where the 88 seats fall</b></div><div class="seg" role="group" aria-label="Map view">
+        <button type="button" id="vState" aria-pressed="true">Victoria</button>
+        <button type="button" id="vMel" aria-pressed="false">Melbourne</button>
+      </div></div>
+      <div class="mapstage" id="mapstage">
+      <div class="tools tr"><div class="seg" role="group" aria-label="Colour the map by">
+        <button type="button" data-mode="proj" aria-pressed="true">Winner</button>
+        <button type="button" data-mode="held" aria-pressed="false">Held by</button>
+        <button type="button" data-mode="toss" aria-pressed="false">Toss-ups</button>
+      </div></div>
+      <div class="zoom" role="group" aria-label="Zoom the map"><button type="button" id="zIn" aria-label="Zoom in">+</button><button type="button" id="zOut" aria-label="Zoom out">&minus;</button><button type="button" id="zReset" aria-label="Fit whole state" class="fit">Fit</button><button type="button" id="zTheme" aria-label="Switch between dark and light map" class="fit">Light</button></div>
+      <div class="legend" id="legend"></div>
+      <div class="hint" id="hint">Tap a seat &middot; pinch or scroll to zoom</div>
+      <div class="tip" id="tip"></div>
+      <svg id="map" role="group" aria-label="Electorate map"></svg>
+      </div>
+    </section>
+    <aside class="panel" id="panel" aria-label="Seat and statewide details"></aside>
+  </main>
+  </div>
+  <section id="paneNews" hidden role="tabpanel" aria-labelledby="tNews" aria-label="News"></section>
+  <section id="paneTrack" hidden role="tabpanel" aria-labelledby="tTrack" aria-label="Seat tracker"></section>
+  <section id="panePost" hidden role="tabpanel" aria-labelledby="tPost" aria-label="Share card"></section>
+
+</div>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="sf-grid">
+      <div><h5>Victoria Votes 2026</h5><p>An independent, unofficial guide to the Victorian state election on Saturday 28 November 2026. Every win chance is a model estimate from the polls, not an official forecast or a poll of that seat. No tracking or accounts: a saved seat stays on your device.</p></div>
+      <div><h5>How it works</h5><p>Each pollster&rsquo;s latest numbers are turned into seat chances using the 2022 results, then blended by how recent, large and independent each poll is. It refreshes daily.</p></div>
+      <div><h5>Sources</h5><p class="src">Candidates: the <a href="https://www.vec.vic.gov.au/electoral-boundaries/state-districts" target="_blank" rel="noopener">VEC&rsquo;s official nomination pages</a> for all 88 districts, checked 21 Nov 2026 (sitting-member and retirement details from <a href="https://en.wikipedia.org/wiki/Candidates_of_the_2026_Victorian_state_election" target="_blank" rel="noopener">Wikipedia</a>). News: headlines cited on Wikipedia&rsquo;s election pages, linked to the publishers. Polls: <a href="https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Victorian_state_election" target="_blank" rel="noopener">Wikipedia opinion polling</a>, <a href="https://www.roymorgan.com/findings/10371-victorian-state-voting-intention-eastern-victoria-seats-october-2026" target="_blank" rel="noopener">Roy Morgan seat poll</a>. 2022 results and margins: <a href="https://en.wikipedia.org/wiki/Results_of_the_2022_Victorian_state_election_(Legislative_Assembly)" target="_blank" rel="noopener">Wikipedia</a> / VEC. Poll and 2022 data compiled from Wikipedia (<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>), combined and modified. Boundaries: Vicmap Admin state assembly 2022 districts, &copy; State of Victoria (Department of Transport and Planning), <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>, simplified for the web. Fonts and the map library load from Google and Cloudflare.</p></div>
+      <div><h5>Official information</h5><p>For polling places, how to vote and the official results, use the <a href="https://www.vec.vic.gov.au/" target="_blank" rel="noopener">Victorian Electoral Commission</a>. Voting is compulsory.</p></div>
+    </div>
+    <div class="sf-bottom"><span>Data updated __UPDATED__ &middot; __NPOLLS__ polls compared, __POLLRANGE__</span><span>Boundaries &copy; State of Victoria, CC BY 4.0</span></div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function(){
+"use strict";
+var D=JSON.parse(document.getElementById('data').textContent);
+var NP=D.trust.length;
+var S=D.seats, NAMES=Object.keys(S).sort(function(a,b){return a.localeCompare(b)});
+var COL={ALP:'var(--alp)',LNP:'var(--lnp)',GRN:'var(--grn)',ONP:'var(--onp)',IND:'var(--ind)',OTH:'var(--oth)'};
+var FULL={ALP:'Labor',LNP:'Coalition',GRN:'Greens',ONP:'One Nation',IND:'Independent',OTH:'Others'};
+var $=function(id){return document.getElementById(id)};
+function esc(t){return String(t).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function lnpName(s){return s.cands.COA&&s.cands.COA.sub==='N'?'Nationals':'Liberal'}
+function pname(c,s){return c==='LNP'&&s?lnpName(s):FULL[c]}
+function rank(s){return Object.keys(s.prob).filter(function(k){return s.prob[k]>0}).sort(function(a,b){return s.prob[b]-s.prob[a]})}
+function tier(p){return p>=90?'Very likely':p>=75?'Likely':p>=60?'Lean':'Toss-up'}
+function callText(p,party){return p<60?'Toss-up, '+party+' slightly ahead':tier(p)+' '+party}
+function fmtP(p){return p>=95?'95%+':p<5?'<5%':Math.round(p)+'%'}
+function slug(n){return n.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}
+var BYSLUG={};NAMES.forEach(function(n){BYSLUG[slug(n)]=n});
+
+/* countdown */
+(function(){
+  var now=new Date(), t=new Date(2026,10,28), today=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+  var d=Math.round((t-today)/864e5);
+  var n=$('days'), l=$('dayslbl');
+  if(d>1){n.textContent=d;l.textContent='days to go'}
+  else if(d===1){n.textContent='1';l.textContent='day to go'}
+  else if(d===0){n.textContent='Today';l.textContent='is polling day';n.style.fontSize='clamp(40px,5vw,60px)'}
+  else{n.textContent='Done';l.textContent='polling day has passed';n.style.fontSize='clamp(40px,5vw,60px)'}
+})();
+
+/* ---------- map ---------- */
+var W=1000,H=760;
+var svg=d3.select('#map').attr('viewBox','0 0 '+W+' '+H).attr('preserveAspectRatio','xMidYMid meet');
+var defs=svg.append('defs');
+var g=svg.append('g');
+var proj=d3.geoMercator().fitExtent([[24,56],[W-24,H-24]],D.geo);
+var path=d3.geoPath(proj);
+var feats=D.geo.features.map(function(f){return {name:f.properties.name,f:f,b:path.bounds(f)}});
+var gseats=g.append('g');
+var glabs=g.append('g').attr('pointer-events','none');
+var paths=gseats.selectAll('path').data(feats).enter().append('path')
+  .attr('class','seat').attr('d',function(d){return path(d.f)})
+  .attr('tabindex',0).attr('role','button')
+  .attr('aria-label',function(d){var s=S[d.name];return d.name+', '+callText(s.favP,pname(s.fav,s))})
+  .on('click',function(e,d){select(d.name,false)})
+  .on('keydown',function(e,d){if(e.key==='Enter'||e.key===' '){e.preventDefault();select(d.name,false)}})
+  .on('mousemove',function(e,d){tip(e,d.name)})
+  .on('mouseleave',function(){$('tip').style.display='none'});
+var selp=g.append('path').attr('class','selpath').attr('pointer-events','none').attr('fill','none');
+var labs=glabs.selectAll('text').data(feats).enter().append('text').attr('class','slab')
+  .attr('x',function(d){return proj([S[d.name].cx,S[d.name].cy])[0]})
+  .attr('y',function(d){return proj([S[d.name].cx,S[d.name].cy])[1]})
+  .attr('dy','.34em').text(function(d){return d.name}).style('display','none');
+
+var K=1, SC=1;
+var zoom=d3.zoom().scaleExtent([1,80]).translateExtent([[0,0],[W,H]]).filter(function(e){return !e.button}).on('zoom',function(e){g.attr('transform',e.transform);K=e.transform.k;onZoom()});
+svg.call(zoom);
+svg.style('touch-action',window.innerWidth<=1000?'pan-y':'none');
+function onZoom(){
+  var r=svg.node().getBoundingClientRect(); SC=(r.width/W)||1;
+  var scale=Math.min(r.width/W,r.height/H)||1; SC=scale;
+  defs.selectAll('pattern').attr('patternTransform','rotate(45) scale('+(1/(K*SC))+')');
+  labs.style('display',function(d){
+    var w=(d.b[1][0]-d.b[0][0])*K*SC, h=(d.b[1][1]-d.b[0][1])*K*SC;
+    return (w>58&&h>22)?null:'none';
+  }).attr('font-size',(11/(K*SC)).toFixed(3)).style('stroke-width',(3/(K*SC)).toFixed(3));
+}
+var RM=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+function fitTo(b,pad,ms){
+  if(RM)ms=0;
+  var x0=b[0][0],y0=b[0][1],x1=b[1][0],y1=b[1][1];
+  var k=Math.min(W*(1-2*pad)/(x1-x0),H*(1-2*pad)/(y1-y0)); k=Math.max(1,Math.min(40,k));
+  var t=d3.zoomIdentity.translate(W/2-k*(x0+x1)/2,H/2-k*(y0+y1)/2).scale(k);
+  (ms?svg.transition().duration(ms):svg).call(zoom.transform,t);
+}
+var MELB=(function(){var a=proj([144.58,-37.52]),b=proj([145.5,-38.28]);return [[a[0],a[1]],[b[0],b[1]]]})();
+function setView(v,ms){
+  $('vState').setAttribute('aria-pressed',v==='state');$('vMel').setAttribute('aria-pressed',v==='mel');
+  if(v==='state')fitTo([[0,0],[W,H]],0,ms);else fitTo(MELB,0.02,ms);
+}
+$('zTheme').onclick=function(){var d=$('mapbox').classList.toggle('dark');this.textContent=d?'Dark':'Light';this.setAttribute('aria-pressed',d?'true':'false');paint()};
+function zoomBy(f){svg.transition().duration(RM?0:260).call(zoom.scaleBy,f)}
+$('zIn').onclick=function(){zoomBy(1.8)};
+$('zOut').onclick=function(){zoomBy(1/1.8)};
+$('zReset').onclick=function(){setView('state',550)};
+$('vState').onclick=function(){setView('state',650)};
+$('vMel').onclick=function(){setView('mel',650)};
+
+/* colour modes */
+var mode='proj';
+function patId(a,b){
+  var id='pat-'+a+'-'+b;
+  if(defs.select('#'+id).empty()){
+    var p=defs.append('pattern').attr('id',id).attr('width',8).attr('height',8).attr('patternUnits','userSpaceOnUse').attr('patternTransform','rotate(45)');
+    p.append('rect').attr('width',8).attr('height',8).style('fill',COL[a]);
+    p.append('rect').attr('width',4).attr('height',8).attr('x',4).style('fill',COL[b]);
+  }
+  return id;
+}
+function paint(){
+  paths.each(function(d){
+    var s=S[d.name], el=d3.select(this), r=rank(s), fill, op=1;
+    if(mode==='proj'){
+      var p=s.favP;
+      if(p<60){fill='url(#'+patId(r[0],r[1])+')'}
+      else{fill=COL[s.fav];op=p>=90?1:p>=75?.86:.72}
+    }else if(mode==='held'){fill=COL[s.heldCode]||COL.OTH}
+    else{
+      var p2=s.favP;
+      if(p2<60){fill='var(--accent)'}else if(p2<75){fill='var(--accent)';op=.4}else{fill='var(--soft)'}
+    }
+    el.style('fill',fill).style('opacity',op);
+  });
+  onZoom();
+  var L=$('legend'),cn={},nT=0;
+  NAMES.forEach(function(n){var s=S[n];if(mode==='held'){cn[s.heldCode]=(cn[s.heldCode]||0)+1}else if(s.favP<60){nT++}else{cn[s.fav]=(cn[s.fav]||0)+1}});
+  function it(k,lab){return '<span><i style="background:'+COL[k]+'"></i>'+lab+' <b>'+(cn[k]||0)+'</b></span>'}
+  if(mode==='proj'){
+    L.innerHTML=it('LNP','Coalition')+it('ALP','Labor')+it('ONP','One Nation')+it('GRN','Greens')+'<span><i style="background:repeating-linear-gradient(45deg,var(--alp) 0 3px,var(--lnp) 3px 6px)"></i>Toss-up <b>'+nT+'</b></span><span class="lg-note">Counts: seats 60%+ likely</span>';
+    $('mapTitle').textContent='Where the 88 seats fall';$('mapKick').textContent='Predicted winners · Victorian election · 28 November';
+  }else if(mode==='held'){
+    L.innerHTML=it('LNP','Coalition')+it('ALP','Labor')+it('GRN','Greens')+it('IND','Independent')+'<span>Before the election</span>';
+    $('mapTitle').textContent='Who holds the 88 seats';$('mapKick').textContent='Current holders · Victorian election · 28 November';
+  }else{
+    var tt=0,ll=0;NAMES.forEach(function(n){var p=S[n].favP;if(p<60)tt++;else if(p<75)ll++});
+    L.innerHTML='<span><i style="background:var(--accent)"></i>Toss-up (under 60%) <b>'+tt+'</b></span><span><i style="background:var(--accent);opacity:.4"></i>Lean (60&ndash;75%) <b>'+ll+'</b></span><span><i style="background:var(--soft)"></i>Likely or safe <b>'+(88-tt-ll)+'</b></span>';
+    $('mapTitle').textContent='The toss-up seats';$('mapKick').textContent='Seats that could go either way · 28 November';
+  }
+}
+document.querySelectorAll('[data-mode]').forEach(function(b){
+  b.onclick=function(){mode=b.dataset.mode;document.querySelectorAll('[data-mode]').forEach(function(x){x.setAttribute('aria-pressed',x===b)});paint()};
+});
+
+function tip(e,name){
+  var s=S[name],t=$('tip'),box=$('mapstage').getBoundingClientRect();
+  t.innerHTML='<b>'+esc(name)+'</b>'+esc(callText(s.favP,pname(s.fav,s)))+' &middot; '+fmtP(s.favP);
+  t.style.display='block';
+  var x=e.clientX-box.left+14,y=e.clientY-box.top+14;
+  if(x>box.width-250)x=e.clientX-box.left-250;
+  t.style.left=x+'px';t.style.top=y+'px';
+}
+
+/* ---------- panel ---------- */
+var sel=null;
+var panel=$('panel');
+function findBar(){
+  return '<div class="find"><label for="q" class="lbl" style="display:block;margin-bottom:6px">Find a seat, suburb or candidate</label><input id="q" type="search" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-controls="res" aria-label="Find a seat, suburb or candidate" placeholder="e.g. Brunswick, 3056, Ben Carroll" aria-controls="res"><div class="results" id="res" role="listbox"></div></div>';
+}
+var CIDX=[];
+NAMES.forEach(function(n){
+  var s=S[n],list=[];
+  ['ALP','COA','GRN','ONP','VS'].forEach(function(k){if(s.cands[k])list.push(s.cands[k].name)});
+  s.others.forEach(function(o){list.push(o.name)});
+  CIDX.push({seat:n,names:list});
+});
+var LOC=(D.loc||[]).map(function(l){return {n:l[0],p:l[1],d:l[2]}});
+function topSeat(d){return d[0][0]}
+function seatsLine(d){var tot=d.reduce(function(a,x){return a+x[1]},0)||1;return d.slice(0,3).map(function(x){return x[0]+(d.length>1?' '+Math.round(x[1]/tot*100)+'%':'')}).join(', ')+' electorate'+(d.length>1?'s':'')}
+function searchResults(v){
+  v=v.trim().toLowerCase();if(!v)return [];
+  var out=[],seen={};
+  function add(o){var k=o.seat+'|'+o.title;if(!seen[k]&&out.length<9){seen[k]=1;out.push(o)}}
+  var isNum=/^\d+$/.test(v);
+  if(v.length>=2||isNum)LOC.forEach(function(l){if(l.n.toLowerCase().indexOf(v)===0||(isNum&&l.p.indexOf(v)===0))add({seat:topSeat(l.d),title:l.n+' '+l.p,sub:seatsLine(l.d)})});
+  CIDX.forEach(function(c){if(c.seat.toLowerCase().indexOf(v)>-1)add({seat:c.seat,title:c.seat+' (seat)',sub:S[c.seat].region+' region'});else{var m=c.names.filter(function(x){return x.toLowerCase().indexOf(v)>-1})[0];if(m)add({seat:c.seat,title:m,sub:'Candidate in '+c.seat})}});
+  if(v.length>=3&&!isNum)LOC.forEach(function(l){if(l.n.toLowerCase().indexOf(v)>0)add({seat:topSeat(l.d),title:l.n+' '+l.p,sub:seatsLine(l.d)})});
+  return out;
+}
+function attachSearch(q,res){
+  function pick(seat){res.classList.remove('open');showTab('map',true);select(seat,true)}
+  q.addEventListener('input',function(){
+    if(!q.value.trim()){res.classList.remove('open');res.innerHTML='';return}
+    var out=searchResults(q.value);
+    res.innerHTML=out.length?out.map(function(o){return '<button type="button" role="option" data-s="'+esc(o.seat)+'"><b>'+esc(o.title)+'</b><small>'+esc(o.sub)+'</small></button>'}).join('')+'<div class="rnote" role="presentation">Some suburbs cross electorate lines. Check your exact address on the VEC site.</div>':'<div style="padding:10px 14px;color:var(--mute)">No suburb, postcode, seat or candidate matches.</div>';
+    res.classList.add('open');
+  });
+  q.addEventListener('keydown',function(e){
+    if(e.key==='Enter'){var b=res.querySelector('button');if(b)pick(b.dataset.s)}
+    else if(e.key==='Escape'){res.classList.remove('open')}
+    else if(e.key==='ArrowDown'){var f=res.querySelector('button');if(f){e.preventDefault();f.focus()}}
+  });
+  new MutationObserver(function(){q.setAttribute('aria-expanded',res.classList.contains('open')?'true':'false')}).observe(res,{attributes:true,attributeFilter:['class']});
+  document.addEventListener('click',function(e){if(!res.contains(e.target)&&e.target!==q)res.classList.remove('open')});
+  res.addEventListener('click',function(e){var b=e.target.closest('button');if(b)pick(b.dataset.s)});
+}
+function bindFind(){attachSearch($('q'),$('res'))}
+function copyLink(btn,url){
+  var label=btn.textContent;
+  function ok(){btn.textContent='Copied';setTimeout(function(){btn.textContent=label},1800)}
+  function fb(){var ta=document.createElement('textarea');ta.value=url;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();try{document.execCommand('copy');ok()}catch(e){btn.textContent='Copy failed'}document.body.removeChild(ta)}
+  try{navigator.clipboard.writeText(url).then(ok,fb)}catch(e){fb()}
+}
+function seatList(n){return '<button type="button" data-s="'+esc(n)+'">'}
+function counts(){
+  var e=D.summary.exp,keys=['ALP','GRN','IND','ONP','LNP'],base={},rem=[],used=0;
+  keys.forEach(function(k){var v=e[k]||0;base[k]=Math.floor(v);used+=base[k];rem.push([k,v-base[k]])});
+  rem.sort(function(a,b){return b[1]-a[1]});
+  for(var i=0;used<88;i++,used++)base[rem[i%rem.length][0]]++;
+  return base;
+}
+function plainBlock(pcs,c){
+  var lead=pcs.exp.LNP>=pcs.exp.ALP?['The Coalition','LNP',pcs.pLNPmaj]:['Labor','ALP',pcs.pALPmaj];
+  return '<div class="plain"><span class="lbl">Model estimate</span><p><b>'+lead[0]+' is the most likely winner.</b> About '+c[lead[1]]+' of 88 seats. Chance of an outright majority: Coalition '+(pcs.pLNPmaj<0.005?'under 1':Math.round(pcs.pLNPmaj*100))+'%, Labor '+(pcs.pALPmaj<0.005?'under 1':Math.round(pcs.pALPmaj*100))+'%. Hung parliament: '+Math.round(pcs.pHung*100)+'%. 45 seats are needed to govern.</p><p class="assume">Assumes a swing from the 2022 results scaled to the poll average, fixed preference flows and One Nation spread by seat type. One person&rsquo;s model, not a professional forecast. Candidates as at 21 Nov.</p></div>'+
+  '<details class="newhere"><summary>New here? How to read this</summary><ul><li><b>Toss-up</b> means a seat is under 60% likely to go either way. Striped seats on the map are toss-ups.</li><li><b>First preferences</b> are the number 1 votes, before preferences are counted.</li><li>Every percentage is a <b>model estimate</b> from the polls, not a result. The polls disagree, so treat it as a range.</li><li>Tap any seat on the map, or type your suburb at the top, to see your local contest.</li></ul></details>';
+}
+function overview(){
+  var A=D.avg,pcs=D.summary,c=counts(),R=D.ranges;
+  var nT=0,nL=0;NAMES.forEach(function(n){var p=S[n].favP;if(p<60)nT++;else if(p<75)nL++});
+  var ord=['ALP','GRN','IND','ONP','LNP'];
+  var bar=ord.filter(function(k){return c[k]>0}).map(function(k){return '<div style="width:'+(c[k]/88*100)+'%;background:'+COL[k]+';color:'+((k==='ONP'||k==='GRN')?'#0F1B3D':'#fff')+'">'+(c[k]>=4?c[k]:'')+'</div>'}).join('');
+  var lft=45/88*100, rgt=(88-45)/88*100;
+  var watch=NAMES.slice().sort(function(a,b){return S[a].favP-S[b].favP}).slice(0,10).map(function(n){
+    var s=S[n],r=rank(s);
+    return '<button type="button" data-s="'+esc(n)+'"><b>'+esc(n)+'</b><span class="mono">'+fmtP(s.favP)+' '+esc(pname(r[0],s))+'</span><small>'+esc(pname(r[0],s))+' '+fmtP(s.prob[r[0]])+(r[1]?' &middot; '+esc(pname(r[1],s))+' '+fmtP(s.prob[r[1]]):'')+' &middot; held by '+esc(s.held)+'</small></button>';
+  }).join('');
+  var watchSec='<div class="sec"><h3>Seats to watch <span>closest contests</span></h3><div class="watch">'+watch+'</div></div>';
+  return findBar()+
+  '<div class="sec"><h3>Statewide prediction <span>blend of '+NP+' polls</span></h3>'+
+  plainBlock(pcs,c)+
+  '<div class="big3"><div><div class="v" style="color:var(--lnp)">'+Math.round(pcs.pLNPmaj*100)+'%</div><div class="l">Coalition wins 45+ seats on its own</div></div>'+
+  '<div><div class="v">'+Math.round(pcs.pHung*100)+'%</div><div class="l">Hung parliament</div></div>'+
+  '<div><div class="v" style="color:var(--alp)">'+(pcs.pALPmaj<0.005?'<1':Math.round(pcs.pALPmaj*100))+'%</div><div class="l">Labor wins 45+ seats on its own</div></div></div>'+
+  '<div class="tossline"><span class="tag y">'+nT+' toss-up seats</span><span class="tag">'+nL+' lean</span><span class="tag">'+(88-nT-nL)+' likely or safe</span></div>'+
+  '<div class="seatbar">'+bar+'<span class="m" style="left:calc('+lft+'% - 1px)" title="45 seats"></span><span class="m" style="left:calc('+(100-rgt)+'% - 1px);display:none"></span></div>'+
+  '<p class="note"><b style="color:var(--ink)">Most likely seat count:</b> Coalition '+c.LNP+' (range '+R.LNP[0]+'&ndash;'+R.LNP[1]+'), Labor '+c.ALP+' ('+R.ALP[0]+'&ndash;'+R.ALP[1]+'), One Nation '+c.ONP+' ('+R.ONP[0]+'&ndash;'+R.ONP[1]+'), Greens '+c.GRN+' ('+R.GRN[0]+'&ndash;'+R.GRN[1]+'). Ranges cover 80% of simulations. The black line marks 45 seats from the Labor side.</p></div>'+
+  watchSec+'<div class="sec"><details class="fold"><summary>Predicted first preferences vs 2022</summary>'+
+  fpTable([{code:'ALP',label:'Labor',a:37.0,b:A.ALP},{code:'LNP',label:'Coalition',a:34.5,b:A.LNP},{code:'GRN',label:'Greens',a:11.5,b:A.GRN},{code:'ONP',label:'One Nation',a:null,b:A.ONP,sub:'Did not meaningfully contest 2022'},{code:'OTH',label:'Others',a:17.0,b:A.OTH}],'Party','Predicted')+
+  '<p class="note"><b style="color:var(--ink)">Predicted</b> is the trust-weighted average of '+NP+' pollsters&rsquo; latest polls, '+D.meta.pollRange+'. See how each poll is weighted below.</p>'+
+  '</details></div>'+trustSec()+
+  '<div class="sec"><details><summary>How the estimates work</summary><ul>'+
+  '<li>Each seat starts from its 2022 first-preference result, moved by the gap between the 2022 statewide vote and a pollster&rsquo;s latest numbers. This is done separately for each of '+NP+' pollsters. Inner Melbourne keeps more Labor and Greens vote, outer and country seats lose more.</li>'+
+  '<li>One Nation did not meaningfully contest 2022, so its seat vote is the statewide average scaled by how rural or outer-suburban the seat is. In Hastings, Morwell and Pakenham it is set to 39% from the Roy Morgan seat poll.</li>'+
+  '<li>Preferences are then distributed by elimination, using assumed flows (for example Greens to Labor about 74%, One Nation to Coalition about 60%). Real preference deals may differ.</li>'+
+  '<li>Each pollster gets 1,200 simulations with statewide polling error and seat-level noise. The '+NP+' results are blended by weight, so the percentage shown is the weighted share of simulations a party won the seat.</li><li>Weighting rewards recent polls (the weight halves every three weeks), larger samples, and halves for any poll paid for by a party. There is no accuracy track record for these pollsters in this election, so this is a rule of thumb, not proof.</li>'+
+  '<li>Only a handful of public seat polls exist. Treat these as a structured guess, and a seat marked 95% can still be lost.</li></ul></details></div>';
+}
+function fpTable(rows,h1,h2){
+  var mx=Math.max.apply(null,rows.map(function(r){return Math.max(r.a||0,r.b||0)}))*1.06;
+  return '<div class="fhead"><span>'+h1+'</span><span>2022</span><span>'+h2+'</span><span>Change</span></div>'+rows.map(function(r){
+    var d=r.b-(r.a||0), ch=r.a==null?'new':(d>=0?'+':'−')+Math.abs(d).toFixed(1);
+    return '<div class="frow"><div class="fp"><i class="sw" style="background:'+COL[r.code]+'"></i><div><b>'+esc(r.label)+'</b>'+(r.sub?'<small>'+r.sub+'</small>':'')+'</div></div><span class="mono n22">'+(r.a==null?'&ndash;':r.a.toFixed(1)+'%')+'</span><span class="mono n26">'+r.b.toFixed(1)+'%</span><span class="mono nch '+(r.a==null?'':(d>=0?'up':'dn'))+'">'+ch+'</span><div class="fb"><u style="width:'+((r.a||0)/mx*100)+'%"></u><i style="width:'+(r.b/mx*100)+'%;background:'+COL[r.code]+'"></i></div></div>';
+  }).join('');
+}
+function trustSec(){
+  var T=D.trust,top=T[0];
+  var rows=T.map(function(t,i){
+    return '<div class="tcard'+(i===0?' top':'')+'"><div class="th"><div><b>'+esc(t.name)+(i===0?' <span class="tag y">Highest weighting</span>':'')+'</b><small>'+esc(t.date)+' &middot; '+t.n.toLocaleString('en-AU')+' voters'+(t.comm?' &middot; commissioned by the Greens':'')+'</small></div><div class="twt"><b>'+Math.round(t.w)+'%</b><small>weight</small></div></div><div class="wbar"><i style="width:'+(t.w/top.w*100)+'%"></i></div><div class="tnums"><span>Votes <b>ALP '+t.ALP+'</b> &middot; <b>L/NP '+t.LNP+'</b> &middot; <b>GRN '+t.GRN+'</b> &middot; <b>ONP '+t.ONP+'</b></span><span>Seats <b>ALP '+t.exp.ALP+'</b> &middot; <b>L/NP '+t.exp.LNP+'</b> &middot; <b>GRN '+t.exp.GRN+'</b> &middot; <b>ONP '+t.exp.ONP+'</b></span><span>Coalition wins a majority in <b>'+t.pL+'%</b> of runs</span></div></div>';
+  }).join('');
+  var pl=T.map(function(t){return t.pL}),al=T.map(function(t){return t.exp.ALP});
+  return '<div class="sec"><details class="fold"><summary>Compare the '+NP+' polls <span class="fs">highest weighting first</span></summary>'+
+  '<p class="note" style="margin:0 0 14px">Each card is one pollster&rsquo;s latest poll, run through the same seat model. They disagree: Labor lands on '+Math.min.apply(null,al)+' to '+Math.max.apply(null,al)+' seats and a Coalition majority is '+Math.min.apply(null,pl)+'% to '+Math.max.apply(null,pl)+'% likely depending on the poll.</p>'+rows+
+  '<p class="note"><b style="color:var(--ink)">How weights work:</b> recent polls count more (weight halves every 3 weeks), bigger samples count more, and a poll paid for by a party counts half. There is no accuracy track record for these pollsters in this election, so this is a rule of thumb, not proof.</p></details></div>';
+}
+function pollsSec(s,poll){
+  var T=D.trust,sp=s.seatPoll,hasSeat=sp&&!sp.hist;
+  function call(by){var k=Object.keys(by).sort(function(a,b){return by[b]-by[a]})[0];return {k:k,p:by[k]}}
+  var cnt={};
+  var rows=T.map(function(t){var c=call(s.byPoll[t.idx]);cnt[c.k]=(cnt[c.k]||0)+1;return '<div class="prow"><span class="pn">'+esc(t.short)+'<small>'+Math.round(t.w)+'% weight</small></span><span class="pc"><i style="background:'+COL[c.k]+'"></i>'+esc(pname(c.k,s))+' <b>'+c.p+'%</b></span></div>'}).join('');
+  var order=Object.keys(cnt).sort(function(a,b){return cnt[b]-cnt[a]});
+  var agree=order.length===1?'All '+NP+' polls favour '+pname(order[0],s)+'.':order.map(function(k){return cnt[k]+' favour '+pname(k,s)}).join(', ')+'.';
+  var tc=call(s.byPoll[T[0].idx]);
+  var trusted=hasSeat?'<div class="trusted"><span class="lbl">Best available evidence for this seat</span><b>Roy Morgan seat poll &middot; 21&ndash;26 Oct</b><span>'+esc(sp.a)+' v '+esc(sp.b)+': '+esc(sp.lead)+'. A local poll is more relevant, but 283 voters across four seats is a small sample.</span></div>'
+   :'<div class="trusted"><span class="lbl">Best available evidence for this seat</span><b>'+esc(T[0].short)+' &middot; '+esc(T[0].date)+'</b><span>No poll covers this seat, so the best evidence is the highest-weighted statewide poll. Its call here: '+esc(pname(tc.k,s))+' '+tc.p+'%.</span></div>';
+  var split=order.length>1;
+  return '<div class="sec"><h3>Polls for this seat <span>'+(split?'polls split':'polls agree')+'</span></h3>'+trusted+
+   '<p class="note" style="margin:12px 0 10px"><b style="color:var(--ink)">'+(split?'Polls split. ':'Polls agree. ')+'</b>'+esc(agree)+'</p><div class="plist">'+rows+'</div>'+(sp?poll:'')+
+   '<p class="note">Each row is the same model run on one pollster&rsquo;s numbers. The prediction above blends all '+NP+' by trust weight.</p></div>';
+}
+function seatView(n){
+  var s=S[n],r=rank(s),top=r[0],p=s.favP;
+  function cand(code){
+    var c=s.cands;
+    if(code==='ALP')return c.ALP?{n:c.ALP.name,inc:c.ALP.inc}:null;
+    if(code==='LNP')return c.COA?{n:c.COA.name,inc:c.COA.inc}:null;
+    if(code==='GRN')return c.GRN?{n:c.GRN.name,inc:c.GRN.inc}:null;
+    if(code==='ONP')return c.ONP?{n:c.ONP.name}:null;
+    if(code==='IND'){var l=s.others.filter(function(o){return o.party==='Independent'}).map(function(o){return o.name});return l.length?{n:l.join(', ')}:null}
+    var l2=s.others.filter(function(o){return o.party!=='Independent'}).map(function(o){return o.name});if(c.VS)l2.unshift(c.VS.name);return l2.length?{n:l2.slice(0,3).join(', ')+(l2.length>3?' +'+(l2.length-3)+' more':'')}:null;
+  }
+  var codes=r.filter(function(k){return s.prob[k]>=0.5});
+  ['ALP','LNP','GRN','ONP'].forEach(function(k){if(codes.length<3&&codes.indexOf(k)<0&&s.proj[k]>3)codes.push(k)});
+  var stack=r.map(function(k){return '<div style="width:'+s.prob[k]+'%;background:'+COL[k]+'" title="'+esc(pname(k,s))+' '+fmtP(s.prob[k])+'"></div>'}).join('');
+  var rows=codes.map(function(k){
+    var c=cand(k);
+    return '<div class="row"><span class="sw" style="background:'+COL[k]+'"></span><div class="who"><b>'+esc(pname(k,s))+'</b><small>'+(c?esc(c.n)+(c.inc?'<span class="inc">SITTING MP</span>':''):'No candidate')+'</small></div><span class="pct">'+fmtP(s.prob[k])+'</span></div>';
+  }).join('');
+  var showInd=s.proj.IND>=1;
+  var fr=[['ALP',s.p22.ALP,s.proj.ALP],['LNP',s.p22.LNP,s.proj.LNP],['GRN',s.p22.GRN,s.proj.GRN],['ONP',null,s.proj.ONP]];
+  if(showInd)fr.push(['IND',s.p22.IND,s.proj.IND]);
+  fr.push(['OTH',s.p22.OTH+(showInd?0:s.p22.IND),s.proj.OTH+(showInd?0:s.proj.IND)]);
+  fr=fr.filter(function(x){return x[2]>=0.5||(x[1]||0)>=0.5}).map(function(x){var c=cand(x[0]);return {code:x[0],label:pname(x[0],s),sub:c?esc(c.n):'No candidate',a:x[1],b:x[2]}});
+  var a2=s.finalTwo[0],b2=s.finalTwo[1];
+  var verdict=(p<60?'<b>Too close to call.</b> ':'<b>'+tier(p)+' '+esc(pname(top,s))+'.</b> ')+'The most common final contest is '+esc(pname(a2,s))+' v '+esc(pname(b2,s))+'. '+(s.proj.ONP>=15?'One Nation is estimated at '+Math.round(s.proj.ONP)+'% of first preferences here. ':'');
+  var poll='',sp=s.seatPoll;
+  if(sp&&sp.hist)poll='<div class="poll"><span class="lbl">Older seat poll <span class="tag">Aug 2025</span></span>'+esc(sp.text)+'</div>';
+  else if(sp)poll='<div class="poll"><span class="lbl">Seat poll <span class="tag y">Roy Morgan SMS &middot; 21&ndash;26 Oct 2026</span></span><b>'+esc(sp.a)+' v '+esc(sp.b)+': '+esc(sp.lead)+'.</b> 283 voters across Bass, Hastings, Morwell and Pakenham.'+(sp.on?' In Hastings, Morwell and Pakenham combined: One Nation 39%, Coalition 24%, Labor 20%, Greens 8%, others 9%.':'')+'</div>';
+  else poll='';
+  var A=D.avg;
+  var cd=s.cands, cl=[];
+  function crow(label,c){if(c)cl.push('<dt>'+label+'</dt><dd>'+esc(c.name)+(c.inc?' <span class="inc">SITTING MP</span>':'')+'</dd>')}
+  crow('Labor',cd.ALP);crow(lnpName(s),cd.COA);crow('Greens',cd.GRN);crow('One Nation',cd.ONP);crow('Vic. Socialists',cd.VS);
+  s.others.forEach(function(o){cl.push('<dt>'+esc(o.party)+'</dt><dd>'+esc(o.name)+'</dd>')});
+  var chips='<span class="tag '+(p<60?'y':'k')+'">'+(p<60?'Toss-up':tier(p)+' '+esc(pname(top,s)))+'</span><span class="tag">'+esc(s.cls)+'</span>'+(s.retiring?'<span class="tag">Sitting member retiring</span>':'');
+  var left='<span class="lbl">Before this election</span><b>Held by '+esc(s.held)+'</b><span>'+(s.member&&s.member!=='Vacant'?esc(s.member)+' &middot; ':'')+'margin '+esc(s.margin)+'</span>'+(s.alp2pp22!=null?'<span>Labor 2022 vote after preferences: '+s.alp2pp22.toFixed(1)+'%</span>':'');
+  var right='<span class="lbl">Model estimate, 28 Nov</span><b>'+(p<60?'Toss-up':tier(p)+' '+esc(pname(top,s)))+'</b><span>'+esc(pname(r[0],s))+' '+fmtP(s.prob[r[0]])+(r[1]?' &middot; '+esc(pname(r[1],s))+' '+fmtP(s.prob[r[1]]):'')+'</span>';
+  var candSec='<div class="sec"><h3>Candidates <span>'+(cl.length)+' on the ballot</span></h3><dl class="cand">'+cl.join('')+'</dl>'+(s.notes?s.notes.map(function(x){return '<p class="note warn">'+esc(x)+'</p>'}).join(''):'')+'</div>';
+  return findBar()+
+  '<div class="sec"><button class="back" id="back" type="button">&larr; Statewide</button><div class="lbl" style="color:var(--mute)">'+esc(s.region)+' region</div><h2 class="seat-h">'+esc(n)+'</h2><div class="chips">'+chips+'</div><p class="verdict">'+verdict+'</p><div class="btnrow"><button type="button" class="btn" id="copySeat">Copy share text</button><button type="button" class="btn ghost" id="trackThis">See it in the tracker &rarr;</button><button type="button" class="btn ghost" id="saveSeat"></button></div></div>'+
+  candSec+
+  '<div class="sec"><h3>2022 to 2026 <span>at a glance</span></h3><div class="cmp"><div class="cbox">'+left+'</div><div class="arrow" aria-hidden="true">&rarr;</div><div class="cbox r">'+right+'</div></div></div>'+
+  '<div class="sec"><h3>First preferences <span>2022 result v model 2026</span></h3>'+fpTable(fr,'Party and candidate','Model 2026')+'<p class="note">Grey bar is the 2022 result, coloured bar is the model\'s 2026 vote (model estimate before preferences). One Nation did not meaningfully contest 2022. &ldquo;Others&rdquo; groups minor parties and independents not shown separately.</p></div>'+
+  '<div class="sec"><h3>Chance of winning <span>model estimate</span></h3><div class="stack">'+stack+'</div><div class="rows">'+rows+'</div></div>'+
+  pollsSec(s,poll);
+}
+function render(){
+  panel.innerHTML=sel?seatView(sel):overview();
+  bindFind();
+  var tt=$('trackThis');if(tt)tt.onclick=function(){showTab('track')};
+  var sv=$('saveSeat');if(sv){var isMy=getMy()===sel;sv.textContent=isMy?'\u2605 My seat (remove)':'\u2606 Save as my seat';sv.onclick=function(){setMy(isMy?null:sel);drawMy();render()}}
+  var cs=$('copySeat');if(cs)cs.onclick=function(){var ss=S[sel];copyLink(cs,sel+': '+callText(ss.favP,pname(ss.fav,ss))+' ('+fmtP(ss.favP)+'). A model estimate, not a result. '+location.href.split('#')[0]+'#seat-'+slug(sel))};
+  var b=$('back');if(b)b.onclick=function(){select(null)};
+  panel.querySelectorAll('.watch button').forEach(function(x){x.onclick=function(){select(x.dataset.s,true)}});
+  var hn=$('hint');
+  if(sel&&window.innerWidth<=1000){hn.textContent='Details for '+sel+' are below the map \u2193';hn.style.display='block'}
+  else if(sel){hn.style.display='none'}
+  else{hn.textContent='Tap a seat \u00b7 pinch or scroll to zoom';hn.style.display=''}
+}
+function select(n,zoomTo){
+  sel=n;
+  paths.classed('sel',function(d){return d.name===n});
+  paths.attr('aria-pressed',function(d){return d.name===n?'true':'false'});
+  selp.attr('d',n?path(feats.filter(function(f){return f.name===n})[0].f):null);
+  if(n){
+    if(zoomTo){var d=feats.filter(function(f){return f.name===n})[0];fitTo(d.b,0.22,650);
+      var w=(d.b[1][0]-d.b[0][0]),h=(d.b[1][1]-d.b[0][1]);
+      $('vState').setAttribute('aria-pressed',false);$('vMel').setAttribute('aria-pressed',false)}}
+  render();
+  panel.scrollTop=0;
+  try{history.replaceState(null,'',n?'#seat-'+slug(n):'#')}catch(e){try{location.hash=n?'seat-'+slug(n):''}catch(e2){}}
+}
+/* ---------- tabs ---------- */
+var tab='map';
+var panes={map:$('paneMap'),news:$('paneNews'),track:$('paneTrack'),post:$('panePost')},tbtn={map:$('tMap'),news:$('tNews'),track:$('tTrack'),post:$('tPost')};
+function showTab(t,noHash){
+  tab=t;
+  Object.keys(panes).forEach(function(k){panes[k].hidden=(k!==t);tbtn[k].setAttribute('aria-selected',k===t);tbtn[k].setAttribute('tabindex',k===t?'0':'-1')});
+  var hero=document.querySelector('.hero');if(hero)hero.hidden=(t!=='map');
+  var pad=document.querySelector('.wrap.content');
+  if(t==='map')onZoom();
+  if(t==='track'){if(sel)tstate.seat=sel;drawTrack()}
+  if(t==='post')drawPoster();
+  if(!noHash){try{history.replaceState(null,'',t==='map'?(sel?'#seat-'+slug(sel):'#'):(t==='news'?'#news':t==='post'?'#poster':'#tracker'))}catch(e){}}
+}
+Object.keys(tbtn).forEach(function(k){tbtn[k].onclick=function(){showTab(k)}});
+$('tMap').parentNode.addEventListener('keydown',function(e){var ks=['map','news','track','post'],i=ks.indexOf(tab);if(e.key==='ArrowRight')i=(i+1)%4;else if(e.key==='ArrowLeft')i=(i+3)%4;else if(e.key==='Home')i=0;else if(e.key==='End')i=3;else return;e.preventDefault();showTab(ks[i]);tbtn[ks[i]].focus()});
+$('skipMap').onclick=function(){panel.setAttribute('tabindex','-1');panel.focus()};
+
+/* ---------- news ---------- */
+var MONS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function fmtD(iso){var p=iso.split('-');return parseInt(p[2],10)+' '+MONS[parseInt(p[1],10)-1]}
+function renderNews(){
+  var host=$('paneNews'),cur='All',tags=['All','Polls','Candidates','Campaign'];
+  var BYLEN=NAMES.slice().sort(function(a,b){return b.length-a.length});
+  var AMBIG={Melbourne:1,Geelong:1,Brighton:1,Richmond:1};
+  var PSEAT={carroll:'Niddrie',wilson:'Kew',cheeseman:'South Barwon',allan:'Bendigo East'};
+  function seatIn(title){for(var i=0;i<BYLEN.length;i++){var n=BYLEN[i];if(new RegExp('\\b'+n+'\\b').test(title)){if(AMBIG[n]&&!new RegExp('\\b'+n+' (electorate|seat|candidate|MP)|seat of '+n,'i').test(title))continue;return n}}return null}
+  function seatFor(x){for(var i=0;i<PEOPLE.length;i++){if(PEOPLE[i][1].test(x[2])&&PSEAT[PEOPLE[i][0]])return PSEAT[PEOPLE[i][0]]}return seatIn(x[2])}
+  function ago(iso){var d=Math.round((new Date(new Date().toDateString())-new Date(iso+'T00:00:00'))/864e5);return d<=0?'Today':d===1?'Yesterday':d+' days ago'}
+  function hash(s){var h=0;for(var i=0;i<s.length;i++)h=(h*31+s.charCodeAt(i))|0;return Math.abs(h)}
+  var PAL={Polls:['#0F1B3D','#D8F23C','#5B8CFF','#FF5560'],Candidates:['#F4C9A6','#E0393E','#0F1B3D','#F58A2B'],Campaign:['#D8F23C','#0F1B3D','#1AA15A','#2559D9']};
+  var PCOL={LNP:'#5B8CFF',ALP:'#FF5560',ONP:'#FF9D4D',GRN:'#33CC80',IND:'#A892FF',OTH:'#9FA9C2'};
+  var PEOPLE=[['carroll',/carroll/i],['wilson',/\bwilson\b/i],['cheeseman',/cheeseman/i],['hanson',/hanson/i],['allan',/jacinta allan/i]];
+  function personFor(title){for(var i=0;i<PEOPLE.length;i++){if(PEOPLE[i][1].test(title)&&D.photos&&D.photos[PEOPLE[i][0]])return D.photos[PEOPLE[i][0]]}return null}
+  function featFor(name){for(var i=0;i<feats.length;i++)if(feats[i].name===name)return feats[i];return null}
+  var PNAMES={lighthouse:/lighthouse/,newspoll:/newspoll/,redbridge:/redbridge/,resolve:/resolve/,demos:/demosau/,morgan:/roy morgan/,freshwater:/freshwater/};
+  function pollFor(x){
+    var P=D.allPolls||[],nums=(x[2].match(/\d+(?:\.\d+)?/g)||[]).map(function(n){return Math.round(parseFloat(n))}),best=null;
+    P.forEach(function(r){var set=[r[4],r[5],r[6],r[7]].map(Math.round);if(!best&&set.every(function(v){return nums.indexOf(v)>-1}))best=r});
+    if(best)return best;
+    var tl=x[2].toLowerCase(),bd=8;
+    P.forEach(function(r){var re=PNAMES[r[1]];if(re&&re.test(tl)){var d=Math.abs((new Date(r[0])-new Date(x[0]))/864e5);if(d<bd){bd=d;best=r}}});
+    return best;
+  }
+  var usedPh={};
+  function art(x,small,nocap){
+    var pub='<span class="nf-pub">'+esc(x[1])+'</span>',cls='nf-art'+(small?' s':''),ph=personFor(x[2]);
+    if(ph){usedPh[ph.n]=ph.c;return '<div class="'+cls+' photo"><img src="'+ph.d+'" alt="'+esc(ph.n)+'">'+pub+'</div>'+(nocap?'':'<div class="nf-cap">'+esc(ph.c)+'</div>')}
+    var s=seatFor(x),f=s&&featFor(s);
+    if(f){
+      var b=f.b,w=b[1][0]-b[0][0],h=b[1][1]-b[0][1],pad=Math.max(w,h)*.9+8,vx=b[0][0]-pad,vy=b[0][1]-pad*.6,vw=w+pad*2,vh=h+pad*1.2,paths='';
+      feats.forEach(function(g){if(g.name===s)return;var gb=g.b;if(gb[1][0]<vx||gb[0][0]>vx+vw||gb[1][1]<vy||gb[0][1]>vy+vh)return;paths+='<path d="'+path(g.f)+'" fill="rgba(255,255,255,.16)" stroke="rgba(255,255,255,.4)" stroke-width="'+(vw/320).toFixed(2)+'"/>'});
+      return '<div class="'+cls+'" style="background:#0F1B3D"><svg viewBox="'+vx.toFixed(1)+' '+vy.toFixed(1)+' '+vw.toFixed(1)+' '+vh.toFixed(1)+'" preserveAspectRatio="xMidYMid slice">'+paths+'<path d="'+path(f.f)+'" fill="'+PCOL[S[s].fav]+'" stroke="#fff" stroke-width="'+(vw/160).toFixed(2)+'"/></svg><span class="nf-seat">'+esc(s)+'</span>'+pub+'</div>';
+    }
+    if(x[4]==='Polls'){
+      var r=pollFor(x);if(!r)return '';var v={ALP:r[4],LNP:r[5],GRN:r[6],ONP:r[7]};
+      var lab=r?r[2]+' poll, '+r[3]:'Poll average',bars='';
+      [['LNP','Coalition'],['ONP','One Nation'],['ALP','Labor'],['GRN','Greens']].forEach(function(o,i){var val=v[o[0]],bh=val/36*92;bars+='<rect x="'+(24+i*68)+'" y="'+(122-bh)+'" width="48" height="'+bh+'" rx="3" fill="'+PCOL[o[0]]+'"/><text x="'+(48+i*68)+'" y="'+(116-bh)+'" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">'+Math.round(val)+'</text><text x="'+(48+i*68)+'" y="139" text-anchor="middle" font-size="10" font-weight="700" fill="#cfd6ea">'+o[1]+'</text>'});
+      return '<div class="'+cls+' chart" style="background:#0F1B3D"><svg viewBox="0 0 300 170" preserveAspectRatio="xMidYMid meet">'+bars+'<text x="150" y="158" text-anchor="middle" font-size="9.5" fill="#9FA9C2">'+esc(lab)+' · first preferences, %</text></svg>'+pub+'</div>';
+    }
+    return '';
+  }
+  function stand(x){
+    var A=D.avg,s=seatFor(x);
+    if(x[4]==='Polls'&&pollFor(x))return 'First preferences in this poll, turned into seats by our model. Latest poll average: Labor '+Math.round(A.ALP)+'%, Coalition '+Math.round(A.LNP)+'%.';
+    if(x[4]==='Candidates'&&s)return 'See who is on the ballot in '+s+' and how the seat is leaning.';
+    return '';
+  }
+  function sp(x){var s=stand(x);return s?'<p class="nf-stand">'+esc(s)+'</p>':''}
+  function pic(x,small,nocap){var im=art(x,small,nocap);return im?link(x,im):''}
+  function kk(x){return '<span class="kk">'+esc(x[4])+'</span>'}
+  function meta(x){return '<div class="nf-meta"><b>'+esc(x[1])+'</b> &middot; '+fmtD(x[0])+' &middot; '+ago(x[0])+'</div>'}
+  function seatBtn(x){var s=seatFor(x);return (x[4]==='Candidates'&&s)?'<button type="button" class="nf-link" data-seat="'+esc(s)+'">Open '+esc(s)+' on the map &rarr;</button>':''}
+  function link(x,inner){return '<a href="'+esc(x[3])+'" target="_blank" rel="noopener">'+inner+'</a>'}
+  function lead(x){return '<div class="nf-lead">'+kk(x)+link(x,'<h3>'+esc(x[2])+'</h3>'+art(x,false))+sp(x)+meta(x)+seatBtn(x)+'</div>'}
+  function bullets(a){return a.length?'<ul class="nf-bul">'+a.map(function(x){var im=pic(x,true,true);return '<li class="'+(im?'':'noimg')+'">'+(im?'<div class="nf-bt">'+im+'</div>':'')+'<div>'+link(x,esc(x[2]))+meta(x)+'</div></li>'}).join('')+'</ul>':''}
+  function story(x){var pc=pic(x,true);return '<div class="nf-st">'+pc+'<div class="nf-stb" style="'+(pc?'':'margin-top:0')+'">'+kk(x)+link(x,'<h4>'+esc(x[2])+'</h4>')+sp(x)+meta(x)+seatBtn(x)+'</div></div>'}
+  function card(x){var pc=pic(x,true);return '<div class="nf-card">'+pc+'<div'+(pc?' style="margin-top:12px"':'')+'>'+kk(x)+link(x,'<h4>'+esc(x[2])+'</h4>')+meta(x)+seatBtn(x)+'</div></div>'}
+  function small(x){return '<div class="nf-li">'+pic(x,true,true)+kk(x)+link(x,'<h6>'+esc(x[2])+'</h6>')+meta(x)+'</div>'}
+  function draw(){
+    var all=D.news,list=all.filter(function(x){return cur==='All'||x[4]===cur});
+    var c=counts(),pcs=D.summary;
+    var nav=tags.map(function(g){var n=g==='All'?all.length:all.filter(function(x){return x[4]===g}).length;return '<button type="button" data-g="'+g+'" aria-pressed="'+(g===cur)+'">'+g+' <small>'+n+'</small></button>'}).join('');
+    var pw='<div class="nr-box nr-poll"><h5>Poll watch</h5><div class="nr-seats"><div><b style="color:var(--lnp)">'+c.LNP+'</b><span>Coalition</span></div><div><b style="color:var(--alp)">'+c.ALP+'</b><span>Labor</span></div><div><b style="color:var(--onp)">'+c.ONP+'</b><span>One Nation</span></div><div><b style="color:var(--grn)">'+c.GRN+'</b><span>Greens</span></div></div><p>Predicted seats out of 88. '+Math.round(pcs.pLNPmaj*100)+'% chance of a Coalition majority.</p><button type="button" class="btn" id="nrTrack">Open the seat tracker &rarr;</button></div>';
+    var body=list.length?'<div class="nf"><div class="nf-c1">'+lead(list[0])+bullets(list.slice(1,4))+'</div><div class="nf-c2">'+list.slice(4,7).map(story).join('')+'</div><div class="nf-c3">'+list.slice(7,10).map(card).join('')+pw+'</div></div>'+(list.length>10?'<div class="nf-more"><h5>More headlines</h5><div class="nf-list">'+list.slice(10).map(small).join('')+'</div></div>':''):'<p class="note">No stories in this section yet.</p>';
+    host.innerHTML='<div class="np-mast"><div class="np-top"><span>'+new Date().toLocaleDateString('en-AU',{weekday:'long',day:'numeric',month:'long',year:'numeric'})+'</span><span>Victorian state election &middot; Saturday 28 November</span></div><h2 class="np-name">Election news</h2><div class="np-sub">Latest headlines from Victoria&rsquo;s election, updated '+esc(D.meta.updated)+'. Only free-to-read stories are listed (ABC, The Guardian, The Conversation and similar). Each link is checked when this page is built. Selection reflects headlines cited on Wikipedia, not editorial balance.</div></div><div class="np-nav" role="group" aria-label="News sections">'+nav+'</div>'+body+(Object.keys(usedPh).length?'<p class="note" style="margin-top:22px"><b style="color:var(--ink)">Photo credits.</b> '+Object.keys(usedPh).map(function(k){return esc(k)+': '+esc(usedPh[k].replace(/^Photo: /,''))}).join('. ')+'.</p>':'')+'<p class="note" style="margin-top:12px">The grey lines are written by this site to link each story to its data. They are not summaries of the articles.</p>';
+    host.querySelectorAll('.np-nav button').forEach(function(bn){bn.onclick=function(){cur=bn.dataset.g;draw()}});
+    host.querySelectorAll('[data-seat]').forEach(function(bn){bn.onclick=function(){showTab('map',true);select(bn.dataset.seat,true)}});
+    var tr=$('nrTrack');if(tr)tr.onclick=function(){showTab('track')};
+  }
+  draw();
+}
+
+/* ---------- seat tracker (stock-style) ---------- */
+var TR=D.series,ST=0;
+for(var ti=0;ti<TR.dates.length;ti++){if(TR.n[ti]>=4){ST=ti;break}}
+var TD=TR.dates.slice(ST),TN=TD.length;
+var TP=[['LNP','Coalition'],['ALP','Labor'],['ONP','One Nation'],['GRN','Greens']];
+var TS={};TP.forEach(function(p){TS[p[0]]=TR[p[0]].slice(ST)});
+var tstate={period:'all',hide:{},seat:null,built:false};
+function idxAgo(k){var last=new Date(TD[TN-1]+'T00:00:00').getTime(),tgt=last-k*864e5,r=0;for(var i=0;i<TN;i++){if(new Date(TD[i]+'T00:00:00').getTime()<=tgt)r=i}return r}
+function fromIdx(){return tstate.period==='1m'?idxAgo(30):tstate.period==='3m'?idxAgo(90):0}
+function fmtN(v){return (Math.round(v*10)/10).toFixed(1)}
+function dHTML(d,unit){
+  if(Math.abs(d)<0.05)return '<span class="fl">&ndash; no change</span>';
+  return '<span class="'+(d>0?'up':'dn')+'">'+(d>0?'&#9650; +':'&#9660; &minus;')+fmtN(Math.abs(d))+(unit||'')+'</span>';
+}
+function lineChart(el,cfg){
+  var W=Math.max(280,el.clientWidth||600),H=W<520?240:300,m={l:cfg.unit?40:34,r:W<520?42:54,t:16,b:26};
+  var n=cfg.dates.length,f=cfg.from||0,span=Math.max(1,n-1-f);
+  var xs=function(i){return m.l+(i-f)/span*(W-m.l-m.r)};
+  var y0=cfg.y[0],y1=cfg.y[1];
+  var ys=function(v){return m.t+(1-(v-y0)/(y1-y0))*(H-m.t-m.b)};
+  var s='<svg width="'+W+'" height="'+H+'" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(cfg.label)+'">';
+  for(var v=y0;v<=y1+1e-6;v+=cfg.y[2])s+='<line x1="'+m.l+'" x2="'+(W-m.r)+'" y1="'+ys(v).toFixed(1)+'" y2="'+ys(v).toFixed(1)+'" class="gl"/><text x="'+(m.l-7)+'" y="'+(ys(v)+4).toFixed(1)+'" class="ax" text-anchor="end">'+v+cfg.unit+'</text>';
+  if(cfg.ref)s+='<line x1="'+m.l+'" x2="'+(W-m.r)+'" y1="'+ys(cfg.ref.v).toFixed(1)+'" y2="'+ys(cfg.ref.v).toFixed(1)+'" class="refl"/><text x="'+(m.l+6)+'" y="'+(ys(cfg.ref.v)-6).toFixed(1)+'" class="refx">'+cfg.ref.label+'</text>';
+  var tk=W<520?4:6;
+  for(var j=0;j<tk;j++){var i=f+Math.round(j*span/(tk-1));s+='<text x="'+xs(i).toFixed(1)+'" y="'+(H-6)+'" class="ax" text-anchor="'+(j===0?'start':j===tk-1?'end':'middle')+'">'+fmtD(cfg.dates[i])+'</text>'}
+  cfg.lines.forEach(function(L){
+    if(cfg.hide&&cfg.hide[L.k])return;
+    var d='';for(var i=f;i<n;i++)d+=(i===f?'M':'L')+xs(i).toFixed(1)+' '+ys(L.v[i]).toFixed(1);
+    s+='<path d="'+d+'" class="ln" style="stroke:'+L.col+'"/>';
+    var last=L.v[n-1];
+    s+='<circle cx="'+xs(n-1).toFixed(1)+'" cy="'+ys(last).toFixed(1)+'" r="4.5" style="fill:'+L.col+'"/><text x="'+(xs(n-1)+9).toFixed(1)+'" y="'+(ys(last)+4).toFixed(1)+'" class="endlab">'+cfg.fmt(last)+'</text>';
+  });
+  s+='<g class="scrub" style="display:none"><line y1="'+m.t+'" y2="'+(H-m.b)+'" stroke="currentColor" stroke-width="1.2" opacity=".5"/>';
+  cfg.lines.forEach(function(L){if(!(cfg.hide&&cfg.hide[L.k]))s+='<circle data-k="'+L.k+'" r="5" style="fill:'+L.col+';stroke:var(--panel);stroke-width:2"/>'});
+  s+='</g></svg><div class="ctip"></div>';
+  el.innerHTML=s;
+  var svg=el.querySelector('svg'),scrub=svg.querySelector('.scrub'),tip=el.querySelector('.ctip');
+  function move(e){
+    var r=svg.getBoundingClientRect(),x=e.clientX-r.left;
+    var i=Math.round(f+(x-m.l)/(W-m.l-m.r)*span);i=Math.max(f,Math.min(n-1,i));
+    var px=xs(i);scrub.style.display='';scrub.querySelector('line').setAttribute('x1',px);scrub.querySelector('line').setAttribute('x2',px);
+    var rows='';
+    cfg.lines.forEach(function(L){
+      if(cfg.hide&&cfg.hide[L.k])return;
+      var c=scrub.querySelector('circle[data-k="'+L.k+'"]');c.setAttribute('cx',px);c.setAttribute('cy',ys(L.v[i]));
+      rows+='<div><span><i style="background:'+L.col+'"></i>'+esc(L.name)+'</span><span>'+cfg.fmt(L.v[i])+'</span></div>';
+    });
+    tip.innerHTML='<b>'+fmtD(cfg.dates[i])+'</b>'+rows;tip.style.display='block';
+    var tw=tip.offsetWidth;tip.style.left=Math.max(0,Math.min(W-tw,px>W/2?px-tw-14:px+14))+'px';
+  }
+  svg.addEventListener('pointermove',move);svg.addEventListener('pointerdown',move);
+  svg.addEventListener('pointerleave',function(){scrub.style.display='none';tip.style.display='none'});
+}
+function spark(vals,col){
+  var w=140,h=38,mn=Math.min.apply(null,vals),mx=Math.max.apply(null,vals),rg=(mx-mn)||1;
+  var d=vals.map(function(v,i){return (i?'L':'M')+(i/(vals.length-1)*w).toFixed(1)+' '+(h-4-(v-mn)/rg*(h-8)).toFixed(1)}).join('');
+  return '<svg viewBox="0 0 '+w+' '+h+'" preserveAspectRatio="none" aria-hidden="true"><path d="'+d+'" fill="none" stroke="'+col+'" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/></svg>';
+}
+function seatMovers(){
+  var L=TN-1,K=idxAgo(28),out=[];
+  NAMES.forEach(function(n){
+    var ss=D.seatSeries[n],best=null,fa=null,fb=null,ba=-1,bb=-1;
+    TP.forEach(function(p){
+      var a=ss[p[0]][ST+K],b=ss[p[0]][ST+L],d=b-a;
+      if(!best||Math.abs(d)>Math.abs(best.d))best={k:p[0],a:a,b:b,d:d};
+      if(a>ba){ba=a;fa=p[0]}if(b>bb){bb=b;fb=p[0]}
+    });
+    out.push({n:n,k:best.k,a:best.a,b:best.b,d:best.d,flip:fa!==fb,fb:fb});
+  });
+  return out.sort(function(x,y){return Math.abs(y.d)-Math.abs(x.d)}).slice(0,10);
+}
+function drawTrack(redraw){
+  var host=$('paneTrack'),from=fromIdx();
+  if(!tstate.built){
+    var mv=seatMovers();
+    tstate.seat=tstate.seat||getMy()||mv[0].n;tstate.movers=mv;
+    host.innerHTML='<h2 class="pane-h">Seat tracker</h2><p class="pane-sub">Projected seats over time, like a share price. Each point is what this page&rsquo;s model would show using the polls published up to that date. Move your finger or mouse across a chart to read it.</p>'+
+    '<div class="tiles" id="tiles"></div>'+
+    '<div class="trk-grid"><div class="card"><div class="cc-top"><div class="seg" id="period" role="group" aria-label="Time range"><button type="button" data-p="1m">1M</button><button type="button" data-p="3m">3M</button><button type="button" data-p="all">All</button></div><div class="lg" id="lg"></div></div><div class="chart" id="ch1"></div><p class="note">Projected seats out of 88. The dashed line is the 45 needed to govern. Daily points; the model blends each pollster&rsquo;s latest poll by trust weight.</p></div>'+
+    '<div class="card"><h3 class="pane-h" style="font-size:22px;margin-bottom:12px">Track any seat</h3><div class="seatpick"><select id="trkSeat" aria-label="Choose a seat">'+NAMES.map(function(n){return '<option>'+esc(n)+'</option>'}).join('')+'</select><button type="button" class="btn" id="trkMap">View on map</button></div><div id="seatTick"></div><div class="chart" id="ch2"></div><p class="note">Chance of winning the seat, by party, day by day.</p></div>'+
+    '<div class="card"><h3 class="pane-h" style="font-size:22px;margin-bottom:6px">Biggest movers</h3><p class="note" style="margin:0 0 10px">Seats whose win chance moved most in the last 4 weeks. Tap one to track it above.</p><div class="mv" id="movers"></div></div></div>';
+    $('trkSeat').value=tstate.seat;
+    $('trkSeat').onchange=function(){tstate.seat=this.value;drawTrack(true)};
+    $('trkMap').onclick=function(){showTab('map',true);select(tstate.seat,true)};
+    $('period').querySelectorAll('button').forEach(function(b){b.onclick=function(){tstate.period=b.dataset.p;drawTrack(true)}});
+    tstate.built=true;
+  }
+  $('period').querySelectorAll('button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.p===tstate.period)});
+  $('trkSeat').value=tstate.seat;
+  // tiles
+  var K=idxAgo(28),P1=idxAgo(7);
+  $('tiles').innerHTML=TP.map(function(p){
+    var v=TS[p[0]],now=v[TN-1];
+    return '<div class="tile"><div class="tn"><i style="background:'+COL[p[0]]+'"></i>'+p[1]+'</div><div class="tv">'+Math.round(now)+'</div><div class="td">'+dHTML(now-v[K],'')+' <small>in 4 weeks</small></div><div class="td"><small>Last week: </small>'+dHTML(now-v[P1],'')+'</div>'+spark(v.filter(function(_,i){return (TN-1-i)%7===0}).slice(-14),COL[p[0]])+'</div>';
+  }).join('');
+  // main chart
+  $('lg').innerHTML=TP.map(function(p){return '<button type="button" data-k="'+p[0]+'" aria-pressed="'+(!tstate.hide[p[0]])+'"><i style="background:'+COL[p[0]]+'"></i>'+p[1]+'</button>'}).join('');
+  $('lg').querySelectorAll('button').forEach(function(b){b.onclick=function(){tstate.hide[b.dataset.k]=!tstate.hide[b.dataset.k];drawTrack(true)}});
+  lineChart($('ch1'),{dates:TD,from:from,label:'Projected seats over time',unit:'',y:[0,60,10],ref:{v:45,label:'45 to govern'},hide:tstate.hide,fmt:function(v){return fmtN(v)},lines:TP.map(function(p){return {k:p[0],name:p[1],col:COL[p[0]],v:TS[p[0]]}})});
+  var sm=$('ch1sum');if(!sm){sm=document.createElement('p');sm.id='ch1sum';sm.className='sr-only';$('ch1').parentNode.appendChild(sm);$('ch1').setAttribute('aria-describedby','ch1sum')}
+  sm.textContent='Projected seats over time. '+TP.map(function(p){var v=TS[p[0]];return p[1]+': '+fmtN(v[TN-1])+' now, '+(v[TN-1]>=v[K]?'up ':'down ')+fmtN(Math.abs(v[TN-1]-v[K]))+' in 4 weeks.'}).join(' ');
+  // seat
+  var n=tstate.seat,ss=D.seatSeries[n],ser={};
+  ['ALP','LNP','GRN','ONP'].forEach(function(k){ser[k]=ss[k].slice(ST)});
+  var fav='LNP',fv=-1;['ALP','LNP','GRN','ONP'].forEach(function(k){if(ser[k][TN-1]>fv){fv=ser[k][TN-1];fav=k}});
+  var s=S[n];
+  $('seatTick').innerHTML='<div class="seatbig"><b>'+esc(n)+'</b><span class="tag '+(fv<60?'y':'k')+'">'+(fv<60?'Toss-up':tier(fv)+' '+esc(pname(fav,s)))+'</span></div><div class="td" style="margin-bottom:8px;font-weight:800">'+esc(pname(fav,s))+' '+fv+'% to win &nbsp; '+dHTML(fv-ser[fav][K],' pts')+' <small style="color:var(--mute);font-weight:600">in 4 weeks</small></div>';
+  var lines=[['ALP','Labor'],['LNP',lnpName(s)],['GRN','Greens'],['ONP','One Nation']].filter(function(p){return Math.max.apply(null,ser[p[0]])>=3});
+  lineChart($('ch2'),{dates:TD,from:from,label:'Chance of winning '+n,unit:'%',y:[0,100,25],hide:{},fmt:function(v){return Math.round(v)+'%'},lines:lines.map(function(p){return {k:p[0],name:p[1],col:COL[p[0]],v:ser[p[0]]}})});
+  // movers
+  $('movers').innerHTML=tstate.movers.map(function(x){
+    var s2=S[x.n];
+    return '<button type="button" data-s="'+esc(x.n)+'"><span><b>'+esc(x.n)+'</b>'+(x.flip?'<span class="flip">Now favours '+esc(pname(x.fb,s2))+'</span>':'')+'</span><span class="mvd '+(x.d>0?'up':'dn')+'">'+(x.d>0?'&#9650; +':'&#9660; &minus;')+Math.abs(x.d)+' pts</span><small>'+esc(pname(x.k,s2))+' '+x.a+'% &rarr; '+x.b+'%</small></button>';
+  }).join('');
+  $('movers').querySelectorAll('button').forEach(function(b){b.onclick=function(){tstate.seat=b.dataset.s;$('trkSeat').value=tstate.seat;drawTrack(true)}});
+}
+
+var posterBuilt=false;
+function drawPoster(){
+  if(posterBuilt)return;posterBuilt=true;
+  var c=counts(),pcs=D.summary,nT=0,used={},paths='',defsP='';
+  NAMES.forEach(function(n){if(S[n].favP<60)nT++});
+  feats.forEach(function(d){
+    var s=S[d.name],r=rank(s),fill,op=1;
+    if(s.favP<60){var id='pp-'+r[0]+'-'+r[1];used[id]=[r[0],r[1]];fill='url(#'+id+')'}
+    else{fill=COL[s.fav];op=s.favP>=90?1:s.favP>=75?.88:.76}
+    paths+='<path d="'+path(d.f)+'" style="fill:'+fill+';opacity:'+op+';stroke:var(--panel);stroke-width:.8"/>';
+  });
+  Object.keys(used).forEach(function(id){var a=used[id][0],b=used[id][1];defsP+='<pattern id="'+id+'" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="18" height="18" style="fill:'+COL[a]+'"/><rect width="9" height="18" x="9" style="fill:'+COL[b]+'"/></pattern>'});
+  var sb=path.bounds(D.geo),svb=(sb[0][0]-6)+' '+(sb[0][1]-6)+' '+(sb[1][0]-sb[0][0]+12)+' '+(sb[1][1]-sb[0][1]+12);
+  var mvb=MELB[0][0]+' '+MELB[0][1]+' '+(MELB[1][0]-MELB[0][0])+' '+(MELB[1][1]-MELB[0][1]);
+  function st(k,l){return '<div><b style="color:'+COL[k]+'">'+c[k]+'</b><span>'+l+'</span></div>'}
+  $('panePost').innerHTML='<h2 class="pane-h">Share card</h2><p class="pane-sub">A ready-made picture of the prediction. Screenshot it to share. It updates each time this page is republished.</p>'+
+  '<div class="poster-wrap"><div class="poster" id="poster"><div><span class="lbl">Victoria Votes 2026 &middot; Model estimate &middot; 28 Nov</span><b class="p-t">Where the 88 <mark>seats could fall</mark></b></div>'+
+  '<div class="p-leg"><span><i style="background:'+COL.LNP+'"></i>Coalition</span><span><i style="background:'+COL.ALP+'"></i>Labor</span><span><i style="background:'+COL.ONP+'"></i>One Nation</span><span><i style="background:'+COL.GRN+'"></i>Greens</span><span><i style="background:repeating-linear-gradient(45deg,'+COL.ALP+' 0 3px,'+COL.LNP+' 3px 6px)"></i>Toss-up '+nT+'</span></div>'+
+  '<div class="p-maps"><svg class="p-map" viewBox="'+svb+'" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Map of predicted winners in all 88 seats"><defs>'+defsP+'</defs>'+paths+'</svg><div class="p-row2"><div class="p-inset"><span class="lbl">Melbourne</span><svg viewBox="'+mvb+'" preserveAspectRatio="xMidYMid slice" aria-hidden="true">'+paths+'</svg></div><div class="p-stats">'+st('LNP','Coalition')+st('ALP','Labor')+st('ONP','One Nation')+st('GRN','Greens')+'</div></div></div>'+
+  '<div class="p-odds">'+Math.round(pcs.pLNPmaj*100)+'% model chance of a Coalition majority</div>'+
+  '<div class="p-foot">Unofficial model, not a forecast or a result. The polls disagree. Predicted seats out of 88; 45 to govern. Updated '+D.meta.updated+'. Boundaries: Vicmap.</div></div></div>';
+}
+function drawSnap(){
+  var c=counts(),pcs=D.summary,lead=pcs.exp.LNP>=pcs.exp.ALP?['Coalition','LNP',pcs.pLNPmaj]:['Labor','ALP',pcs.pALPmaj];
+  function s(k,l,col){return '<div><b style="color:'+col+'">'+c[k]+'</b><span>'+l+'</span></div>'}
+  $('snap').innerHTML='<span class="lbl">Prediction snapshot</span><div class="snap-big"><b>'+Math.round(lead[2]*100)+'%</b><span>chance the '+lead[0]+' wins 45+ seats on its own</span></div><div class="snap-seats">'+s('LNP','Coalition','#8FB0FF')+s('ALP','Labor','#FF8A93')+s('ONP','One Nation','#FFB36B')+s('GRN','Greens','#5BE2A0')+'</div><p class="snap-note">Predicted seats out of 88, blending '+NP+' polls. A model estimate, not a result.</p><button type="button" class="snap-link" id="snapTrack">See how it has moved &rarr;</button>';
+  $('snapTrack').onclick=function(){showTab('track')};
+  var near=NAMES.slice().sort(function(a,b){return S[a].favP-S[b].favP}).slice(0,3);
+  $('near').innerHTML='<span>Closest seats:</span> '+near.map(function(n){return '<button type="button" data-s="'+esc(n)+'">'+esc(n)+'</button>'}).join('');
+  $('near').querySelectorAll('button').forEach(function(b){b.onclick=function(){showTab('map',true);select(b.dataset.s,true)}});
+  var ser=D.series,L=ser.pL.length-1,since='';
+  if(L>=1){var dd=ser.pL[L]-ser.pL[L-1];since=' Since yesterday: Coalition majority chance '+(dd===0?'unchanged at '+ser.pL[L]+'%':(dd>0?'up ':'down ')+Math.abs(dd)+' points to '+ser.pL[L]+'%')+'.'}
+  $('predStrip').textContent='Coalition '+c.LNP+', Labor '+c.ALP+', One Nation '+c.ONP+', Greens '+c.GRN+' predicted seats. 45 to govern.'+since;
+  var sn=$('snap').querySelector('.snap-note');if(sn)sn.textContent+=since;
+}
+var MYKEY='vv-myseat';
+function getMy(){try{var v=localStorage.getItem(MYKEY);return v&&S[v]?v:null}catch(e){return null}}
+function setMy(n){try{if(n)localStorage.setItem(MYKEY,n);else localStorage.removeItem(MYKEY)}catch(e){}}
+function drawMy(){
+  var el=$('mySeat'),n=getMy();
+  if(!n){el.hidden=true;el.innerHTML='';return}
+  var s=S[n],p=s.favP;
+  el.hidden=false;
+  el.innerHTML='<span class="lbl">Your seat</span><b>'+esc(n)+'</b><span class="my-v">'+(p<60?'Toss-up':tier(p)+' '+esc(pname(s.fav,s)))+' &middot; '+fmtP(p)+'</span><button type="button" class="my-b" id="myOpen">Open</button><button type="button" class="my-b" id="myClear">Clear</button>';
+  $('myOpen').onclick=function(){showTab('map',true);select(n,true)};
+  $('myClear').onclick=function(){setMy(null);drawMy();if(sel)render()};
+}
+function hashInfo(){
+  var h=(location.hash||'').replace('#','');
+  if(h==='news')return {tab:'news'};
+  if(h==='tracker')return {tab:'track'};
+  if(h==='poster')return {tab:'post'};
+  if(h.indexOf('seat-')===0&&BYSLUG[h.slice(5)])return {tab:'map',seat:BYSLUG[h.slice(5)]};
+  return {tab:'map'};
+}
+window.addEventListener('hashchange',function(){var i=hashInfo();showTab(i.tab,true);if(i.tab==='map'){var n=i.seat||null;if(n!==sel)select(n,true)}});
+paint();onZoom();renderNews();
+attachSearch($('hq'),$('hres'));
+drawSnap();
+$('copyPage').onclick=function(){copyLink(this,location.href.split('#')[0])};
+var i0=hashInfo();
+drawMy();
+if(i0.seat){select(i0.seat,true)}else if(getMy()&&i0.tab==='map'){select(getMy(),false)}else render();
+showTab(i0.tab,true);
+window.addEventListener('resize',function(){onZoom();if(tab==='track')drawTrack(true)});
+})();
+</script>
