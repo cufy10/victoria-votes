@@ -32,6 +32,13 @@ jobs:
           done
       - name: Refresh polls, run the model, build the site
         run: python3 update.py
+      - name: Add search-engine files
+        run: |
+          echo "google-site-verification: google10da6b597dff1285.html" > site/google10da6b597dff1285.html
+          echo "User-agent: *" > site/robots.txt
+          echo "Allow: /" >> site/robots.txt
+          echo "Sitemap: https://victoriavotes.github.io/sitemap.xml" >> site/robots.txt
+          echo '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://victoriavotes.github.io/</loc></url></urlset>' > site/sitemap.xml
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
