@@ -248,7 +248,9 @@ head = ('<!doctype html><html lang="en"><head><meta charset="utf-8">'
         '<meta property="og:type" content="website"><meta property="og:site_name" content="Victoria Votes 2026">'
         '<meta property="og:title" content="Victoria Votes 2026: find your seat">'
         '<meta property="og:description" content="%s">'
-        '<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Victoria Votes 2026: find your seat">'
+        '<meta property="og:url" content="https://victoriavotes.github.io/"><meta property="og:image" content="https://victoriavotes.github.io/og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Map of Victoria with the words Find your seat. See who is likely to win it.">'
+        '<link rel="canonical" href="https://victoriavotes.github.io/">'
+        '<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://victoriavotes.github.io/og.jpg"><meta name="twitter:title" content="Victoria Votes 2026: find your seat">'
         '<meta name="twitter:description" content="%s">'
         '<meta name="theme-color" content="#0F1B3D">'
         '<style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}'
@@ -256,6 +258,10 @@ head = ('<!doctype html><html lang="en"><head><meta charset="utf-8">'
         'img{max-width:100%%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>') % (desc, desc, desc)
 open(os.path.join(SITE, 'index.html'), 'w').write(head + body + '</body></html>')
 open(os.path.join(SITE, '.nojekyll'), 'w').write('')
+_og = os.path.join(ROOT, 'og.b64')
+if os.path.exists(_og):  # share-preview picture, stored as text in the repo
+    import base64
+    open(os.path.join(SITE, 'og.jpg'), 'wb').write(base64.b64decode(open(_og).read().strip()))
 summary = {
     'built': TODAY.isoformat(), 'updated_label': D['meta']['updated'], 'polls_used': len(D['trust']),
     'newest_poll': rows[0]['date'], 'poll_range': D['meta']['pollRange'],
