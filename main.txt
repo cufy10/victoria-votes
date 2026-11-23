@@ -1,0 +1,900 @@
+{{Short description|Election for the 61st Parliament of Victoria}}
+{{Use dmy dates|date=November 2026}}
+{{Use Australian English|date=November 2022}}
+{{Infobox election
+| election_name = 2026 Victorian state election
+| country = Victoria
+| type = parliamentary
+| vote_type = [[Instant-runoff voting#Australia|Primary]]
+| ongoing = yes
+| previous_election = 2022 Victorian state election
+| previous_year = 2022
+| next_election = 2030 Victorian state election
+| next_year = ''2030''
+| seats_for_election = All 88 seats in the [[Victorian Legislative Assembly|Legislative Assembly]]<br />45 seats needed for a majority<br />[[2026 Victorian Legislative Council election|All 40 seats]] in the [[Victorian Legislative Council|Legislative Council]]
+| election_date = 28 November 2026
+| opinion_polls = Opinion polling for the 2026 Victorian state election
+
+<!-- Labor -->| image1 = {{CSS image crop |Image = Ben Carroll, Premier of Victoria, and Gabrielle Williams, giving opening remarks at press conference in front of G class tram number 7006 in PTV livery on the day of the first run of the G class tram (cropped) (cropped).jpg|bSize = 125|cWidth = 120|cHeight = 160|oTop = 10|oLeft = 0}}
+| leader1 = [[Ben Carroll]]
+| leader_since1 = [[2026 Victorian Labor Party leadership election|28 July 2026]]
+| party1 = Victorian Labor Party
+| colour1 = {{party color|Australian Labor Party}}
+| leaders_seat1 = [[Electoral district of Niddrie|Niddrie]]
+| popular_vote1 = 
+| percentage1 = 
+| swing1 = 
+| last_election1 = 56 seats
+| seats_before1 = 54{{efn|name=fn27|[[Will Fowles]] and [[Darren Cheeseman]] have sat on the [[crossbench]] as [[Independent Labor (Australia)|Independent Labor]] MPs since 5 August 2023 and 29 April 2024 respectively.}}
+| seats_needed1 = {{steady}}
+| swing_needed1 = 
+| seats1 = 
+| seat_change1 = <!-- Liberal–National Coalition -->
+| image2 = {{CSS image crop |Image = Jess Wilson 0026 (cropped).png|bSize = 170|cWidth = 120|cHeight = 160|oTop = 5|oLeft = 24}}
+| leader2 = [[Jess Wilson]]
+| leader_since2 = [[2025 Victorian Liberal Party leadership spill|18 November 2025]]
+| party2 = [[Liberal–National Coalition (Victoria)|Coalition]]
+| colour2 = {{Australian politics/party colours|Coalition}}
+| leaders_seat2 = [[Electoral district of Kew|Kew]]
+| popular_vote2 = 
+| percentage2 = 
+| swing2 = 
+| last_election2 = {{nowrap|28 seats{{efn|The election for the [[Electoral district of Narracan|District of Narracan]] was deferred. A supplementary election was held on [[2023 Narracan state supplementary election|28 January 2023]].}}}}
+| seats_before2 = 29{{efn|The Liberals gained the seat of [[Electoral district of Prahran|Prahran]] at a [[2025 Prahran state by-election|by-election]] in 2025.}}
+| seats_needed2 = {{increase}} 17
+| swing_needed2 = 
+| seats2 = 
+| seat_change2 = <!-- Greens -->
+| image3 = {{CSS image crop |Image = Ellen Sandell 2026 (cropped).jpg|bSize = 155|cWidth = 120|cHeight = 160|oTop = 5|oLeft = 17}}
+| leader3 = {{nowrap|[[Ellen Sandell]]}}
+| leader_since3 = 23 April 2024
+| party3 = Victorian Greens
+| leaders_seat3 = [[Electoral district of Melbourne|Melbourne]]
+| popular_vote3 = 
+| percentage3 = 
+| swing3 = 
+| last_election3 = 4 seats
+| seats_before3 = 2{{efn|name=prahranby|
+* The [[Victorian Greens|Greens]] lost the seat of [[Electoral district of Prahran|Prahran]] to the [[Victorian Liberal Party|Liberal Party]] at a [[2025 Prahran state by-election|by-election on 8 February 2025]].<ref>{{cite web |title=State opposition gains Prahran seat from Greens in tight by-election race |url=https://www.abc.net.au/news/2025-02-08/victoria-werribee-and-prahran-byelection-results/104914390 |publisher=ABC News |access-date=8 February 2025 |archive-url=https://web.archive.org/web/20250208131942/https://www.abc.net.au/news/2025-02-08/victoria-werribee-and-prahran-byelection-results/104914390 |archive-date=8 February 2025 |date=8 February 2025}}</ref>
+* [[Tim Read]], the member for [[Electoral district of Brunswick|Brunswick]] died on 19 September 2026.}}
+| seats_needed3 = {{increase}} 42
+| swing_needed3 = 
+| seats3 = 
+| seat_change3 = 
+
+| map_image = [[File:2026 Victorian state election.svg|320px]]
+| map_caption = Winning margin by electorate
+| title = [[Premier of Victoria|Premier]]
+| before_election = [[Ben Carroll]]
+| before_party = Australian Labor Party (Victorian Branch)
+| posttitle = [[Premier of Victoria|Premier]] after election
+| after_election = 
+| after_party = 
+| outgoing_members = Members of the Victorian Legislative Assembly, 2022–2026
+}}
+{{2026 Victorian state election sidebar}}
+A [[general election]] is scheduled to be held on 28 November 2026 to elect members of the 61st [[Parliament of Victoria]]. All 88 seats in the [[Victorian Legislative Assembly|Legislative Assembly]] and all 40 seats in the [[Victorian Legislative Council|Legislative Council]] will be up for election.
+
+The incumbent [[Victorian Labor Party|Labor]] [[Carroll ministry|government]], led by [[Premier of Victoria|Premier]] [[Ben Carroll]], will seek to win a fourth consecutive four-year term against the [[Opposition (Victoria)|opposition]], the [[Liberal–National Coalition (Victoria)|Liberal–National Coalition]], led by [[Leader of the Opposition (Victoria)|Opposition Leader]] [[Jess Wilson]]. Other parties including [[One Nation]], the [[Victorian Greens|Greens]] and [[Independent (politician)|independents]] will also participate in the election. 
+
+The election will be administered by the [[Victorian Electoral Commission]] (VEC).
+
+== Background ==
+=== Previous election and parliament ===
+{{See also|Results of the 2022 Victorian state election (Legislative Assembly)
+|Members of the Victorian Legislative Assembly, 2022–2026
+|Post-election pendulum for the 2022 Victorian state election}}
+{{See also|Results of the 2022 Victorian state election (Legislative Council)|Members of the Victorian Legislative Council, 2022–2026}}
+
+The [[Victorian Labor Party|Labor Party]], led by [[Daniel Andrews]], was elected into government at the [[2014 Victorian state election|2014 election]]. Labor has been in government for all but one term since the [[1999 Victorian state election|1999 election]]. Andrews' government was re-elected at the [[2018 Victorian state election|2018 election]] and again at the [[2022 Victorian state election|2022 election]], winning 56 seats. The [[Liberal–National Coalition (Victoria)|Liberal–National Coalition]] gained one seat to 28 seats, the [[Australian Greens Victoria|Greens]] won 4 seats. In the [[Legislative Council of Victoria|Legislative Council]], the Labor party won 15 of the 40 seats.{{Citation needed|date=October 2026}}
+
+Andrews announced his resignation as premier and leader of the Labor Party on 26 September 2023, the resignation being formally effected the following day. This precipitated a [[2023 Victorian Labor Party leadership election|leadership election]] within the Labor party-room, which was won unopposed by Deputy Premier [[Jacinta Allan]] following hours of intense negotiations between members of Labor's [[Labor Left|left]] and [[Labor Right|right]] factions. Allan, of the left, was elected leader, with right-faction member and Education Minister [[Ben Carroll]] as her deputy.<ref>{{cite news |title=Jacinta Allan fends off late challenge to become 49th premier of Victoria |url=https://www.abc.net.au/news/2023-09-27/jacinta-allan-to-succeed-daniel-andrews-as-victorian-premier/102906268 |access-date=27 September 2023 |work=ABC News |date=27 September 2023 |language=en-AU |archive-date=27 September 2023 |archive-url=https://web.archive.org/web/20230927050753/https://www.abc.net.au/news/2023-09-27/jacinta-allan-to-succeed-daniel-andrews-as-victorian-premier/102906268 |url-status=live }}</ref> Allan became the second female premier in the state's history, following [[Joan Kirner]]'s 1990–1992 premiership.<ref>{{cite web |url=https://www.theguardian.com/australia-news/2023/sep/27/new-premier-victoria-jacinta-allan-daniel-andrews-resignation-labor |title=Jacina Allan to become premier of Victoria |last1=Kolovos |first1=Benita |last2=Ore |first2=Adeshola |work=[[The Guardian]] |date=27 September 2023 |accessdate=27 September 2023 |archive-date=27 September 2023 |archive-url=https://web.archive.org/web/20230927044156/https://www.theguardian.com/australia-news/2023/sep/27/new-premier-victoria-jacinta-allan-daniel-andrews-resignation-labor |url-status=live }}</ref> The government is seeking a fourth consecutive four-year term.{{Citation needed|date=October 2026}}
+
+Following the Liberal/National Coalition's defeat, Opposition Leader and Liberal leader [[Matthew Guy]] announced in his post-election [[concession speech]] he would resign the leadership of the party. This ensured a [[2022 Victorian Liberal Party leadership election|leadership election]] was held for the position, at which newly elected member for [[Electoral district of Hawthorn|Hawthorn]] [[John Pesutto]] defeated [[Brad Battin]] by one vote in a secret ballot of Liberal party-room MPs.<ref>{{cite news|first=Gus |last=McCubbing |title=John Pesutto wins Liberal leadership in Victoria by one vote |url=https://www.afr.com/politics/john-pesutto-wins-liberal-leadership-in-victoria-by-one-vote-20221208-p5c4ot |access-date=8 December 2022 |work=Australian Financial Review |date=8 December 2022}}</ref>
+
+Over the course of the parliament's term, there was one [[2023 Narracan state supplementary election|January 2023 supplementary election in Narracan]] following the death of a candidate ahead of the state election, and five by-elections, namely the [[2023 Warrandyte state by-election|August 2023 Warrandyte by-election]], the [[2023 Mulgrave state by-election|November 2023 Mulgrave by-election]], the February 2025 [[2025 Werribee state by-election|Werribee]] and [[2025 Prahran state by-election|Prahran]] by-elections, and the [[2026 Nepean state by-election|May 2026 Nepean by-election]]. In only the seat of Prahran was there a change in party representation, with the Greens losing the seat to the Liberals, whilst in the four other districts the incumbent party retained the seat.
+
+Aside from these by-elections, the Assembly's composition was altered by the removal of [[Will Fowles]] and [[Darren Cheeseman]] from the Labor caucus in October 2023 and April 2024 respectively, with both moving to the [[crossbench]] as "[[Independent Labor (Australia)|Independent Labor]]" MPs. The resignation of [[Sam Hibbins]] from the [[Australian Greens Victoria|Greens]] on 1 November 2024 also resulted in him briefly sitting on the crossbench as an [[Independent politician|independent]] MP, until his resignation from the parliament later that month, causing the aforementioned by-election in Prahran.<ref>{{cite web |author=Andy Yu |date=23 November 2024 |title=Prahran MP Sam Hibbins announces he is quitting parliament |url=https://www.abc.net.au/news/2024-11-23/prahran-mp-sam-hibbins-resigns-from-parliament/104639568 |work=ABC News}}</ref>
+
+On 27 December 2024, a [[2024 Victorian Liberal Party leadership spill|leadership spill]] resulted in [[Brad Battin]] replacing Pesutto as Liberal leader and leader of the opposition.<ref>{{Cite news |date=26 December 2024 |title=Victorian Liberals elect Brad Battin as new leader |url=https://www.abc.net.au/news/2024-12-27/vic-libs-john-pesutto-moira-deeming-brad-battin-jess-wilson/104764726 |access-date=27 December 2024 |work=ABC News |language=en-AU}}</ref> Pesutto's leadership came under intense pressure after a federal court judgement finding he defamed Liberal parliamentarian [[Moira Deeming]] and was ordered to pay $300,000 in damages.<ref>{{cite web|url=https://www.theguardian.com/australia-news/2024/dec/12/moira-deeming-wins-defamation-case-victorian-liberal-leader-john-pesutto-over-neo-nazi-comments-ntwnfb|title=John Pesutto defies calls to resign after being ordered to pay $300,000 for defaming Moira Deeming|author=Benita Kolovos|date=12 December 2024|work=The Guardian}}</ref> Battin's leadership lasted only eleven months, as he was defeated in another [[2025 Victorian Liberal Party leadership spill|leadership spill]], held on 18 November 2025, by [[Electoral district of Kew|Kew]] MP [[Jess Wilson]].<ref>{{Cite news |date=17 November 2025 |title=Jess Wilson becomes first woman to lead Victorian Liberals |url=https://www.abc.net.au/news/2025-11-18/victorian-liberal-leadership-spill-battin-wilson/106021260 |access-date=17 November 2025 |work=ABC News |language=en-AU}}</ref> Media reporting quoted several Liberal MPs [[Source (journalism)|on background]] complaining about Battin's alleged lack of focus on issues other than Victoria's [[Crime in Victoria|crime rates]].<ref>{{cite web|url=https://au.news.yahoo.com/liberals-seek-fresh-face-rise-164556462.html|title='New direction' as Liberals crown first woman leader|work=AAP|publisher=Yahoo News|date=18 November 2025|author=Callum Godde}}</ref>
+
+=== Rise of One Nation ===
+
+By early 2026, the right-wing [[One Nation]] party's polling had risen considerably, with many [[Opinion polling for the next Australian federal election|national polls showing them on a higher vote than the Liberal Party]]. One Nation polled more votes than the [[South Australian Liberal Party|Liberal Party]] at the [[2026 South Australian state election]], winning four seats to the Liberal Party's five. [[SA Labor]] meanwhile won in a landslide.{{Citation needed|date=October 2026}}
+
+Liberal Party members have had differing views of how to counter the One Nation surge, with former Premier [[Jeff Kennett]] urging the party to form an 'anti-Labor partnership' with One Nation. Meanwhile, Victorian Liberal president Phil Davis has warned his party against chasing One Nation "to the fringe of Australian politics", publicly chastising [[Peta Credlin]] and other Liberal members from its [[National Right (Liberal Party of Australia)|conservative faction]] for running an agenda "through Sky News and News Corp newspapers to divide and remake the party."<ref> {{Cite web |last=Grand |first=Chip Le |date=6 April 2026 |title=Liberals 'doomed if they try to become One Nation-lite' |url=https://www.theage.com.au/politics/victoria/liberals-doomed-at-victorian-election-if-they-try-to-become-one-nation-lite-warns-party-boss-20260406-p5zlm4.html |access-date=4 June 2026 |website=The Age |language=en}}</ref>
+
+===Labor Party leadership change===
+{{main|2026 Victorian Labor Party leadership election}}
+In July 2026, a leadership election for the Victorian Labor Party occurred after weeks of poor opinion polling for the incumbent [[Allan government]]. Allan initially planned  to contest the ballot. However, after Deputy Premier Ben Carroll announced that he would challenge Allan's leadership, Allan pulled out of the contest and resigned as Victorian Premier.<ref>{{cite news |url=https://www.abc.net.au/news/2026-07-28/victorian-premier-jacinta-allan-ben-carroll-leadership-challenge/106791246 |access-date=28 July 2026 |date=28 July 2026 |title=Live: Yelling heard in Victorian Labor meeting as surprise nomination throws caucus into chaos |publisher=[[ABC News (Australia)|ABC News]]}}</ref> Carroll was then elected unopposed Labor leader and the 50th Premier of Victoria.<ref>{{cite web |title=Ben Carroll sworn in as Victorian premier, immediately calls construction royal commission — as it happened |url=https://www.abc.net.au/news/2026-07-28/victorian-premier-jacinta-allan-ben-carroll-leadership-challenge/106791246 |website=abc.net.au |date=27 July 2026 |publisher=Australian Broadcasting Corporation |access-date=28 July 2026}}</ref>
+
+== Key dates ==
+In accordance with the timetable set out in the ''[https://www.legislation.vic.gov.au/in-force/acts/electoral-act-2002/071 Electoral Act 2002]'', the terms of elected officials to Victoria's parliament are fixed to a four-year term, unless the [[Governor of Victoria|Governor]] is advised to [[Dissolution of parliament#Parliament of Victoria|dissolve parliament]]. All elections since 2006 have occurred every four years on the last Saturday of November, in this instance falling on Saturday 28 November 2026.<ref name="parliament.vic.gov.au-2015">{{cite web |title=Fact Sheet G3: Elections |url=https://www.parliament.vic.gov.au/assembly/publications-a-research/fact-sheets/2453-fact-sheet-g3 |website=Parliament of Victoria |access-date=6 November 2022 |date=10 March 2015 |archive-date=17 June 2016 |archive-url=https://web.archive.org/web/20160617121257/http://www.parliament.vic.gov.au/assembly/publications-a-research/fact-sheets/2453-fact-sheet-g3 |url-status=dead}}</ref>
+
+The key dates in relation to this election are:
+* '''3 November 2026''': [[Writ of election|Writs]] of election issued by the Governor.<ref name=Writs2026>{{cite web|url=https://www.gazette.vic.gov.au/gazette/Gazettes2026/GG2026S690.pdf|title=Victoria Government Gazette - No. S 690|date=3 November 2026|work=gazette.vic.gov.au}}</ref> This has the effect of expiring both chambers of the parliament, meaning that there are no longer any members, the business of parliament ends until a new parliament is formed, and the government enters into a [[Caretaker government|caretaker period]].<ref>{{cite web |title=Fact Sheet A2: Terminology used in Parliament |url=https://www.parliament.vic.gov.au/assembly/publications-a-research/fact-sheets/2-legislative-assembly/articles/2467-fact-sheet-a2 |website=Parliament of Victoria |access-date=7 November 2022 |date=24 March 2015 |archive-date=7 November 2022 |archive-url=https://web.archive.org/web/20221107003934/https://www.parliament.vic.gov.au/assembly/publications-a-research/fact-sheets/2-legislative-assembly/articles/2467-fact-sheet-a2 |url-status=dead}}</ref>
+* '''3 November 2026''': [[Electoral roll]] closed.<ref name=Writs2026/>
+* '''9 November 2026''': Candidate nominations closed.<ref name=Writs2026/>
+* '''18 November 2026''': [[Early voting]] commences.<ref>{{Cite web |last=VEC |title=Voting options |url=https://www.vec.vic.gov.au/voting/2026-state-election/voting-options |access-date=27 September 2026 |website=www.vec.vic.gov.au |publisher=VEC |language=en}}</ref>
+* '''28 November 2026''': [[Election day]].<ref name=Writs2026/>
+* '''19 December 2026''': Final day for the writs to be returned.<ref name=Writs2026/>
+
+== Electoral system ==
+[[File:Vicparliament2024 b (cropped).jpg|thumb|[[Parliament House, Melbourne]] which houses both the Legislative Assembly and
+Council chambers]]
+Eligible Victorian electors are required to cast a ballot due to [[compulsory voting]] laws. The eligibility criteria for enrolment to vote includes being 18 years or older, an Australian citizen, and to have lived in Victoria for longer than a month.<ref>{{cite web |title=State elections |url=https://www.vec.vic.gov.au/voting/types-of-elections/state-elections |website=[[Victorian Electoral Commission]] |access-date=4 November 2022 |archive-date=12 August 2023 |archive-url=https://web.archive.org/web/20230812014801/https://vec.vic.gov.au/voting/types-of-elections/state-elections |url-status=live}}</ref>
+
+=== Legislative Assembly ===
+
+For the election of members to [[single seats]] of the [[Victorian Legislative Assembly|Legislative Assembly]], the [[Victorian Electoral Commission]] (VEC) uses [[Instant-runoff voting|full preferential voting]] where for a vote to count, it is required to number every box on the ballot in the order of the most preferred candidate for the particular [[Electoral districts of Victoria|electoral district]] an elector is registered to vote in.<ref name="VEC">{{cite web |title=Preferential voting |url=https://www.vec.vic.gov.au/voting/how-voting-works/preferential-voting |website=[[Victorian Electoral Commission]] |access-date=6 November 2022 |language=en |archive-date=7 November 2022 |archive-url=https://web.archive.org/web/20221107000646/https://www.vec.vic.gov.au/voting/how-voting-works/preferential-voting |url-status=live}}</ref> The election will cover all 88 Seats of the Victorian Legislative Assembly.<ref>{{cite web |title=State districts |url=https://www.vec.vic.gov.au/electoral-boundaries/state-districts |website=[[Victorian Electoral Commission]] |access-date=6 November 2022 |language=en |archive-date=7 November 2022 |archive-url=https://web.archive.org/web/20221107000644/https://www.vec.vic.gov.au/electoral-boundaries/state-districts |url-status=live}}</ref>
+
+=== Legislative Council ===
+In the [[Victorian Legislative Council|Legislative Council]], five members are elected from each of the state's eight electoral [[Electoral regions of Victoria|regions]], ensuring a total of 40 members are elected to serve in the council. The eight regions each cover eleven lower house seats, resulting in uneven population distributions between the regions.<ref name=ConversationUpperHouse>{{cite web|url=https://theconversation.com/wholl-hold-power-in-the-victorian-upper-house-after-the-state-election-294349|title=Who'll hold power in the Victorian upper house after the state election?|date=5 November 2026|work=The Conversation|author=Zareh Ghazarian}}</ref> At this election, a voter is required to vote either above the line for at least five parties or grouping of candidates in order of their preference; or vote below the line for at least five individual candidates in order of their preference. This creates a form of [[proportional representation]], using the [[single transferable vote]] and [[optional preferential voting]] mechanisms.<ref name=ConversationUpperHouse/>
+
+====Reforms to council's electoral system====
+Ahead of this election the parliament passed [[electoral reform]] legislation to change the electoral system for the Legislative Council.<ref name="Kolovos-2026">{{cite web|url=https://www.theguardian.com/australia-news/2026/aug/12/victorian-microparty-mps-including-georgie-purcell-to-face-re-election-struggle-after-group-voting-tickets-abolished|title=Victorian microparty MPs including Georgie Purcell to face re-election struggle after group voting tickets abolished|work=The Guardian|date=12 August 2026|author=Benita Kolovos}}</ref> Under the former system that was first adopted for the [[2006 Victorian state election|2006 state election]], members were elected in one of the eight regions by electors who could vote either above the line or below the line,<ref name="VEC" /><ref>{{cite web |title=State regions |url=https://www.vec.vic.gov.au/electoral-boundaries/state-regions |website=[[Victorian Electoral Commission]] |access-date=6 November 2022 |language=en |archive-date=7 November 2022 |archive-url=https://web.archive.org/web/20221107000650/https://www.vec.vic.gov.au/electoral-boundaries/state-regions |url-status=live}}</ref> however above-the-line voters could only vote for only one party or grouping of candidates. Preferences were then automatically distributed based on the registered preference order provided to the VEC by the party-submitted [[group voting ticket]].<ref name="VEC" /><ref name="Kolovos-2026"/> When voting below the line voters were required to number a minimum of five boxes on the ballot in order of preference.<ref name="VEC" /> 
+
+By 2026, Victoria's upper house had become the last remaining state or territory legislative chamber to utilise these group voting tickets to automatically distribute voter's above-the-line preferences,<ref name="Kolovos-2024">{{cite web|url=https://www.theguardian.com/australia-news/2024/oct/29/victoria-upper-house-election-changes-preferences-labor-inquiry|title=Elections for Victoria's upper house could be overhauled under proposals to stamp out 'preference whispering'|work=[[Guardian Australia|The Guardian]]|date=29 October 2024|author=Benita Kolovos}}</ref> with [[Western Australia]] abolishing the practice ahead of the [[2025 Western Australian state election#Legislative Council voting changes|2025 state election]]. Victoria's system had led to election results in the upper house becoming unrepresentative of the actual votes received, with so-called 'preference whisperers' such as [[Glenn Druery]] organising ideologically disparate [[Microparty|microparties]] to direct their preferences to each other, allowing candidates to be elected despite receiving less than 1% of the vote in some cases.<ref>{{cite web|url=https://antonygreen.com.au/how-gvts-have-distorted-victorian-legislative-council-elections/ |title=How GVTs Have Distorted Victorian Legislative Council Elections |website=Antony Green's Election Blog |last1=Green |first1=Antony |author-link=Antony Green |date=11 August 2026 |accessdate=11 August 2026}}</ref><ref>{{cite web|url=https://www.theage.com.au/politics/victoria/the-dark-art-of-election-preference-harvesting-comes-under-scrutiny-20230222-p5cmpk.html |title=The dark art of election preference harvesting comes under scrutiny |website=The Age |last1=Eddie |first1=Rachel |date=22 February 2023 |accessdate=11 August 2026}}</ref>
+
+Attempts to reform the system to more closely reflect the system used for the [[Australian Senate]] and other state-based upper houses were rejected by former Premier [[Daniel Andrews]], who described proponents of change as being "quite heavily motivated by wanting to get more of their people elected".<ref>{{cite web|url=https://www.abc.net.au/news/2023-08-10/victoria-microparties-upper-house-voting-election-system/102708204|title=Integrity of Victoria's upper house voting system a major concern for voters, inquiry submissions show|author=Richard Willingham|date=10 August 2023|work=ABC News}}</ref> Submissions to the post-2022 state election parliamentary inquiry calling for the abolition of the automatic above-the-line preference distributions eventually led to the parliament's Electoral Matters Committee (EMC) to examine the issue.<ref name="Nicholas-2025"/> Throughout 2025 the EMC oversaw an inquiry into reforming the electoral voting method for the Legislative Council.<ref name="Nicholas-2025">{{cite web|url=https://www.theguardian.com/news/ng-interactive/2025/dec/01/voting-in-victoria-is-broken-heres-how-it-could-be-fixed-and-who-would-benefit|title=Voting in Victoria is broken. Here's how it could be fixed and who would benefit|work=The Guardian|date=2 December 2025|author=Josh Nicholas, Benita Kolovos, Andy Ball, Nick Evershed and Ben Raue}}</ref> Any reform required the approval of both houses of parliament, whilst an alteration to the structure of the upper house, such as the number of members elected to the chamber or the eight regions from which they are elected, would require a vote at a state-wide [[referendum]].<ref name="Kolovos-2024"/><ref>{{cite web|url=https://www.parliament.vic.gov.au/electoralsysteminquiry|title=Inquiry into Victoria's Upper House electoral system|work=parliament.vic.gov.au}}</ref> 
+
+The EMC handed down its report in December 2025, recommending that group voting tickets be abolished and the "weighted inclusive Gregory method for surplus vote transfers" be adopted prior to the 2026 election.<ref name="parliament.vic.gov.au-2025">{{cite web|url=https://www.parliament.vic.gov.au/4ad9a5/contentassets/3d48e4bf35d841f0972a6f8d0b893cec/emc-60-03_vic-upper-house-electoral-system.pdf|title=Inquiry into Victoria's Upper House electoral system|work=Electoral Matters Committee|publisher=parliament.vic.gov.au|date=2 December 2025}}</ref> The committee further recommended a new process be established, involving either an expert panel, a citizens assembly or a constitutional convention, to consider changes to the electoral structure of the council which could be considered by voters at a referendum in 2028 or 2030.<ref name="parliament.vic.gov.au-2025"/>
+
+The issue received renewed scrutiny in April 2026, when [[far-right]] commentator and former IDF soldier [[Avi Yemini]] announced his intention to set up the "[[Palestinian statehood|Free Palestine]]" party in a bid to attract votes from [[left-wing]] voters and redirect preferences of votes the party receives to [[right-wing]] parties.<ref>{{cite web|url=https://www.abc.net.au/news/2026-04-30/avi-yemini-free-palestine-political-party-concerns-experts/106618082|title='Free Palestine' party pitched by YouTuber Avi Yemini to funnel votes to conservatives|work=ABC News|author=Leanne Wong|date=30 April 2026}}</ref> Other [[Fake party|fake parties]] such as Climate Action Now, registered by anti-lockdown and COVID-19 conspiracy theorist [[Monica Smit]], and I'm Voting to Avoid the Fine, founded by her brother, were also registered ahead of the election with the intention to preference votes to parties such as [[One Nation]] and [[Family First Party (2021)|Family First]].<ref>{{Cite web |title=New political parties are exploiting Victoria's archaic electoral system |url=https://www.abc.net.au/news/2026-07-15/victoria-election-group-voting-tickets-one-nation/106914588 |last=Briggs |first=Casey |date=2026-07-15 |website=ABC News}}</ref> 
+
+The electoral commission responded by confirming it had no authority to prevent parties from adopting misleading names, and in June the commission began the process of registering "Free Palestine" as a political party.<ref>{{cite web|url=https://www.abc.net.au/news/2026-06-06/victorian-state-politics-analysis-upper-house-voting/106765794|title=Why Victoria's upper house voting regime leaves much to be desired, allowing secret backroom deals and preference swaps|author=Richard Willingham|date=6 June 2026|work=ABC News}}</ref> In July 2026 ''[[The Age]]'' reported that the [[Jacinta Allan ministry|Allan government]] was set to introduce legislation by the end of the month to abolish group voting tickets.<ref>{{cite web|url=https://www.smh.com.au/politics/victoria/election-law-overhaul-set-to-hurt-crossbenchers-and-help-one-nation-20260711-p60ehj.html|title=Election law overhaul set to hurt crossbenchers – and help One Nation|author=Kieran Rooney and Patrick Hatch|work=The Age|date=11 July 2026|url-access=subscription}}</ref>
+
+The government introduced the ''Electoral Amendment (Miscellaneous Matters) Bill 2026'' to the parliament on 28 July.<ref name="legislation.vic.gov.au">{{cite web|url=https://www.legislation.vic.gov.au/bills/electoral-amendment-miscellaneous-matters-bill-2026|title=Electoral Amendment (Miscellaneous Matters) Bill 2026|work=legislation.vic.gov.au}}</ref> The bill required voters to number at least five boxes for parties above the line, in order of preference, or else number at least five boxes for individual candidates below the line.<ref>{{cite web|url=https://content.legislation.vic.gov.au/sites/default/files/bills/601335exi1.pdf|title=Explanatory Memorandum: Electoral Amendment (Miscellaneous Matters) Bill 2026|work=legislation.vic.gov.au|quote=Clause 15 substitutes section 93A(1), (2) and (3) of the Electoral Act 2002...New subsection (2) outlines the new proposed method of voting  above the line. It requires electors to sequentially number at least numbers 1 to 5 to indicate their preference by group, if there are more than 5 groups or if there are 5 groups or less, by numbering all the squares consecutively from number 1 in order of preference. New subsection (3) outlines the method of voting below the line, which is to vote by candidates. It requires electors to consecutively number at least numbers 1 to 5 to indicate their preference by candidates and is the same as the existing method for voting for candidates.|page=4}}</ref> Like the system in place for the Senate, a savings provision is incorporated so as to enable voters who mark a clear 1 but fail to number their top five preferences clearly, to still have their vote counted as formal.<ref>{{cite web|url=https://www.tallyroom.com.au/65241|title=The end of group voting tickets – bill revealed|date=29 July 2026|author=Ben Raue|work=The Tally Room}}</ref> The electoral commission is also tasked with publishing information about newly registered political parties, a response to Yemini and other's efforts to establish parties titled with generally misleading names.<ref>{{cite web|url=https://www.premier.vic.gov.au/making-victorias-elections-fairer-and-more-transparent|title=Making Victoria's Elections Fairer and More Transparent|date=29 July 2026|work=premier.vic.gov.au}}</ref> The bill passed the [[Legislative Assembly of Victoria|Legislative Assembly]] without any recorded objections  on 29 July, and passed the [[Legislative Council of Victoria|Legislative Council]] by 33 votes to 4 on 11 August 2026.<ref name="Kolovos-2026"/><ref name="legislation.vic.gov.au"/><ref>{{cite web|url=https://kevinbonham.blogspot.com/2026/07/group-ticket-voting-going-going-rolling.html|title=Group Ticket Voting: Going, Going ... ? (Rolling Thread)|date=28 July 2026|work=Dr Kevin Bonham}}</ref> The legislation received [[royal assent]] on 18 August 2026 and went into effect the following day.<ref>{{cite web|url=https://content.legislation.vic.gov.au/sites/default/files/2026-08/26-028aa-authorised.pdf|title=Electoral Amendment (Miscellaneous Matters) Act 2026|work=legislation.vic.gov.au}}</ref>
+
+{{cot|Details of Legislative Council vote to abolish group voting tickets}}
+{| class="wikitable" style="width:100%"
+|+ Electoral Amendment (Miscellaneous Matters) Bill 2026 – [[Third Reading]]<ref>{{cite web|url=https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-974425065-36178#division-marker-6|title=Hansard, Tuesday 11 August 2026|work=Parliament of Victoria|date=11 August 2026}}</ref>
+|-
+! style="width:30%;" colspan="2"| Party !! style="width:25%;"| Votes for !! style="width:25%;"| Votes against !! style="width:25%;"| Absent/Abstained 
+|-
+| {{party name with colour|Victorian Labor Party}} (15)
+| {{collapsible list |title= 15 |1=[[Ryan Batchelor]] |2=[[John Berger (politician)|John Berger]] |3=[[Lizzie Blandthorn]] |4=[[Enver Erdogan]] |5=[[Jacinta Ermacora]] |6=[[Michael Galea (politician)|Michael Galea]] |7=[[Shaun Leane]] |8=[[Tom McIntosh (politician)|Tom McIntosh]] |9=[[Harriet Shing]] |10=[[Ingrid Stitt]] |11=[[Jaclyn Symes]] |12=[[Lee Tarlamis]] |13=[[Sonja Terpstra]] |14=[[Gayle Tierney]] |15=[[Sheena Watt]]}}
+| –
+| –
+|-
+| {{party name with colour|Victorian Liberal Party}} (11)
+| {{collapsible list |title= 11 |1=[[Georgie Crozier]] |2=[[David Davis (Australian politician)|David Davis]] |3=[[Renee Heath]] |4=[[Ann-Marie Hermans]] |5=[[Wendy Lovell]] |6=[[Trung Luu]] |7=[[Bev McArthur]] |8=[[Joe McCracken]] |9=[[Nick McGowan]] |10=[[Evan Mulholland]] |11=[[Richard Welch (Australian politician)|Richard Welch]]}}
+| –
+| –
+|-
+| {{party name with colour|Victorian Greens}} (4)
+| {{collapsible list |title=4 |1= [[Katherine Copsey]] |2=[[Anasina Gray-Barberio]] |3=[[Sarah Mansfield]] |4=[[Aiv Puglielli]]}}
+| –
+| –
+|-
+| {{party name with colour|Victorian National Party}} (2)
+| {{collapsible list |title= 2 |1= [[Melina Bath]] |2=[[Gaelle Broad]]}}
+| –
+| –
+|-
+| {{party name with colour|Legalise Cannabis Australia}} (2)
+| –
+| {{collapsible list |title= 1 |1= [[Rachel Payne]]}}
+| {{collapsible list |title= 1 |1= [[David Ettershank]]}}
+|-
+| {{party name with colour|Animal Justice Party}} (1)
+| –
+| {{collapsible list |title= 1 |1=[[Georgie Purcell]]}}
+| –
+|-
+| {{party name with colour|Libertarian Party (Australia)}} (1)
+| –
+| {{collapsible list |title= 1 |1=[[David Limbrick]]}}
+| –
+|-
+| {{party name with colour|One Nation}} (1)
+| {{collapsible list |title= 1 |1= [[Rikkie-Lee Tyrrell]]}} 
+| –
+| –
+|-
+| {{party name with colour|Shooters, Fishers and Farmers Party}} (1)
+| –
+| {{collapsible list |title= 1 |1=[[Jeff Bourman]]}}
+| –
+|-
+| {{party name with colour|Independent}} (2)
+| –
+| –
+| {{collapsible list |title= 2 |1=[[Moira Deeming]] |2=[[Adem Somyurek]]}}
+|-
+!colspan=2| Total !! 33 !! 4 !! 3
+|}
+{{cob}}
+
+==Registered parties==
+{{see also|List of political parties in Australia#Victoria}}
+Below are the parties registered by the [[Victorian Electoral Commission]]:<ref>{{cite web |title=Currently registered parties |url=https://www.vec.vic.gov.au/candidates-and-parties/registered-political-parties/currently-registered-parties |publisher=[[Victorian Electoral Commission]] |access-date=27 October 2026 |archive-url=https://web.archive.org/web/20261027231709/https://www.vec.vic.gov.au/candidates-and-parties/registered-political-parties/currently-registered-parties |archive-date=27 October 2026 |url-status=live}}</ref>
+
+{{colbegin|colwidth=22em}}
+* [[Animal Justice Party]]
+* [[Australian Citizens Party]]
+* [[Australian Democrats]]
+* [[Australian Greens Victoria|Australian Greens]]
+* [[Australian Labor Party (Victorian Branch)|Australian Labor Party]]
+* [[Christian Alliance Party – Reform AU]]
+* [[Climate Action Now]]
+* [[Democratic Labour Party (Australia, 1980)|Democratic Labour Party]]
+* [[Family First Party (2021)|Family First Victoria]]
+* [[Free Palestine (Australia)|Free Palestine]]
+* [[I'm Voting to Avoid the Fine]]
+* [[Legalise Cannabis Australia|Legalise Cannabis]]
+* [[Liberal Party of Australia (Victorian Division)|Liberal Party]]
+* [[Libertarian Party (Australia)|Libertarian Party]]
+* [[Victorian National Party|National Party]]
+* [[One Nation]]
+* [[Put Australia First, Save the Environment]]
+* [[Freedom Party of Victoria|Safety Victoria – Violent Crime Prevention]]
+* [[Shooters, Fishers and Farmers Party]]
+* [[Socialist Alliance (Australia)|Socialist Alliance]]
+* [[Sustainable Australia Party]]
+* [[The Republican Make Australia Great Again]]
+* [[The West Party]]
+* [[Victorian Socialists]]
+{{Colend}}
+
+== Candidates and retiring MPs ==
+{{main|Candidates of the 2026 Victorian state election}}
+
+The following members either did not nominate or announced that they will not contest the 2026 election:
+=== Labor ===
+*[[Jackson Taylor]] MLA ([[Electoral district of Bayswater|Bayswater]]) – announced 23 September 2025<ref name="Eddie-2025">{{Cite web |last=Eddie |first=Rachel |date=23 September 2025 |title=Retiring MPs leave Labor exposed in two marginal seats |url=https://www.theage.com.au/politics/victoria/retiring-mps-leave-labor-exposed-in-two-marginal-seats-20250923-p5mxck.html |access-date=30 September 2025 |website=The Age |language=en}}</ref>
+*[[Steve McGhie]] MLA ([[Electoral district of Melton|Melton]]) – announced 23 September 2025<ref name="Eddie-2025" />
+*[[Emma Vulin]] MLA ([[Electoral district of Pakenham|Pakenham]]) – announced 30 September 2025<ref>{{cite web |url=https://pakenhamnews.starcommunity.com.au/news/2025-10-01/vulin-will-not-re-contest-pakenham-seat-in-2026-mp-announces/|title=Vulin will not re-contest Pakenham seat in 2026, MP announces|newspaper=Pakenhan Officer Star News|date=1 October 2025|accessdate=18 November 2025|last1=Everitt|first1=Corey}}</ref>
+*[[Jordan Crugnale]] MLA ([[Electoral district of Bass|Bass]]) – announced 2 October 2025<ref>{{cite web |url=https://www.basscoastpost.com/news/crugnale-to-step-down|title=Crugnale to step down|website=Bass Coast Post|last1=Watson|first1=Catherine|date=2 October 2025|accessdate=18 November 2025}}</ref>
+*[[Natalie Hutchins]] MLA ([[Electoral district of Sydenham|Sydenham]]) – announced 16 October 2025<ref>{{cite web |url=https://meltonmoorabool.starweekly.com.au/news/sydenham-mp-to-step-down/|title=Sydenham MP to step down|website=Melton & Moorabool Star Weekly|date=17 October 2025|accessdate=18 November 2025}}</ref>
+* [[Shaun Leane]] MLC ([[North-Eastern Metropolitan Region]]) – announced 1 December 2025<ref>{{cite web | url=https://x.com/ShaunLeaneMP/status/1995301955300962511?s=20|title=Statement from Shaune Leane MLC|website=x|date=1 December 2025|accessdate=1 December 2025}}</ref>
+* [[Danny Pearson (politician)|Danny Pearson]] MLA ([[Electoral district of Essendon|Essendon]]) – announced 10 April 2026<ref name="Galloway-2026">{{cite web|url=https://www.theaustralian.com.au/nation/up-to-four-ministers-to-quit-as-allan-resets-cabinet/news-story/7c9d068e161a642124157dd421008026?amp&nk=fad2e8b520636ccfda29dc31706338b4-1775792932|title=Up to four ministers to quit as Allan resets cabinet: Up to four members of Jacinta Allan's cabinet are poised to announce their retirements in the coming days, as Labor's factions manoeuvre over a significant pre-election reshuffle|newspaper=The Australian|last1=Galloway|first1=Anthony|date=10 April 2026|accessdate=10 April 2026}}</ref>
+* [[Mary-Anne Thomas]] MLA ([[Electoral district of Macedon|Macedon]]) – announced 10 April 2026<ref name="Galloway-2026"/>
+* [[Gayle Tierney]] MLC ([[Western Victoria Region]]) – announced 10 April 2026<ref name="Galloway-2026"/>
+* [[Gary Maas]] MLA ([[Narre Warren South]]) – announced 5 June 2026<ref>{{Cite web |title=Statement From The Premier |url=https://www.premier.vic.gov.au/statement-premier-168 |access-date=2026-11-20 |website=www.premier.vic.gov.au |language=en-au}}</ref>
+* [[Lily D'Ambrosio]] MLA ([[Electoral district of Mill Park|Mill Park]]) – announced 30 July 2026<ref name="ABC-2026">{{Cite web|url=https://www.abc.net.au/news/2026-07-30/victorian-mp-harriet-shing-retirement/106977588|title=Two Victorian ministers resign, including last from first Andrews cabinet|work=ABC News |date=30 July 2026|via=www.abc.net.au}}</ref>
+* [[Harriet Shing]] MLC ([[Eastern Victoria Region]]) – announced 30 July 2026<ref name="ABC-2026"/>
+* [[Jacinta Allan]] MLA ([[Bendigo East]]) – announced 14 August 2026<ref>{{Cite news |date=14 August 2026 |title=Former Victorian premier Jacinta Allan quitting politics |url=https://www.abc.net.au/news/2026-08-14/jacinta-allan-former-victorian-premier-quitting-politics/106791250 |access-date=14 August 2026 |work=ABC News |language=en-AU}}</ref>
+* [[Maree Edwards]] MLA ([[Bendigo West]]) – announced 27 August 2026<ref>{{Cite news |date=14 August 2026 |title='A challenging year': why Maree Edwards has pulled out of race for election |url=https://www.bendigoadvertiser.com.au/story/9338911/labors-bendigo-election-fight-in-tatters-after-two-mps-quit/ |access-date=27 August 2026 |work=Bendigo Advertiser |language=en-AU}}</ref>
+* [[Darren Cheeseman]] MLA{{efn|group=lower-alpha|In 2024, Cheeseman was suspended from the Labor Party caucus. He still remains a rank-and-file member of the party.<ref>{{cite news |last1=Kolovos |first1=Benita |title=Jacinta Allan dumps Victorian Labor MP from caucus after fresh allegations emerge |url=https://www.theguardian.com/australia-news/2024/apr/30/victoria-labor-mp-darren-cheeseman-dismissed-party-room-allegations |access-date=2024-05-02 |agency=[[The Guardian (Australia)|The Guardian]] |date=2024-04-30 |quote=Allan said it was a matter for the wider Labor party whether to remove him as a member.}}</ref>}} ([[Electoral district of South Barwon|South Barwon]]) – did not nominate 9 November 2026.<ref>{{cite news |last1=Tippet |first1=Harrison |title=Geelong MP Darren Cheeseman collects $60k for Melbourne stays despite attendance concerns |url=https://www.abc.net.au/news/2026-10-27/darren-cheeseman-mp-attendance-concerns/107308420 |access-date=7 November 2026 |work=[[Australian Broadcasting Corporation]] |date=27 October 2026}}</ref><ref>{{cite web |title=Nominations |url=https://www.vec.vic.gov.au/electoral-boundaries/state-districts/south-barwon-district/nominations |website=[[Victorian Electoral Commission]] |access-date=9 November 2026}}</ref>
+
+=== Liberal ===
+*[[Bill Tilley]] MLA ([[Electoral district of Benambra|Benambra]]) – announced 13 March 2024<ref>{{cite news |last=Deery |first=Shannon |date=13 March 2024 |title=
+Bill Tilley announces this will be his last term in office |url=https://www.heraldsun.com.au/news/victoria/bill-tilley-is-battling-leukaemia/news-story/af7af5fb5186c5e9237d558e40196764 |work=Herald Sun |access-date=13 March 2024}}</ref>
+*[[David Hodgett]] MLA ([[Electoral district of Croydon (Victoria)|Croydon]]) – announced 6 August 2025<ref>{{cite news | last=Douglas |first=Carly | date=6 August 2025 |title=Senior Victorian Liberal David Hodgett won't seek preselection in state election |url=https://www.heraldsun.com.au/news/victoria/time-for-me-to-leave-outgoing-senior-victorian-liberal-david-hodgett-throws-support-behind-leader-brad-battin/news-story/7368e382cae2c0465803fefa8df5bcdf |work=Herald Sun |access-date=9 August 2025}}</ref>
+*[[Michael O'Brien (Victorian politician)|Michael O'Brien]] MLA ([[Electoral district of Malvern|Malvern]]) – announced 9 September 2025<ref>{{Cite web |last=Eddie |first=Rachel |date=9 September 2025 |title=Former Liberal leader Michael O'Brien to quit parliament |url=https://www.theage.com.au/politics/victoria/former-liberal-leader-michael-o-brien-to-quit-parliament-20250909-p5mtjh.html |access-date=9 September 2025 |website=The Age |language=en}}</ref>
+*[[Kim Wells (Victorian politician)|Kim Wells]] MLA ([[Electoral district of Rowville|Rowville]]) – announced 14 September 2025<ref>{{cite web|url=https://www.heraldsun.com.au/news/victoria/longtime-mp-kim-wells-quits-after-three-decades/news-story/79711b53ab0788b303a73aaae4925b20|title=Wells joins O'Brien, Hodgett in Liberals exodus|website=Herald Sun|date=14 September 2025|accessdate=18 November 2025}}</ref>
+*[[Wendy Lovell]] MLC ([[Northern Victoria Region]]) – announced 5 January 2026<ref>{{Cite web |last=Smethurst |first=Rachel Eddie, Annika |date=4 January 2026 |title=Second Liberal MP announces retirement following Sam Groth resignation |url=https://www.theage.com.au/national/victoria/liberal-deputy-sam-groth-announces-retirement-20260105-p5nrn8.html |access-date=7 January 2026 |website=The Age |language=en}}</ref>
+*[[Joe McCracken]] MLC ([[Western Victoria Region]]) – announced 12 January 2026<ref>{{cite web |last=Hannaford |first=Patrick | date=12 January 2026 |title= Victorian Liberals hit with another resignation as Joe McCracken becomes second first term MP to quit parliament in as many weeks | url=https://www.news24.com.au/politics/victorian-liberals-hit-with-another-resignation-as-joe-mccracken-becomes-second-first-term-mp-to-quit-parliament-in-as-many-weeks/news-story/38a44464ec15ee63f432e62356f0684e | access-date=6 January 2026 |website=Sky News}}</ref>
+
+===National===
+*[[Peter Walsh (Victorian politician)|Peter Walsh]] MLA ([[Electoral district of Murray Plains|Murray Plains]]) – announced 26 November 2024<ref>{{cite news |last1=Willingham |first1=Richard |title=Victorian Nationals leader Peter Walsh stands down, Danny O'Brien elected as new party leader |url=https://www.abc.net.au/news/2024-11-26/peter-walsh-retires-nationals-leader-victoria/104646474 |access-date=26 November 2024 |work=[[ABC News (Australia)|ABC News]] |date=26 November 2024 |language=en}}</ref>
+*[[Tim Bull]] MLA ([[Gippsland East]]) – announced 19 May 2026<ref>{{cite news |last1=Whittaker |first1=Jarrod |title=Long-time Nationals MP Tim Bull decides not to contest 2026 Victorian election |url=https://www.abc.net.au/news/2026-05-19/tim-bull-east-gippsland-mp-victorian-election-nationals-mp/106695848 |access-date=19 May 2026 |work=[[ABC News (Australia)|ABC News]] |date=19 May 2026 |language=en}}</ref>
+*[[Kim O'Keeffe]] MLA ([[Electoral district of Shepparton|Shepparton]]) – announced 21 July 2026<ref>{{cite web|url=https://www.sheppnews.com.au/news/kim-okeeffe-will-not-recontest-her-seat/ |title=Kim O'Keeffe will not recontest her seat |website=Shepparton News |last1=Darling |first1=Ashley |date=21 July 2026 |accessdate=16 August 2026}}</ref>
+
+===Greens===
+*[[Tim Read]] MLA ([[Electoral district of Brunswick|Brunswick]]) – announced 29 January 2026<ref>{{cite web|url=https://www.abc.net.au/news/2026-01-29/brunswick-greens-mp-tim-read-reveals-cancer-diagnosis/106278032|title=Victorian Greens MP Tim Read to retire from state politics to focus on cancer battle|website=Australian Broadcasting Corporation|date=29 January 2026|accessdate=29 January 2026|last1=Willingham|first1=Richard}}</ref>
+
+Read died in September 2026.<ref>{{Cite web|url=https://www.abc.net.au/news/2026-09-19/brunswick-greens-mp-tim-read-dies-aged-64/107172620|title=Victorian Greens MP Tim Read dies aged 64|work=ABC News |date=19 September 2026|via=www.abc.net.au}}</ref>
+
+===Legalise Cannabis===
+*[[David Ettershank]] MLC ([[Western Metropolitan Region]]) – announced 2 June 2026<ref>{{cite web|url=https://www.cannabiz.com.au/legalise-cannabis-victoria-mp-david-ettershank-confirms-political-exit/ |title=Legalise Cannabis Victoria MP David Ettershank confirms political exit |website=Cannabis Australia |last1=Sheldon |first1=Adam |date=2 June 2026 |accessdate=4 August 2026}}</ref>
+
+=== Independent ===
+
+* [[Adem Somyurek]] MLC ([[Northern Metropolitan Region]]) – announced 24 September 2026<ref>{{Cite web |title=Adem Somyurek - Parliament of Victoria |url=https://www.parliament.vic.gov.au/members/adem-somyurek/ |access-date=2026-11-12 |website=[[Parliament of Victoria]] |language=en}}</ref>
+
+== Campaign ==
+[[File:Candidates at Ripon candidate debate, Newlyn.jpg|thumb|A debate in [[Newlyn, Victoria|Newlyn]] for the [[Electoral district of Ripon|Ripon electorate]]]]
+Victorian opposition leader [[Brad Battin]], announced at a state conference for the [[Victorian Liberal Party]] on 13 September 2025, that if elected his government would introduce increased stop-and-search powers for the [[Victoria Police|state's police force]]. The powers are modeled after legislation initially passed by the [[Queensland Government]], known as ''Jack's Law'' after [[Queensland]] teenager Jack Beasley who was fatally stabbed to death on the [[Gold Coast, Queensland|Gold Coast]] in 2019,<ref>{{Cite web |last=Williams |first=Claudia |date=11 June 2025 |title=Queensland makes Jack's Law permanent, expanding police powers to search people for knives |url=https://www.abc.net.au/news/2025-06-11/queensland-jacks-law-made-permanant-passes-parliament/105402610 |website=ABC News}}</ref> would see police and protective service officers (PSOs) equipped with metal detectors and the ability to stop-and-search individuals in public places at random as part of an effort to curb knife crime. Battin announced such powers would be granted by Christmas of 2026, less than a month after the elections are scheduled to be held.<ref>{{Cite news |last=Yu |first=Andi |date=12 September 2025 |title=Victorian opposition leader Brad Battin pledges action on knife crime by legislating 'Jack's Law' |url=https://www.abc.net.au/news/2025-09-13/victorian-liberal-brad-battin-jacks-law-weapon-search-policy/105767596 |url-status=live |archive-url=https://web.archive.org/web/20250913055653/https://www.abc.net.au/news/2025-09-13/victorian-liberal-brad-battin-jacks-law-weapon-search-policy/105767596 |archive-date=13 September 2025 |access-date=13 September 2025 |work=[[ABC News (Australia)|ABC News]] |language=}}</ref><ref>{{Cite news |last=Kolovos |first=Benita |date=13 September 2025 |title=Victorian Liberals must unite or face 'crisis', president warns as moderates swat away challenge for power |url=https://www.theguardian.com/australia-news/2025/sep/13/victorian-liberals-must-unite-or-face-crisis-president-warns-as-moderates-swat-away-challenge-for-power |url-status=live |archive-url=https://archive.today/20250913073704/https://www.theguardian.com/australia-news/2025/sep/13/victorian-liberals-must-unite-or-face-crisis-president-warns-as-moderates-swat-away-challenge-for-power |archive-date=13 September 2025 |access-date=13 September 2025 |work=The Guardian |language=en-GB |issn=0261-3077 |quote=Battin, meanwhile, used his speech to announce a $100m plan to tackle crime, which included a pledge to introduce Jack’s law – a Queensland law that permits police to randomly detain any person to search them with a metal detecting wand – in the state if elected next year.}}</ref><ref>{{Cite news |last=Galloway |first=Anthony |date=13 September 2025 |title=Victorian Liberal president survives challenge, warns of 'crisis' facing the party. |url=https://www.theaustralian.com.au/nation/politics/victorian-liberal-president-survives-challenge-warns-of-crisis-facing-the-party/news-story/042edc68a5747011871c93045b6ccab6 |url-status=live |archive-url=https://archive.today/20250913034224/https://www.theaustralian.com.au/nation/politics/victorian-liberal-president-survives-challenge-warns-of-crisis-facing-the-party/news-story/042edc68a5747011871c93045b6ccab6?amp |archive-date=13 September 2025 |access-date=13 September 2025 |work=[[The Australian]] |url-access=subscription |quote=In a speech to the state council, Victorian Opposition Leader Brad Battin pledged to give police sweeping new powers to tackle the state’s crime crisis, unveiling a $100m law and order package that would equip officers with hand-held metal detectors.}}</ref>
+
+The Liberal/National opposition additionally vowed to repeal the [[Statewide Treaty Act 2025|statewide treaty law]] within 100 days of government if it wins the 2026 Victorian state election.<ref name="Victorian_Coalition_vows_to_scrap_Australia2025-1">{{cite news |last1= |first1= |title=Victorian Coalition vows to scrap Australia's first statewide treaty with First Peoples if it wins government |url=https://www.theguardian.com/australia-news/2025/oct/14/victorian-coalition-vows-scrap-first-nations-treaty-if-wins-government |access-date=14 October 2025 |agency= |date=14 October 2025}}</ref> The party withdrew their support for the law, which saw bipartisan support when it passed in 2022, following the failure of the [[2023 Australian Indigenous Voice referendum|2023 national referendum]] on an [[Indigenous Voice to Parliament]].<ref>{{Cite web |last=Kolovos |first=Benita |last2=Ore |first2=Adeshola |date=22 January 2024 |title=Treaty could make people ‘feel more divided’, Victorian opposition leader says, as Coalition withdraws support |url=https://www.theguardian.com/australia-news/2024/jan/22/victoria-opposition-drops-support-for-indigenous-treaty |access-date=2026-11-11 |website=The Guardian}}</ref> After withdrawing support, the Coalition has proposed replacing the elected body instituted by the law, the [[First Peoples' Assembly of Victoria]], with an unelected body under a new statutory corporation called ''Gellung Warl.<ref name="Victorian_Coalition_vows_to_scrap_Australia2025-1" />''
+
+[[One Nation|Pauline Hanson's One Nation]] also vowed to repeal the legislation, without providing any alternative or replacement for it, at their campaign launch event held at [[Crown Melbourne|Crown Casino]] in Melbourne on 3 October. Additionally, the party stated it would cancel the under-construction [[Suburban Rail Loop]] project, promising to divert funds to the also under-construction [[Melbourne Airport Rail|Airport Rail]] line as well as the [[Railway electrification|electrification]] of railway line to [[Melton, Victoria|Melton]]. Plans to introduce artificial intelligence to [[Victoria Police]] in an attempt to free up front-line officers were also announced alongside sign-on bonuses and accommodation allowances, as well as lowering the [[Age of criminal responsibility in Australia|age of criminal responsibility]] to 10 years old.<ref name="ABC News-2026">{{cite web | url=https://www.abc.net.au/news/2026-10-03/one-nation-launches-victorian-election-campaign/107223676| title=One Nation pledges law-and-order investment while taking axe to SRL, Treaty and climate policies| work=ABC News| date=3 October 2026}}</ref><ref name="Bucci-2026">{{cite web | last1=Bucci| first1=Nino| url=https://www.theguardian.com/australia-news/2026/oct/03/one-nation-victoria-campaign-launch-abolish-first-nations-treaty-legalise-pepper-spray-ntwnfb| title=One Nation vows to abolish First Nations treaty and legalise pepper spray at Victorian campaign launch| work=The Guardian| date=3 October 2026}}</ref> 
+
+The event, which [[ABC News (Australia)|ABC News]] had been barred from entering, was hosted by [[Warren Pickering]], who had been announced as [[One Nation Victoria]]'s lead candidate two months ago on 2 August.<ref>{{Cite web |last=Delaney|first=Angus|date=2 August 2026|title=One Nation unveils Victorian candidates ahead of state election|url=https://www.theage.com.au/politics/victoria/one-nation-unveils-victorian-candidates-ahead-of-state-election-20260803-p60ksw.html|access-date=3 August 2026|website=The Age|language=en}}{{dead link|date=November 2026|bot=medic}}{{cbignore|bot=medic}}</ref> He was joined on stage by [[Pauline Hanson]], alongside incumbent MP [[Rikkie-Lee Tyrrell]] and candidates Colleen Harkin and Mark Nicholson.<ref name="ABC News-2026" /> The launch also featured an artificially generated campaign video that depicted a man of African-descent wielding a machete and a Middle Eastern man wearing a [[Explosive belt|suicide vest]]. When questioned about the video One Nation candidate Colleen Harkins defended the video, stating that it tackled the "general view about all the things that are going wrong in Australia" and denied that it was prejudiced, asking if people would have complained "if it was a white-skinned person or a female with blonde hair".<ref>{{Cite web |date=12 October 2026 |title=One Nation denies AI-generated video used to launch Victorian election campaign was racist |url=https://www.abc.net.au/news/2026-10-12/one-nation-denies-victorian-election-campaign-video-racist/107254888 |url-status=live |archive-url=https://web.archive.org/web/20261111025320/https://www.abc.net.au/news/2026-10-12/one-nation-denies-victorian-election-campaign-video-racist/107254888 |archive-date=2026-11-11 |access-date=2026-11-11 |website=ABC News}}</ref><ref>{{Cite web |last=Butler |first=Josh |date=9 October 2026 |title=One Nation’s AI video is vile and tired – but the ensloppification of Australian politics doesn’t stop there |url=https://www.theguardian.com/australia-news/2026/oct/09/one-nations-ai-video-is-vile-and-tired-but-the-ensloppification-of-australian-politics-doesnt-stop-there-ntwnfb |url-status=live |archive-url=https://web.archive.org/web/20261008140127/https://www.theguardian.com/australia-news/2026/oct/09/one-nations-ai-video-is-vile-and-tired-but-the-ensloppification-of-australian-politics-doesnt-stop-there-ntwnfb |archive-date=2026-10-08 |access-date=2026-11-11 |website=The Guardian}}</ref>
+
+Following the campaign launch, Government minister [[Nick Staikos]] criticised the party as "importing the worst of American politics to our state." When asked about comments made by Pauline Hanson, lambasting the Liberal/National opposition as being unreliable and untrustworthy against the incumbent Labor government, opposition leader [[Jess Wilson]] refused to mention One Nation by name instead stating that she knows "Victorians are looking for a change of government this year," and that the "only way to do that is to elect a Liberal and Nationals government."<ref name="ABC News-2026" />
+
+In mid-August the Coalition also vowed to reverse the ban on [[gas]] connections to new homes and promised to cap freeway tolls to a maximum of $50 per week for two years<ref name="JohnsonSinnott2026-1">{{Cite web |last=Johnson |first=Stan |last2=Sinnott |first2=Alex |date=18 October 2026 |title=Labor pledges freeway toll cap, Coalition vows gas ban repeal |url=https://www.abc.net.au/news/2026-10-18/labor-pledges-road-toll-cap-coalition-gas-policy/107280500 |url-status=live |archive-url=https://web.archive.org/web/20261111032321/https://www.abc.net.au/news/2026-10-18/labor-pledges-road-toll-cap-coalition-gas-policy/107280500 |archive-date=2026-11-11 |access-date=2026-11-11 |website=ABC News}}</ref>, mirroring a $50 weekly cap that had been introduced by New South Wales' [[New South Wales Labor Party|Labor government]] a month earlier alongside other cost-of-living relief policies.<ref>{{Cite web |last=Kozaki |first=Danuta |date=30 June 2026 |title=Toll and public transport relief among new measures in NSW from July 1 |url=https://www.abc.net.au/news/2026-06-30/tolls-public-transport-nsw-changes-from-july-1/106850992 |url-status=live |archive-url=https://web.archive.org/web/20261111031828/https://www.abc.net.au/news/2026-06-30/tolls-public-transport-nsw-changes-from-july-1/106850992 |archive-date=2026-11-11 |access-date=2026-11-11 |website=ABC News}}</ref> In response the Victorian Labor government pledged a $30 weekly cap on freeway tolls,<ref name="JohnsonSinnott2026-1" /> announcing the day after, on 18 October, that they would also introduce a similar $30 weekly cap on public transport fares.<ref>{{cite web | title=Victorian Labor pledges public transport fare cap as business chamber raises cost concerns | work=ABC News | date=19 October 2026 | url=https://www.abc.net.au/news/2026-10-19/victorian-labor-pledges-public-transport-fare-cap/107280670 |last=Sinott|first=Alex|last2=Wong|first2=Leanne}}</ref>
+
+Shortly after, the Liberal party's [[Minister for Public and Active Transport|Shadow Minister for Public Transport]] [[Matthew Guy]] announced promises to order 25 new [[Electro-diesel locomotive|hybrid diesel-electric trains]] to service the line to Melton, which has awaited electrification since the [[Western Rail Plan]] was proposed in 2018. Guy stated that hybrid trains would allow suburban trains to [[Melton, Victoria|Melton]] and [[Wyndham Vale]] in a "realistic timeframe", instead of waiting for electrification which was "never going to happen." The proposal was heavily criticised with Minister for Public Transport [[Vicki Ward]] stating that such trains would "become redundant when electrification comes through." Rail Futures Institute president John Hearsch stated that safety concerns with large volumes of diesel fuel in underground rail tunnels would also likely prevent regulatory approval for hybrid locomotives to run through the [[City Loop]] as Guy had proposed.<ref>{{Cite web |last=Proust |first=Keira |date=1 September 2026 |title=Liberals promise new hybrid trains for Melbourne's west |url=https://www.abc.net.au/news/2026-09-01/vic-liberals-electric-hybrid-trains-election-melton-wyndham/107101010 |website=ABC News}}</ref>
+
+On October 15, the Liberal/National Coalition matched Labor's Free [[Abortion]] election promise.<ref>{{cite web | url=https://www.theguardian.com/australia-news/2026/oct/15/victoria-to-become-first-state-to-make-abortions-free| title=Victoria to become first state to make abortions free as Coalition matches Labor election promise| date=15 October 2026}}</ref><ref>{{cite web | url=https://www.abc.net.au/news/2026-10-15/free-abortion-pledge-ben-carroll-state-election/107267554| title=Opposition matches Labor pledge to provide free abortion care if re-elected in Victoria| date=15 October 2026}}</ref>
+
+On October 25, Labor revealed a $1.5 billion plan to reduce hospital waiting times.<ref>{{cite web | title=Labor pitches $1.5 billion plan to slash emergency wait times | work=ABC News | date=24 October 2026 | url=https://www.abc.net.au/news/2026-10-25/vic-labor-campaign-launch-health-hospital-investment/107304732 }}</ref> The next day the Liberal/National Coalition vowed to ban the term '[[Globalize the intifada|globalise the intifada]]' if elected.<ref>{{cite web | url=https://www.abc.net.au/news/2026-10-26/victorian-liberals-to-ban-globalise-the-intifada-state-election/107308178| title=Victorian Liberals vow to ban 'globalise the intifada' if elected in November| work=ABC News| date=26 October 2026}}</ref><ref>{{cite web | url=https://www.theage.com.au/national/victoria/jess-wilson-vows-to-ban-globalise-the-intifada-phrase-if-elected-20261025-p618fn.html| title=Jess Wilson vows to ban 'Globalise the intifada' phrase if elected| date=25 October 2026}}</ref> 
+
+[[The Age]] reported on 8 November that Bianca Colecchia, state secretary of One Nation, had been professionally connected to a man accused of ties with the [[Comanchero Motorcycle Club|Comanchero]] bikie gang, and that Kelvin Morton, One Nation's general manager, had overstated credentials on his resume.<ref>{{cite news |last1=McKenzie |first1=Nick |last2=Houston |first2=Cameron |last3=Ambrogetti |first3=Toni |author1-link=Nick McKenzie |title=Top One Nation official's strip club connection to bikie figure |url=https://www.theage.com.au/politics/federal/top-one-nation-official-s-strip-club-links-to-bikie-figure-20261108-p61blo.html |access-date=8 November 2026 |work=[[The Age]] |date=8 November 2026}}</ref>
+
+On 15 November 2026, Labor and the Liberals held their campaign launches.<ref>{{cite web | url=https://www.abc.net.au/news/2026-11-15/labor-liberal-coalition-campaign-launches-health-youth-crime/107387220| title=Liberal, Labor camps rally at campaign launches as Victorian state election edges closer| date=15 October 2026}}</ref>
+
+On 17 November 2026, News24 and the ''Herald Sun'' hosted a leader's debate between Ben Carroll, Jess Wilson, Ellen Sandell, and Warren Pickering. Liberal leader Jess Wilson was declared the winner of the debate, receiving 39% of responses from viewers, compared to 25% for Greens leader Ellen Sandell, 16% for One Nation leader Warren Pickering, and 7% for Premier Ben Carroll. 13% of respondents remained undecided.<ref>{{cite web | url=https://www.news24.com.au/politics/australian-politics/talk-about-my-plans-for-a-fresh-start-opposition-leader-jess-wilson-agrees-to-historic-news24-fourway-leaders-debate/news-story/671527dba5c5232f48de7c492a0ab821| title='Talk about my plans for a fresh start': Opposition leader Jess Wilson agrees to historic News24 four-way leaders' debate}}</ref><ref>{{cite web | url=https://www.news.com.au/national/victoria/politics/jess-wilson-relents-to-leaders-debate-with-labor-and-one-nation-on-condition-greens-are-included/news-story/62d0ee29bfb1ce804db8aeca0f719282| title=Jess Wilson, Ben Carroll Victorian state election debate to include One Nation and Greens leaders}}</ref><ref>{{Cite web |last=Breslin |first=Conor |date=17 November 2026 |title=Liberal leader takes 39 per cent of audience vote, well ahead of Greens' Ellen Sandell and Premier Ben Carroll in the Victoria People's Forum |url=https://www.news24.com.au/politics/australian-politics/how-to-watch-victorian-leaders-to-face-questions-from-100-undecided-voters-in-news24-and-herald-suns-fourway-election-debate/news-story/ec6f66e790284a654c7410add8fa5de2 |access-date=17 November 2026 |website=News24}}</ref>  
+=== Newspaper endorsements ===
+
+==== Weekend editions ====
+{| class="wikitable sortable right"
+! style="width:200px;" |Newspaper
+!Owner
+! colspan="2" |Endorsement
+|-
+|''[[Herald Sun|Sunday Herald-Sun]]''
+|[[News Corp Australia|News Corp]]
+| TBD
+|TBD
+|-
+|''[[The Sunday Age]]''
+|[[Nine Entertainment]]
+| colspan="2" |TBD
+|}
+
+==== Metropolitan dailies ====
+{| class="wikitable sortable right"
+! style="width:200px;" |Newspaper
+!Owner
+! colspan="2" |Endorsement
+|-
+|''[[The Age]]''
+|Nine Entertainment
+| 
+|
+|-
+|''[[The Australian]]''
+|News Corp
+| 
+|
+|-
+|''[[Australian Financial Review]]''
+|Nine Entertainment
+| 
+|
+|-
+|''[[Herald Sun]]''
+|News Corp
+| 
+|
+|}
+
+== Candidate disendorsements and controversies ==
+{{Prose|section|date=November 2026}}
+
+=== Liberals ===
+After originally losing preselection, then being re-instated after the winning Liberal was found to have provided court reference for a friend convicted of sexually assaulting a child,<ref>{{Cite web|url=https://www.theguardian.com/australia-news/2026/mar/30/moira-deeming-dinesh-gourisetty-sex-offender-character-reference-victorian-liberals-ntwnfb|title=Victorian Liberals to hold another preselection after candidate who defeated Moira Deeming withdraws|first=Benita|last=Kolovos|work=The Guardian |date=30 March 2026}}</ref> [[Moira Deeming]] was again dumped by the Liberal Party in July 2026 after making assault claims against fellow Liberal [[Matthew Guy]] that CCTV footage showed to be Guy putting a hand on her back to speak to her in a noisy room.<ref>{{Cite web|url=https://www.afr.com/politics/deeming-dumped-from-victorian-liberals-20260717-p60gar|title=Deeming dumped from Victorian Liberals|first=Sumeyya |last=Ilanbey |date=17 July 2026|website=Australian Financial Review}}</ref>
+
+Grant Hutchinson, Liberal candidate for [[Electoral district of Croydon (Victoria)|Croydon]], was disendorsed by the party in October 2026, being replaced by Toby Wooldridge. Wilson said of the disendorsement that further details had emerged relating to a litigation Hutchinson was involved in with former members of his law firm.<ref>{{Cite web|url=https://www.theage.com.au/national/victoria/libs-dump-candidate-over-risk-party-affairs-could-be-exposed-in-legal-brawl-20261013-p6153y.html|title=Libs dump candidate over risk party affairs could be exposed in legal brawl|first=Patrick Hatch, Chip Le Grand, Kieran|last=Rooney|date=13 October 2026|website=The Age}}</ref><ref>{{Cite web|url=https://www.theguardian.com/australia-news/2025/dec/10/victoria-liberal-candidate-grant-hutchinson-croydon-denies-bullying-claim-ntwnfb|title=Liberal candidate denies law firm's claims of bullying and using staff to pursue political ambitions|first1=Nino|last1=Bucci|first2=Benita|last2=Kolovos|work=The Guardian |date=9 December 2025}}</ref> Hutchinson subsequently commenced legal proceedings against the Liberal Party challenging his dumping.<ref>{{cite news |last1=Rooney |first1=Kieran |last2=Delaney |first2=Angus |title=Victorian Liberals slapped with legal letter from spurned Croydon candidate Grant Hutchinson |date=22 October 2026 |work=[[The Age]] |url=https://www.theage.com.au/politics/victoria/victorian-liberals-slapped-with-legal-letter-from-spurned-candidate-20261022-p617qu.html}}</ref>
+
+On 11 November, the Liberal Party dumped their candidate for Williamstown, Paul Lindemann, after racist social media posts about Indigenous Australians surfaced,<ref> {{Cite web |last=Rooney |first=Kieran |date=2026-11-11 |title=Liberals dump candidate over Indigenous slurs on secret Facebook account |url=https://www.theage.com.au/politics/victoria/liberals-dump-candidate-over-indigenous-slurs-on-secret-facebook-account-20261111-p61d6a.html |access-date=2026-11-17 |website=The Age |language=en}}</ref> which followed hours after it was revealed that Lindemann had been recently suspended from a local basketball association where he coached an under 14s girls team, for mocking and sledging a player on an opposing team.<ref> {{Cite web |last=Rooney |first=Kieran |date=2026-11-10 |title=Liberal candidate forced to apologise for insulting young girl in basketball match |url=https://www.theage.com.au/politics/victoria/liberal-candidate-forced-to-apologise-for-insulting-young-girl-in-basketball-match-20261111-p61cxn.html |access-date=2026-11-17 |website=The Age |language=en}}</ref>
+
+=== One Nation ===
+{{Overly detailed|section|details=there is far too much detail about sordid statements here. Should be trimmed down to the bare essentials|date=November 2026}}
+On 3 October 2026, prominent One Nation Victorian candidate, [[Mark Nicholson (filmmaker)|Mark Nicholson]], threatened to jail former premiers Daniel Andrews and Jacinta Allan “by Christmas” if One Nation wins November’s state election.<ref>{{cite web | title='In prison by Christmas': One Nation attacks Andrews, Allan in campaign launch | date=3 October 2026 | url=https://www.theage.com.au/national/victoria/in-prison-by-christmas-one-nation-attacks-andrews-allan-in-campaign-launch-20261003-p612jv.html }}</ref>
+
+Also in October 2026, One Nation’s candidate for Melbourne, Matthew Collins, was revealed to have a history of "promoting far-right rhetoric about waging religious war against Muslims, using misogynistic language and spreading COVID-19 conspiracy theories." One Nation refused to answer detailed questions about Collins’ posts and initially continued to support his candidacy<ref>{{Cite web|url=https://www.theage.com.au/politics/victoria/one-nation-candidate-called-to-decolonise-muslim-lands-20261015-p615eg.html|title=One Nation candidate called to 'decolonise' Muslim lands|first=Patrick|last=Hatch|date=15 October 2026|website=The Age}}</ref> but he stood down some two weeks later after social media posts where he said that “consent is cringe” and claiming that he has "never once asked any women for any form of consent, ever."<ref name="HannantClarkson-Pascoe2026-1">{{Cite web |last=Hannant |first=David |last2=Clarkson-Pascoe |first2=Tia |date=1 November 2026 |title=Victorian One Nation candidate Steven Mitchell campaigns alongside Port Arthur conspiracy theorist |url=https://www.news.com.au/national/victoria/politics/one-nation-hit-with-early-election-scandal-as-matthew-collins-quits-over-offensive-posts/news-story/01c0952e2f87c2e309f2525d83d08a4f?amp |access-date=17 November 2026 |website=news.com.au}}</ref>
+
+On 1 November, One Nation candidate for Ashwood, Steven Mitchell, was revealed to have advertised a public appearance with a member of a group that promotes [[9/11 conspiracy theories|conspiracy theories about the September 11 terrorist attack]] and the [[Port Arthur Massacre]], along with claims that income tax is voluntary.<ref name="HannantClarkson-Pascoe2026-1" />
+
+==== Franco Guardiani ====
+One Nation dumped its candidate for [[Electoral district of Preston|Preston]], Franco Guardiani, on 10 November over social media posts on [[X (social network)|X]] that he made praising [[Adolf Hitler]] and [[Nazi Germany]], as well as [[Holocaust denial|denying the extent of the Holocaust]].<ref> {{Cite web |last=Ilanbey |first=Sumeyya |last2=Welling |first2=Chloe |date=2026-11-10 |title=One Nation dumps candidate over Hitler post |url=https://www.afr.com/politics/liberals-to-preference-one-nation-over-labor-in-victoria-20261110-p61cui |access-date=2026-11-17 |website=Australian Financial Review |language=en}}</ref> Guardiani's account featured numerous [[antisemitism]], [[Islamophobia|Islamophobic]], and [[Conspiracy theory|conspiratorial]] posts such as claiming that "Jews created Islam to destroy Christianity" and that weather modifications were controlled by "globalist [sic] using technology and [[Chemtrail conspiracy theory|chemtrails]]," praising Hitler as the "GOAT" (greatest of all time), and saying that "importing Islam is making pedophillia legal." Commenting on Sean Black, a federal campaign manager rehired by One Nation despite being convicted of rape in 2018, Guardiani wrote "at least he is a convicted rapist and not a Muslim rapist who never gets convicted."<ref name="WillinghamWorkman2016-1">{{Cite web |last=Willingham |first=Richard |last2=Workman |first2=Michael |date=2016-11-10 |title=One Nation Victoria dumps Preston candidate Franco Guardiani over Hitler comments |url=https://www.abc.net.au/news/2026-11-10/vic-one-nation-preston-candidate-guardiani-dumped/107368834 |access-date=2016-11-17}}</ref><ref>{{Cite web |last=Belot |first=Henry |date=2016-11-10 |title=One Nation dumps Victorian election candidate who praised Adolf Hitler as ‘GOAT’ |url=https://www.theguardian.com/australia-news/2026/nov/10/one-nation-dumps-franco-guardiani-praised-hitler-victoria-elections-ntwnfb}}</ref>
+
+Speaking on the matter, Warren Pickering said "At a time when Jewish Australians are experiencing unprecedented persecution, we are appalled that these comments have been made," while admitting that the party's candidate vetting process needed to be improved.<ref name="WillinghamWorkman2016-1" />
+
+==== Chris Moore ====
+On 11 November, candidate for [[Electoral district of Greenvale|Greenvale]], Chris Moore, apologised over a series of offensive Islamophobic, [[racist]], [[Sexism|sexist]], and [[Homophobia|homophobic]] remarks he made on social media between 2010 and 2012. These comments included that he "doesn’t like the way the new homo cleaner at work looks at me", calling [[Prime Minister of Australia|former-prime minister]] [[Julia Gillard]] a "slut", repeated references to [[Indian Australians]] as "curry munchers," as well as sharing a photo of a woman and a child both wearing a [[burqa]] next to two full plastic garbage bags with the caption "Haha, spot the difference."
+
+The electorate, which is a fairly safe Labor seat, has a large [[Middle East|Middle Eastern]] and [[West Asia|West Asian]] population and one of the highest proportions of people born in the Middle East. In response, a Labor party spokesperson said that the comments were "reprehensible" and that there was "no place for racist, Islamophobic and sexist comments," with the Liberal party saying that it would put the candidate last on its how-to-vote card for the electorate. One Nation did not disendorse Moore, who apologised for the remarks saying that the comments were unthoughtful and that they "don't reflect who I am today."<ref>{{Cite web |last=Belot |first=Henry |last2=Kolovos |first2=Benita |date=2026-11-11 |title=One Nation Victoria candidate apologises for slew of offensive comments about lesbians, Indians and Julia Gillard |url=https://www.theguardian.com/australia-news/2026/nov/11/one-nation-candidate-apologises-offensive-comments-ntwnfb?CMP=Share_iOSApp_Other}}</ref>
+
+== Pre-electoral pendulum ==
+{| class="wiktable" "toccolours" cellpadding="5" cellspacing="0" style="float:left; margin-right:.5em; margin-top:.4em; font-size:90%"
+|-
+| colspan="4" style="text-align:center; background:red;" | <span style="color:white;">'''Labor seats (54)'''</span>{{Efn|name=fn27}}
+|-
+| Seat
+| Member
+| Party
+| Margin
+|-
+| colspan="4" style="text-align:center; background:red;" |<span style="color:white;">'''Marginal'''</span>
+|-
+| style="text-align:left; background:#FFCACA;" |[[Electoral district of Northcote|Northcote]]
+| style="text-align:left; background:#FFCACA;" |[[Kat Theophanous]]
+| style="text-align:left; background:#FFCACA;" |ALP
+| style="text-align:center; background:#FFCACA;" |0.2% v GRN
+|-
+| style="text-align:left; background:#FFCACA;"|[[Electoral district of Bass|Bass]]
+| style="text-align:left; background:#FFCACA;" |[[Jordan Crugnale]]
+| style="text-align:left; background:#FFCACA;"|ALP
+| style="text-align:center; background:#FFCACA;"|0.2%
+|-
+| style="text-align:left; background:#FFCACA;" |[[Electoral district of Pakenham|Pakenham]]
+| style="text-align:left; background:#FFCACA;" |[[Emma Vulin]]
+| style="text-align:left; background:#FFCACA;" |ALP
+| style="text-align:center; background:#FFCACA;" |0.4%
+|-
+| style="text-align:left; background:#FFCACA;" |[[Electoral district of Hastings|Hastings]]
+| style="text-align:left; background:#FFCACA;" |[[Paul Mercurio]]
+| style="text-align:left; background:#FFCACA;" |ALP
+| style="text-align:center; background:#FFCACA;" |1.4%
+|-
+| style="text-align:left; background:#FFCACA;" |[[Electoral district of Pascoe Vale|Pascoe Vale]]
+| style="text-align:left; background:#FFCACA;" |[[Anthony Cianflone]]
+| style="text-align:left; background:#FFCACA;" |ALP
+| style="text-align:center; background:#FFCACA;" |2.0% v GRN
+|-
+| style="text-align:left; background:#FFCACA;" |[[Electoral district of Preston|Preston]]
+| style="text-align:left; background:#FFCACA;" |[[Nathan Lambert]]
+| style="text-align:left; background:#FFCACA;" |ALP
+| style="text-align:center; background:#FFCACA;" |2.1% v GRN
+|-
+| style="text-align:left; background:#FFCACA;" |[[Electoral district of Ripon|Ripon]]
+| style="text-align:left; background:#FFCACA;" |[[Martha Haylett]]
+| style="text-align:left; background:#FFCACA;" |ALP
+| style="text-align:center; background:#FFCACA;" |3.0%
+|-
+| style="text-align:left; background:#FFCACA;" |[[Electoral district of Glen Waverley|Glen Waverley]]
+| style="text-align:left; background:#FFCACA;" |[[John Mullahy]]
+| style="text-align:left; background:#FFCACA;" |ALP
+| style="text-align:center; background:#FFCACA;" |3.3%
+|-
+| style="text-align:left; background:#FFCACA;"|[[Electoral district of Bayswater|Bayswater]]
+| style="text-align:left; background:#FFCACA;"|[[Jackson Taylor]]
+| style="text-align:left; background:#FFCACA;"|ALP
+| style="text-align:center; background:#FFCACA;"|4.2%
+|-
+| style="text-align:left; background:#FFCACA;" |[[Electoral district of Footscray|Footscray]]
+| style="text-align:left; background:#FFCACA;" |[[Katie Hall (Australian politician)|Katie Hall]]
+| style="text-align:left; background:#FFCACA;" |ALP
+| style="text-align:center; background:#FFCACA;" |4.2% v GRN
+|-
+| style="text-align:left; background:#FFCACA;" |[[Electoral district of Yan Yean|Yan Yean]]
+| style="text-align:left; background:#FFCACA;" |[[Lauren Kathage]]
+| style="text-align:left; background:#FFCACA;" |ALP
+| style="text-align:center; background:#FFCACA;" |4.3%
+|-
+| style="text-align:left; background:#FFCACA;" |[[Electoral district of Melton|Melton]]
+| style="text-align:left; background:#FFCACA;" |[[Steve McGhie]]
+| style="text-align:left; background:#FFCACA;" |ALP
+| style="text-align:center; background:#FFCACA;" |4.6%
+|-
+| colspan="4" style="text-align:center; background:red;" |<span style="color:white;">'''Fairly safe'''</span>
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Ashwood|Ashwood]]
+| style="text-align:left; background:#FF8D8D;" |[[Matt Fregon]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |6.2%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Sunbury|Sunbury]]
+| style="text-align:left; background:#FF8D8D;" |[[Josh Bull]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |6.4%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Niddrie|Niddrie]]
+| style="text-align:left; background:#FF8D8D;" |[[Ben Carroll]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |6.7%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Greenvale|Greenvale]]
+| style="text-align:left; background:#FF8D8D;" |[[Iwan Walters]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |7.1%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Eureka|Eureka]]
+| style="text-align:left; background:#FF8D8D;" |[[Michaela Settle]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |7.2%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Box Hill|Box Hill]]
+| style="text-align:left; background:#FF8D8D;" |[[Paul Hamer]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |7.2%
+|-
+|  style="text-align:left; background:#ff8d8d;"|[[Electoral district of Ringwood (Victoria)|Ringwood]]
+|  style="text-align:left; background:#bbb;"|[[Will Fowles]] (IND) 
+|  style="text-align:left; background:#ff8d8d;"|ALP
+|  style="text-align:center; background:#ff8d8d;"|7.5%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Monbulk|Monbulk]]
+| style="text-align:left; background:#FF8D8D;" |[[Daniela De Martino]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |7.6%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Bentleigh|Bentleigh]]
+| style="text-align:left; background:#FF8D8D;" |[[Nick Staikos]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |8.0%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Mordialloc|Mordialloc]]
+| style="text-align:left; background:#FF8D8D;" |[[Tim Richardson (Australian politician)|Tim Richardson]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |8.2%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Narre Warren South|Narre Warren South]]
+| style="text-align:left; background:#FF8D8D;" |[[Gary Maas]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |8.3%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Point Cook|Point Cook]]
+| style="text-align:left; background:#FF8D8D;" |[[Mathew Hilakari]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |8.3%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Bellarine|Bellarine]]
+| style="text-align:left; background:#FF8D8D;" |[[Alison Marchant]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |8.5%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Frankston|Frankston]]
+| style="text-align:left; background:#FF8D8D;" |[[Paul Edbrooke]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |8.7%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Narre Warren North|Narre Warren North]]
+| style="text-align:left; background:#FF8D8D;" |[[Belinda Wilson]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |8.7%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Sydenham|Sydenham]]
+| style="text-align:left; background:#FF8D8D;" |[[Natalie Hutchins]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |8.8%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Cranbourne|Cranbourne]]
+| style="text-align:left; background:#FF8D8D;" |[[Pauline Richards]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |9.0%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Eltham|Eltham]]
+| style="text-align:left; background:#FF8D8D;" |[[Vicki Ward]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |9.0%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Macedon|Macedon]]
+| style="text-align:left; background:#FF8D8D;" |[[Mary-Anne Thomas]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |9.5%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of St Albans|St Albans]]
+| style="text-align:left; background:#FF8D8D;" |[[Natalie Suleyman]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |9.6%
+|-
+| style="text-align:left; background:#FF8D8D;" |[[Electoral district of Carrum|Carrum]]
+| style="text-align:left; background:#FF8D8D;" |[[Sonya Kilkenny]]
+| style="text-align:left; background:#FF8D8D;" |ALP
+| style="text-align:center; background:#FF8D8D;" |9.8%
+|-
+|  style="text-align:left; background:#ff8d8d;"|[[South Barwon]]
+|  style="text-align:left; background:#ff8d8d;"|[[Darren Cheeseman]]{{efn|In April 2024, Cheeseman was suspended from the Labor Party caucus. He still remains a rank-and-file member of the party.<ref>{{cite news |last1=Kolovos |first1=Benita |title=Jacinta Allan dumps Victorian Labor MP from caucus after fresh allegations emerge |url=https://www.theguardian.com/australia-news/2024/apr/30/victoria-labor-mp-darren-cheeseman-dismissed-party-room-allegations |access-date=2 May 2024 |agency=[[The Guardian (Australia)|The Guardian]] |date=30 April 2024}}</ref>}}
+|  style="text-align:left; background:#ff8d8d;"|ALP
+|  style="text-align:center; background:#ff8d8d;"|9.8%
+|-
+| colspan="4" style="text-align:center; background:red;" |<span style="color:white;">'''Safe'''</span>
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Clarinda|Clarinda]]
+| style="text-align:left; background:#FF6B6B;" |[[Meng Heang Tak]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |10.2%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Bendigo East]]
+| style="text-align:left; background:#FF6B6B;" |[[Jacinta Allan]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |10.8%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Mulgrave (Victoria)|Mulgrave]]
+| style="text-align:left; background:#FF6B6B;" |[[Eden Foster]]{{efn|Elected at the [[2023 Mulgrave state by-election]] following the resignation of [[Daniel Andrews]].}}
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:left; background:#FF6B6B;" |10.8% v IND{{efn-la|The two-candidate-preferred result of the [[2023 Mulgrave state by-election|2023 by-election]] was ALP 6.5% vs IND.}}
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Werribee|Werribee]]
+| style="text-align:left; background:#FF6B6B;" |[[John Lister (Victorian politician)|John Lister]]{{efn|Lister succeeded Pallas following the [[2025 Werribee state by-election]].}}
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |10.9%{{efn|While Lister retained Werribee for Labor on a margin of 0.8% at the [[2025 Werribee state by-election|2025 by-election]], he will go into the state election based upon the margin that the party had won at the 2022 election.}}
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Albert Park|Albert Park]]
+| style="text-align:left; background:#FF6B6B;" |[[Nina Taylor]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |11.2%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Mill Park|Mill Park]]
+| style="text-align:left; background:#FF6B6B;" |[[Lily D'Ambrosio]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |11.6%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Wendouree|Wendouree]]
+| style="text-align:left; background:#FF6B6B;" |[[Juliana Addison]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |11.9%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Tarneit|Tarneit]]
+| style="text-align:left; background:#FF6B6B;" |[[Dylan Wight]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |12.3%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Essendon|Essendon]]
+| style="text-align:left; background:#FF6B6B;" |[[Danny Pearson (politician)|Danny Pearson]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |12.5%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Bundoora|Bundoora]]
+| style="text-align:left; background:#FF6B6B;" |[[Colin Brooks]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |12.7%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Ivanhoe|Ivanhoe]]
+| style="text-align:left; background:#FF6B6B;" |[[Anthony Carbines]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |13.0%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Williamstown|Williamstown]]
+| style="text-align:left; background:#FF6B6B;" |[[Melissa Horne]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |13.4%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Oakleigh|Oakleigh]]
+| style="text-align:left; background:#FF6B6B;" |[[Steve Dimopoulos]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |13.5%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Kororoit]]
+| style="text-align:left; background:#FF6B6B;" |[[Luba Grigorovitch]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |14.5%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Bendigo West]]
+| style="text-align:left; background:#FF6B6B;" |[[Maree Edwards]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |14.6%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Geelong|Geelong]]
+| style="text-align:left; background:#FF6B6B;" |[[Christine Couzens]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |14.7%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Broadmeadows|Broadmeadows]]
+| style="text-align:left; background:#FF6B6B;" |[[Kathleen Matthews-Ward]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |15.5%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Thomastown|Thomastown]]
+| style="text-align:left; background:#FF6B6B;" |[[Bronwyn Halfpenny]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |15.8%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Lara|Lara]]
+| style="text-align:left; background:#FF6B6B;" |[[Ella George]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |15.9%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Kalkallo|Kalkallo]]
+| style="text-align:left; background:#FF6B6B;" |[[Ros Spence]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |16.5%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Dandenong|Dandenong]]
+| style="text-align:left; background:#FF6B6B;" |[[Gabrielle Williams]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |18.3%
+|-
+| style="text-align:left; background:#FF6B6B;" |[[Electoral district of Laverton|Laverton]]
+| style="text-align:left; background:#FF6B6B;" |[[Sarah Connolly (politician)|Sarah Connolly]]
+| style="text-align:left; background:#FF6B6B;" |ALP
+| style="text-align:center; background:#FF6B6B;" |18.4%
+|}
+{| class="wiktable" "toccolours" cellpadding="5" cellspacing="0" style="float:left; margin-right:.5em; margin-top:.4em; font-size:90%"
+|-
+| colspan="4"  style="text-align:center; background:blue;"|<span style="color:white;">'''Liberal/National seats (29)'''</span>{{efn|name=prahranby}}
+|-
+| Seat
+| Member
+| Party
+| Margin
+|-
+| colspan="4"  style="text-align:center; background:blue;"| <span style="color:white;">'''Marginal'''</span>
+|-
+| style="text-align:left; background:#a6e7ff;"|[[Electoral district of Mornington|Mornington]]
+| style="text-align:left; background:#a6e7ff;"|[[Chris Crewther]]
+| style="text-align:left; background:#a6e7ff;"|LIB
+| style="text-align:center; background:#a6e7ff;"|0.7% v IND
+|-
+| style="text-align:left; background:#a6e7ff;" |[[Electoral district of Benambra|Benambra]]
+| style="text-align:left; background:#a6e7ff;" |[[Bill Tilley]]
+| style="text-align:left; background:#a6e7ff;" |LIB
+| style="text-align:center; background:#a6e7ff;" |0.9% v IND
+|-
+| style="text-align:left; background:#CCFFCC;" |[[Electoral district of Mildura|Mildura]]
+| style="text-align:left; background:#CCFFCC;" |[[Jade Benham]]
+| style="text-align:left; background:#CCFFCC;" |NAT
+| style="text-align:center; background:#CCFFCC;" |1.2% v IND
+|-
+| style="text-align:left; background:#a6e7ff;" |[[Electoral district of Croydon (Victoria)|Croydon]]
+| style="text-align:left; background:#a6e7ff;" |[[David Hodgett]]
+| style="text-align:left; background:#a6e7ff;" |LIB
+| style="text-align:center; background:#a6e7ff;" |1.4%
+|-
+| style="text-align:left; background:#a6e7ff;" |[[Electoral district of Hawthorn|Hawthorn]]
+| style="text-align:left; background:#a6e7ff;" |[[John Pesutto]]
+| style="text-align:left; background:#a6e7ff;" |LIB
+| style="text-align:center; background:#a6e7ff;" |1.7%
+|-
+| style="text-align:left; background:#a6e7ff;" |[[Electoral district of Polwarth|Polwarth]]
+| style="text-align:left; background:#a6e7ff;" |[[Richard Riordan (Australian politician)|Richard Riordan]]
+| style="text-align:left; background:#a6e7ff;" |LIB
+| style="text-align:center; background:#a6e7ff;" |1.8%
+|-
+| style="text-align:left; background:#a6e7ff;" |[[Electoral district of Caulfield|Caulfield]]
+| style="text-align:left; background:#a6e7ff;" |[[David Southwick]]
+| style="text-align:left; background:#a6e7ff;" |LIB
+| style="text-align:center; background:#a6e7ff;" |2.1%
+|-
+| style="text-align:left; background:#a6e7ff;" |[[Electoral district of Rowville|Rowville]]
+| style="text-align:left; background:#a6e7ff;" |[[Kim Wells (Victoria politician)|Kim Wells]]
+| style="text-align:left; background:#a6e7ff;" |LIB
+| style="text-align:center; background:#a6e7ff;" |3.7%
+|-
+| style="text-align:left; background:#a6e7ff;" |[[Electoral district of Kew|Kew]]
+| style="text-align:left; background:#a6e7ff;" |[[Jess Wilson]]
+| style="text-align:left; background:#a6e7ff;" |LIB
+| style="text-align:center; background:#a6e7ff;" |4.0%
+|-
+| style="text-align:left; background:#a6e7ff;" |[[Electoral district of Warrandyte|Warrandyte]]
+| style="text-align:left; background:#a6e7ff;" |[[Nicole Werner]]{{efn|Werner succeeded Smith following the [[2023 Warrandyte state by-election]].}}
+| style="text-align:left; background:#a6e7ff;" |LIB
+| style="text-align:center; background:#a6e7ff;" |4.3%{{efn|The two-candidate-preferred result of the [[2023 Warrandyte state by-election|2023 by-election]] was LIB 21.0% vs GRN. However Labor did not contest the by-election, therefore the LIB vs GRN margin won't be the two-candidate-preferred margin for Warrandyte at the next state election, and therefore should not be used in the pendulum. The LIB vs ALP margin for Warrandyte at the 2022 state election is used instead.}}
+|-
+| style="text-align:left; background:#CCFFCC;" |[[Electoral district of Morwell|Morwell]]
+| style="text-align:left; background:#CCFFCC;" |[[Martin Cameron (Victorian politician)|Martin Cameron]]
+| style="text-align:left; background:#CCFFCC;" |NAT
+| style="text-align:center; background:#CCFFCC;" |4.4%
+|-
+| style="text-align:left; background:#a6e7ff;" |[[Electoral district of Berwick|Berwick]]
+| style="text-align:left; background:#a6e7ff;" |[[Brad Battin]]
+| style="text-align:left; background:#a6e7ff;" |LIB
+| style="text-align:center; background:#a6e7ff;" |4.7%
+|-
+| style="text-align:left; background:#a6e7ff;"|[[Electoral district of Sandringham|Sandringham]]
+| style="text-align:left; background:#a6e7ff;"|[[Brad Rowswell]]
+| style="text-align:left; background:#a6e7ff;"|LIB
+| style="text-align:center; background:#a6e7ff;"|5.0%
+|-
+| style="text-align:left; background:#a6e7ff;" |[[Electoral district of Brighton|Brighton]]
+| style="text-align:left; background:#a6e7ff;" |[[James Newbury]]
+| style="text-align:left; background:#a6e7ff;" |LIB
+| style="text-align:center; background:#a6e7ff;" |5.1%
+|-
+| style="text-align:left; background:#a6e7ff;" |[[Electoral district of Evelyn|Evelyn]]
+| style="text-align:left; background:#a6e7ff;" |[[Bridget Vallence]]
+| style="text-align:left; background:#a6e7ff;" |LIB
+| style="text-align:center; background:#a6e7ff;" |5.4%
+|-
+| style="text-align:left; background:#a6e7ff;" |[[Electoral district of Bulleen|Bulleen]]
+| style="text-align:left; background:#a6e7ff;" |[[Matthew Guy]]
+| style="text-align:left; background:#a6e7ff;" |LIB
+| style="text-align:center; background:#a6e7ff;" |5.9%
+|-
+| colspan="4"  style="text-align:center; background:blue;"|<span style="color:white;">'''Fairly safe'''</span>
+|-
+| style="text-align:left; background:#80d8f9;" |[[Electoral district of Nepean|Nepean]]
+| style="text-align:left; background:#80d8f9;" |[[Sam Groth]]
+| style="text-align:left; background:#80d8f9;" |LIB
+| style="text-align:center; background:#80d8f9;" |6.4%
+|-
+| style="text-align:left; background:#98FB98;" |[[Electoral district of Shepparton|Shepparton]]
+| style="text-align:left; background:#98FB98;" |[[Kim O'Keeffe]]
+| style="text-align:left; background:#98FB98;" |NAT
+| style="text-align:center; background:#98FB98;" |6.8% v IND
+|-
+| style="text-align:left; background:#80d8f9;" |[[Electoral district of Eildon|Eildon]]
+| style="text-align:left; background:#80d8f9;" |[[Cindy McLeish]]
+| style="text-align:left; background:#80d8f9;" |LIB
+| style="text-align:center; background:#80d8f9;" |7.0%
+|-
+| style="text-align:left; background:#80d8f9;" |[[South-West Coast]]
+| style="text-align:left; background:#80d8f9;" |[[Roma Britnell]]
+| style="text-align:left; background:#80d8f9;" |LIB
+| style="text-align:center; background:#80d8f9;" |8.0%
+|-
+| style="text-align:left; background:#80d8f9;"|[[Electoral district of Malvern|Malvern]]
+| style="text-align:left; background:#80d8f9;"|[[Michael O'Brien (Victorian politician)|Michael O'Brien]]
+| style="text-align:left; background:#80d8f9;"|LIB
+| style="text-align:center; background:#80d8f9;"|8.1%
+|-
+| style="text-align:left; background:#98FB98;" |[[Electoral district of Euroa|Euroa]]
+| style="text-align:left; background:#98FB98;" |[[Annabelle Cleeland]]
+| style="text-align:left; background:#98FB98;" |NAT
+| style="text-align:center; background:#98FB98;" |9.9%
+|-
+| colspan="4"  style="text-align:center; background:blue;"|<span style="color:white;">'''Safe'''</span>
+|-
+| style="text-align:left; background:#31C3FF;" |[[Narracan]]{{efn-la|Due to the sudden death of Nationals candidate Shaun Gilchrist, the election in Narracan was deferred, and a [[2023 Narracan state supplementary election|supplementary election]] was instead held on 28 January 2023.}}
+| style="text-align:left; background:#31C3FF;" |[[Wayne Farnham]]
+| style="text-align:left; background:#31C3FF;" |LIB
+| style="text-align:center; background:#31C3FF;" |13.0% v IND
+|-
+| style="text-align:left; background:#6cde6c;" |[[Gippsland South]]
+| style="text-align:left; background:#6cde6c;" |[[Danny O'Brien (politician)|Danny O'Brien]]
+| style="text-align:left; background:#6cde6c;" |NAT
+| style="text-align:center; background:#6cde6c;" |15.6%
+|-
+| style="text-align:left; background:#6cde6c;" |[[Electoral district of Ovens Valley|Ovens Valley]]
+| style="text-align:left; background:#6cde6c;" |[[Tim McCurdy]]
+| style="text-align:left; background:#6cde6c;" |NAT
+| style="text-align:center; background:#6cde6c;" |17.8%
+|-
+| colspan="4"  style="text-align:center; background:blue;"|<span style="color:white;">'''Very safe'''</span>
+|-
+| style="text-align:left; background:#68c274;"|[[Lowan]]
+| style="text-align:left; background:#68c274;"|[[Emma Kealy]]
+| style="text-align:left; background:#68c274;"|NAT
+| style="text-align:center; background:#68c274;"|21.6%
+|-
+| style="text-align:left; background:#68c274;"|[[Electoral district of Murray Plains|Murray Plains]]
+| style="text-align:left; background:#68c274;"|[[Peter Walsh (Victorian politician)|Peter Walsh]]
+| style="text-align:left; background:#68c274;"|NAT
+| style="text-align:center; background:#68c274;"|23.4%
+|-
+| style="text-align:left; background:#68c274;" |[[Gippsland East]]
+| style="text-align:left; background:#68c274;" |[[Tim Bull]]
+| style="text-align:left; background:#68c274;" |NAT
+| style="text-align:center; background:#68c274;" |24.6%
+|-
+|}
+{| class="wiktable" "toccolours" cellpadding="5" cellspacing="0" style="float:left; margin-right:.5em; margin-top:.4em; font-size:90%"
+|-
+| colspan="4" style="text-align:center;"|'''Crossbench seats (5)'''
+|-
+| Seat
+| Member
+| Party
+| Margin
+|-
+|  style="text-align:left; background:#33ff88;"|[[Electoral district of Richmond (Victoria)|Richmond]]
+|  style="text-align:left; background:#33ff88;"|[[Gabrielle de Vietri]]
+|  style="text-align:left; background:#33ff88;"|GRN
+|  style="text-align:center; background:#33ff88;"|7.3% v ALP
+|-
+|  style="text-align:left; background:#33ff88;"|[[Electoral district of Melbourne|Melbourne]]
+|  style="text-align:left; background:#33ff88;"|[[Ellen Sandell]]
+|  style="text-align:left; background:#33ff88;"|GRN
+|  style="text-align:center; background:#33ff88;"|10.2% v ALP
+|-
+|  style="text-align:left; background:#33ff88;"|[[Electoral district of Prahran|Prahran]]
+| style="text-align:left; background:#a6e7ff;" |[[Rachel Westaway]]{{efn|Elected following the [[2025 Prahran state by-election]].}}
+| style="text-align:left; background:#a6e7ff;" |LIB
+|  style="text-align:center; background:#33ff88;"|12.0% v LIB{{efn-la|The two-candidate-preferred result of the [[2025 Prahran state by-election|2025 by-election]] was LIB 1.4% vs GRN.}}
+|-
+|  style="text-align:left; background:#33ff88;"|[[Electoral district of Brunswick|Brunswick]]
+|  style="text-align:left; background:#33ff88;"|''Vacant''{{efn|[[Tim Read]] died in September 2026. The seat will remain vacant until the election as it was not far enough out for a by-election to be held.}}
+|  style="text-align:left; background:#33ff88;"|GRN
+|  style="text-align:center; background:#33ff88;"|13.7% v ALP
+|}
+{{clear}}
+
+== Opinion polling ==
+{{main|Opinion polling for the 2026 Victorian state election}}
+
+=== Primary vote ===
+[[File:Primary vote opinion polling for the 2026 Victoria State election.svg|border|center|800x800px|'''Primary vote opinion polling for the 2026 Victoria State election''']]
+
+=== Two-party preferred ===
+[[File:Two-party preferred opinion polling for the 2026 Victoria State election.svg|border|center|800x800px|'''Two-party preferred opinion polling for the 2026 Victoria State election''']]
+[[File:ALP and ONP 2PP opinion polling for the 2026 Victoria State election.svg|center|980x980px]]
+
+== Notes ==
+{{notelist}}
+
+== References ==
+{{reflist|2}}
+
+== External links ==
+{{Commons category}}
+*[https://www.vec.vic.gov.au/ Victorian Electoral Commission Homepage]
+*[https://www.abc.net.au/news/elections/vic-election-2026 ABC News 2026 Victorian Election webpage]
+
+
+{{Victorian elections}}
+{{Government of Victoria}}
+
+[[Category:2026 Victorian state election| ]]
+[[Category:Elections in Victoria (state)]]
+[[Category:November 2026 in Australia|Victorian state election]]
+[[Category:2026 elections in Australia|Victoria]]
+[[Category:2026 in Victoria (state)|Election]]
+[[Category:Future elections in Australia|Victoria]]

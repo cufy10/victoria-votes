@@ -1,0 +1,2846 @@
+[
+ {
+  "seat": "Albert Park",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Nina Taylor",
+    "inc": true
+   },
+   "COA": {
+    "name": "Andrew Cook",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Sonya Semmens",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Tam Lindrum",
+    "inc": false
+   },
+   "VS": {
+    "name": "Colleen Bolger",
+    "inc": false
+   }
+  },
+  "others": [
+   "Georgie Dragwidge (Ind)",
+   "Adrian William King (Ind)"
+  ]
+ },
+ {
+  "seat": "Ashwood",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Matt Fregon",
+    "inc": true
+   },
+   "COA": {
+    "name": "Theo Zographos",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Tim Randall",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Steven Mitchell",
+    "inc": false
+   },
+   "VS": {
+    "name": "Jacob van der Eynden",
+    "inc": false
+   }
+  },
+  "others": [
+   "Enid Uwimana (FF)",
+   "Hitendra K. Joshi (Ind)"
+  ]
+ },
+ {
+  "seat": "Bass",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Chris Buckingham",
+    "inc": false
+   },
+   "COA": {
+    "name": "Rochelle Halstead",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Sophie Thorn",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Nikole Schellekens",
+    "inc": false
+   },
+   "VS": {
+    "name": "Chris Jobe",
+    "inc": false
+   }
+  },
+  "others": [
+   "Ben Cauneac (FF)"
+  ]
+ },
+ {
+  "seat": "Bayswater",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Julie Buxton",
+    "inc": false
+   },
+   "COA": {
+    "name": "David Kitchen",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Jess Kennedy",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Kayte Bleakney",
+    "inc": false
+   },
+   "VS": {
+    "name": "Alec Ferguson",
+    "inc": false
+   }
+  },
+  "others": [
+   "Mathew Clarke (Ind)",
+   "Naomi Hubbard (Ind)",
+   "Gary Coombes (FF)"
+  ]
+ },
+ {
+  "seat": "Bellarine",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Alison Marchant",
+    "inc": true
+   },
+   "COA": {
+    "name": "Callum Whitehead",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Mitch Pope",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Ross McRae",
+    "inc": false
+   },
+   "VS": {
+    "name": "Ronan Keogh",
+    "inc": false
+   }
+  },
+  "others": [
+   "Kate Lockhart (Ind)",
+   "Guy Manuell (FF)",
+   "Dom Williams (SA)"
+  ]
+ },
+ {
+  "seat": "Benambra",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Oliver Young",
+    "inc": false
+   },
+   "COA": {
+    "name": "Steve Martin",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Graham Parton",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Kellie Sheppard",
+    "inc": false
+   },
+   "VS": {
+    "name": "Alex Vangalen",
+    "inc": false
+   }
+  },
+  "others": [
+   "Mike Fuery (AJP)",
+   "Lachie McKeeman (Ind)",
+   "Evette Pepper (FF)",
+   "Tim Quilty (LBT)"
+  ]
+ },
+ {
+  "seat": "Bendigo East",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Tim Rickwood",
+    "inc": false
+   },
+   "COA": {
+    "name": "Andrew Lethlean",
+    "inc": false,
+    "sub": "N"
+   },
+   "GRN": {
+    "name": "Michael Tolhurst",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Cheryl Hawken",
+    "inc": false
+   },
+   "VS": {
+    "name": "Denali Norsen",
+    "inc": false
+   }
+  },
+  "others": [
+   "Des John (FF)",
+   "Bonnie Dunn (AJP)",
+   "Liz Wright (Ind)",
+   "Kristie Hoskins (Ind)"
+  ]
+ },
+ {
+  "seat": "Bendigo West",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Brenton Baldwin",
+    "inc": false
+   },
+   "COA": {
+    "name": "David Hutchings",
+    "inc": false,
+    "sub": "N"
+   },
+   "GRN": {
+    "name": "Liza Shaw",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Ellen Morgan",
+    "inc": false
+   },
+   "VS": {
+    "name": "Tayne Shalevski",
+    "inc": false
+   }
+  },
+  "others": [
+   "Debra Tranter (AJP)",
+   "Christos Harisopoulos (FF)"
+  ]
+ },
+ {
+  "seat": "Bentleigh",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Nick Staikos",
+    "inc": true
+   },
+   "COA": {
+    "name": "Tynan Putt",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Claire Proctor",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Herbert Lonsing",
+    "inc": false
+   },
+   "VS": {
+    "name": "Liam Kruger",
+    "inc": false
+   }
+  },
+  "others": [
+   "Tony Vainoras (ACP)"
+  ]
+ },
+ {
+  "seat": "Berwick",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Rana Khan",
+    "inc": false
+   },
+   "COA": {
+    "name": "Brad Battin",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Roshan de Silva",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Michael Piastrino",
+    "inc": false
+   },
+   "VS": {
+    "name": "Nalinda Amarasiri Gunawardana",
+    "inc": false
+   }
+  },
+  "others": [
+   "Vincenzo de Paolis (FF)",
+   "Scott Dowling (ACP)",
+   "David John (Ind)",
+   "Ethelyn King (LBT)"
+  ]
+ },
+ {
+  "seat": "Box Hill",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Paul Hamer",
+    "inc": true
+   },
+   "COA": {
+    "name": "Sally Houguet",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Aaron Qin",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Jamie Baker",
+    "inc": false
+   },
+   "VS": {
+    "name": "Saravina Afaj",
+    "inc": false
+   }
+  },
+  "others": [
+   "Heena Cheung (Ind)",
+   "Sue-Ellen McGrath (Ind)",
+   "Peter Fagg (FF)"
+  ]
+ },
+ {
+  "seat": "Brighton",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Bridget Mullahy",
+    "inc": false
+   },
+   "COA": {
+    "name": "James Newbury",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Ebony Bain",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Alexander Fagan",
+    "inc": false
+   },
+   "VS": {
+    "name": "Jessica Smith",
+    "inc": false
+   }
+  },
+  "others": [
+   "John Casley (Ind)",
+   "Anthony Hain (LBT)",
+   "Barry Vincent (FF)"
+  ]
+ },
+ {
+  "seat": "Broadmeadows",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Kathleen Matthews-Ward",
+    "inc": true
+   },
+   "COA": {
+    "name": "Baris Duzova",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Maryam Nasim",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Ethan Keirs",
+    "inc": false
+   },
+   "VS": {
+    "name": "Mutullah Can Yolbulan",
+    "inc": false
+   }
+  },
+  "others": [
+   "Mohamad El Youssef (Ind)",
+   "Mohamad Elmustapha (Ind)",
+   "Russell Wilson (FF)",
+   "Rachel Unicomb (AJP)",
+   "Sue Bolton (SA)"
+  ]
+ },
+ {
+  "seat": "Brunswick",
+  "heldBy": "Greens",
+  "cands": {
+   "ALP": {
+    "name": "Gabe Steger",
+    "inc": false
+   },
+   "COA": {
+    "name": "John Margelis",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Adam Pulford",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Adam Helman",
+    "inc": false
+   },
+   "VS": {
+    "name": "Naomi Farmer",
+    "inc": false
+   }
+  },
+  "others": [
+   "India Rose (AJP)",
+   "Jack Amanatidis (Ind)",
+   "Melissa Yuan (Ind)"
+  ]
+ },
+ {
+  "seat": "Bulleen",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Tim Dale",
+    "inc": false
+   },
+   "COA": {
+    "name": "Matthew Guy",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Tomas Lightbody",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Mahdi Athari",
+    "inc": false
+   },
+   "VS": {
+    "name": "Dimitrios Tafidis",
+    "inc": false
+   }
+  },
+  "others": [
+   "Greg Rublee (Ind)",
+   "Bradley Harvey (FF)",
+   "Amanda Paliouras (Ind)"
+  ]
+ },
+ {
+  "seat": "Bundoora",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Colin Brooks",
+    "inc": true
+   },
+   "COA": {
+    "name": "Chris Parr",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Nina Laitala",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Bruce Whalley",
+    "inc": false
+   },
+   "VS": {
+    "name": "Sagar Sanyal",
+    "inc": false
+   }
+  },
+  "others": [
+   "Melissa Murphy-Webster (Ind)",
+   "Rae Rancie (FF)",
+   "Chloe Nicolosi (AJP)"
+  ]
+ },
+ {
+  "seat": "Carrum",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Sonya Kilkenny",
+    "inc": true
+   },
+   "COA": {
+    "name": "Jeff Shelley",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Zoe Pegrum",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Joshua Mathews",
+    "inc": false
+   },
+   "VS": {
+    "name": "Reema Ababneh",
+    "inc": false
+   }
+  },
+  "others": [
+   "Carolyn Moore (AJP)",
+   "Harley MacKenzie (Cannabis)",
+   "Trevor Smith (LBT)"
+  ]
+ },
+ {
+  "seat": "Caulfield",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Mikaela Stafrace",
+    "inc": false
+   },
+   "COA": {
+    "name": "David Southwick",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Angel Dolej\u0161\u00ed",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Michael Abelman",
+    "inc": false
+   },
+   "VS": {
+    "name": "Malak Ababneh",
+    "inc": false
+   }
+  },
+  "others": [
+   "Yaakov Ziv Shroot (Ind)",
+   "Genevi\u00e8ve Gilbert (FF)"
+  ]
+ },
+ {
+  "seat": "Clarinda",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Meng Heang Tak",
+    "inc": true
+   },
+   "COA": {
+    "name": "John Paganis",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Conor Boyd-Eedle",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Gavin Bain",
+    "inc": false
+   },
+   "VS": {
+    "name": "Kit Message",
+    "inc": false
+   }
+  },
+  "others": [
+   "Liam Roche (LBT)",
+   "Caroline White (Ind)"
+  ]
+ },
+ {
+  "seat": "Cranbourne",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Pauline Richards",
+    "inc": true
+   },
+   "COA": {
+    "name": "Gino Tripodi",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Annalise Mercer",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Andrew Hirst",
+    "inc": false
+   },
+   "VS": {
+    "name": "Reem Yunis",
+    "inc": false
+   }
+  },
+  "others": [
+   "Liam Urquiola (Cannabis)",
+   "Craig Baird (LBT)",
+   "Shane Foreman (FF)"
+  ]
+ },
+ {
+  "seat": "Croydon",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Richard Farr",
+    "inc": false
+   },
+   "COA": {
+    "name": "Toby Wooldridge",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Lini Fernando",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Glenn Brindley",
+    "inc": false
+   },
+   "VS": {
+    "name": "Beth Grimshaw",
+    "inc": false
+   }
+  },
+  "others": [
+   "David Vanderwolf (Ind)",
+   "Nathan Schwab (LBT)",
+   "Nofoao Thomas (FF)"
+  ]
+ },
+ {
+  "seat": "Dandenong",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Gabrielle Williams",
+    "inc": true
+   },
+   "COA": {
+    "name": "William Billings",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Catherine D'Arcy",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Glenda Wright",
+    "inc": false
+   },
+   "VS": {
+    "name": "Jack McMahon",
+    "inc": false
+   }
+  },
+  "others": [
+   "Arshad Ali Khan (Ind)",
+   "Jacqueline Harvey (FF)",
+   "Jordan Forte (LBT)"
+  ]
+ },
+ {
+  "seat": "Eildon",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Kevin Gibson",
+    "inc": false
+   },
+   "COA": {
+    "name": "Cindy McLeish",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Talia Gulpilil",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Tim Barber",
+    "inc": false
+   },
+   "VS": {
+    "name": "Dylan Little",
+    "inc": false
+   }
+  },
+  "others": [
+   "Tom Ward (Ind)",
+   "Joshua Mosely (FF)",
+   "Chloe Bond (AJP)"
+  ]
+ },
+ {
+  "seat": "Eltham",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Vicki Ward",
+    "inc": true
+   },
+   "COA": {
+    "name": "Paul Byrnes",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Rachel Busbridge",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Jessie Weatherley",
+    "inc": false
+   },
+   "VS": {
+    "name": "Maeve Riches",
+    "inc": false
+   }
+  },
+  "others": [
+   "Louise Brooksby (AJP)",
+   "Steven Marasea (LBT)"
+  ]
+ },
+ {
+  "seat": "Essendon",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Kat Theodosis",
+    "inc": false
+   },
+   "COA": {
+    "name": "Tommy le Deux",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "James Williams",
+    "inc": false
+   },
+   "ONP": {
+    "name": "John Barnes",
+    "inc": false
+   },
+   "VS": {
+    "name": "Michal Kedem",
+    "inc": false
+   }
+  },
+  "others": [
+   "Ava Adams (Ind)",
+   "Anab Mohamud (Ind)",
+   "Oscar Yildiz (Ind)"
+  ]
+ },
+ {
+  "seat": "Eureka",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Michaela Settle",
+    "inc": true
+   },
+   "COA": {
+    "name": "Emma Muir",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Sam McColl",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Paul Ballinger",
+    "inc": false
+   },
+   "VS": {
+    "name": "Andy Raven",
+    "inc": false
+   }
+  },
+  "others": [
+   "Belinda Zivkovic (Ind)",
+   "Ian Maxwell Harkness (FF)",
+   "Wendy Morrison (AJP)",
+   "Steven Venditti-Taylor (Ind)"
+  ]
+ },
+ {
+  "seat": "Euroa",
+  "heldBy": "National",
+  "cands": {
+   "ALP": {
+    "name": "Julian Kelly",
+    "inc": false
+   },
+   "COA": {
+    "name": "Annabelle Cleeland",
+    "inc": true,
+    "sub": "N"
+   },
+   "GRN": {
+    "name": "Alysia Regan",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Steve Campbell",
+    "inc": false
+   },
+   "VS": {
+    "name": "Zoe Lyle",
+    "inc": false
+   }
+  },
+  "others": [
+   "Moussa Taouk (FF)",
+   "Karina Kelly (AJP)"
+  ]
+ },
+ {
+  "seat": "Evelyn",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Analise Sherlock",
+    "inc": false
+   },
+   "COA": {
+    "name": "Bridget Vallence",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Andrew Henley",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Daniel Killey",
+    "inc": false
+   },
+   "VS": {
+    "name": "James Scanlon",
+    "inc": false
+   }
+  },
+  "others": [
+   "Michelle O'Brien (FF)",
+   "Jan Heald (AJP)"
+  ]
+ },
+ {
+  "seat": "Footscray",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Katie Hall",
+    "inc": true
+   },
+   "COA": {
+    "name": "Tim Chang",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Elena Pereyra",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Alexander Lopez",
+    "inc": false
+   },
+   "VS": {
+    "name": "Jasmine Duff",
+    "inc": false
+   }
+  },
+  "others": [
+   "Hai Dinh (Ind)",
+   "Minh Quan Nguyen (West)",
+   "Andualem Felate (Ind)",
+   "Kristina Hess (Ind)",
+   "Daniel Lewis (Ind)",
+   "Marcus Ibrahim (Ind)",
+   "Ana Flores (FF)",
+   "Jess Marsh (Ind)",
+   "Daryle Calder (Climate)",
+   "Catherine Cumming (Ind)"
+  ]
+ },
+ {
+  "seat": "Frankston",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Paul Edbrooke",
+    "inc": true
+   },
+   "COA": {
+    "name": "Bree Ambry",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Katie Goulas",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Paul Stafford",
+    "inc": false
+   },
+   "VS": {
+    "name": "Andrew Cheeseman",
+    "inc": false
+   }
+  },
+  "others": [
+   "Jeff Knipe (Cannabis)",
+   "Henry Kelsall (Ind)",
+   "Nicola Barry (Ind)",
+   "Peter Nicholes (FF)",
+   "Chrysten Abraham (Ind)",
+   "Julie Harman (AJP)"
+  ]
+ },
+ {
+  "seat": "Geelong",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Christine Couzens",
+    "inc": true
+   },
+   "COA": {
+    "name": "Andy Pobjoy",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Emilie Flynn",
+    "inc": false
+   },
+   "ONP": {
+    "name": "John de Lorenzo",
+    "inc": false
+   },
+   "VS": {
+    "name": "Bree Vanderpol",
+    "inc": false
+   }
+  },
+  "others": [
+   "Maria Bengtsson (FF)",
+   "Pippa MacPherson (AJP)",
+   "Brenden Grull (SA)"
+  ]
+ },
+ {
+  "seat": "Gippsland East",
+  "heldBy": "National",
+  "cands": {
+   "ALP": {
+    "name": "Sonny Stephens",
+    "inc": false
+   },
+   "COA": {
+    "name": "Gemma Rendell",
+    "inc": false,
+    "sub": "N"
+   },
+   "GRN": {
+    "name": "Ash Munro",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Steve Goodman",
+    "inc": false
+   },
+   "VS": {
+    "name": "Amy Espeseth",
+    "inc": false
+   }
+  },
+  "others": [
+   "Alison Waters (FF)",
+   "Ricky Muir (SFF)"
+  ]
+ },
+ {
+  "seat": "Gippsland South",
+  "heldBy": "National",
+  "cands": {
+   "ALP": {
+    "name": "Amy Barry-Macaulay",
+    "inc": false
+   },
+   "COA": {
+    "name": "Danny O'Brien",
+    "inc": true,
+    "sub": "N"
+   },
+   "GRN": {
+    "name": "Zave Evans",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Bianca Wilkie",
+    "inc": false
+   },
+   "VS": {
+    "name": "Lachie McGennisken",
+    "inc": false
+   }
+  },
+  "others": [
+   "Jessica McAuliffe (AJP)",
+   "Phillip Schuhmann (Ind)"
+  ]
+ },
+ {
+  "seat": "Glen Waverley",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "John Mullahy",
+    "inc": true
+   },
+   "COA": {
+    "name": "Jacky Sun",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Toyo White",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Brad Cox",
+    "inc": false
+   },
+   "VS": {
+    "name": "Nicholas Siow",
+    "inc": false
+   }
+  },
+  "others": [
+   "Segar Nadarajah (Ind)",
+   "Anna Dobie (FF)"
+  ]
+ },
+ {
+  "seat": "Greenvale",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Iwan Walters",
+    "inc": true
+   },
+   "COA": {
+    "name": "Jim Overend",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Declan McGinness",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Chris Moore",
+    "inc": false
+   },
+   "VS": {
+    "name": "Kirill Smelov",
+    "inc": false
+   }
+  },
+  "others": [
+   "Hassan Said (Ind)",
+   "Yehya Zoughaib (Ind)",
+   "Mazen Yohanna (ACP)",
+   "Michael Titheridge (FF)",
+   "Rosanna Furina (AJP)"
+  ]
+ },
+ {
+  "seat": "Hastings",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Paul Mercurio",
+    "inc": true
+   },
+   "COA": {
+    "name": "Frank Schiefler",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Isaac Willoughby",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Peter Angelico",
+    "inc": false
+   },
+   "VS": {
+    "name": "Michael Denman",
+    "inc": false
+   }
+  },
+  "others": [
+   "Chloe Coulson (AJP)",
+   "Jason Smart (Ind)"
+  ]
+ },
+ {
+  "seat": "Hawthorn",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Clive Crosby",
+    "inc": false
+   },
+   "COA": {
+    "name": "John Pesutto",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Kylie Rocha",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Paul Pribilovics",
+    "inc": false
+   },
+   "VS": {
+    "name": "Tess McEnearney",
+    "inc": false
+   }
+  },
+  "others": [
+   "Shima Ibuki (Ind)",
+   "Adam Nicoll (FF)"
+  ]
+ },
+ {
+  "seat": "Ivanhoe",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Anthony Carbines",
+    "inc": true
+   },
+   "COA": {
+    "name": "Oscar Lopez Rios",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Nina Crawley",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Wayne Hutchinson",
+    "inc": false
+   },
+   "VS": {
+    "name": "Ben Milne",
+    "inc": false
+   }
+  },
+  "others": [
+   "Michelle Kennedy (Ind)",
+   "Ren Casonato (FF)",
+   "Dora Bergman (Ind)"
+  ]
+ },
+ {
+  "seat": "Kalkallo",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Ros Spence",
+    "inc": true
+   },
+   "COA": {
+    "name": "Eddie Dadisho",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Payal Tiwari",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Troy Steans",
+    "inc": false
+   },
+   "VS": {
+    "name": "Courtney Millett",
+    "inc": false
+   }
+  },
+  "others": [
+   "Jeanette Dobson (FF)",
+   "Matthew Lynch (AJP)",
+   "Rebeca Islam (Ind)"
+  ]
+ },
+ {
+  "seat": "Kew",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "David Sun",
+    "inc": false
+   },
+   "COA": {
+    "name": "Jess Wilson",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Jackie Carter",
+    "inc": false
+   },
+   "ONP": {
+    "name": "David Laird",
+    "inc": false
+   },
+   "VS": {
+    "name": "Samantha Lincolne",
+    "inc": false
+   }
+  },
+  "others": [
+   "Man Liang (Ind)",
+   "Sophie Torney (Ind)",
+   "Ann Seeley (FF)",
+   "Juliet Hales (AJP)",
+   "Finlay Davis (Ind)"
+  ]
+ },
+ {
+  "seat": "Kororoit",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Luba Grigorovitch",
+    "inc": true
+   },
+   "COA": {
+    "name": "Jack Chakoma",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Joyce McDonald",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Seva Melnikov",
+    "inc": false
+   },
+   "VS": {
+    "name": "Rayan Hassan",
+    "inc": false
+   }
+  },
+  "others": [
+   "Donna Southern (West)",
+   "Nick Patterson (FF)",
+   "Divya Pidi (Ind)",
+   "Vasundhara Kandpal (AJP)"
+  ]
+ },
+ {
+  "seat": "Lara",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Ella George",
+    "inc": true
+   },
+   "COA": {
+    "name": "Tim Beddoe",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Theresa Slater",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Steven Spyros",
+    "inc": false
+   },
+   "VS": {
+    "name": "Oliver Randall",
+    "inc": false
+   }
+  },
+  "others": [
+   "Sarah Hathway (SA)",
+   "Samantha Long (AJP)",
+   "Tina Uwizeyimana (FF)"
+  ]
+ },
+ {
+  "seat": "Laverton",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Sarah Connolly",
+    "inc": true
+   },
+   "COA": {
+    "name": "Ghada Noune",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Lucy Nguyen",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Rufo Paredes",
+    "inc": false
+   },
+   "VS": {
+    "name": "Van Thanh Rudd",
+    "inc": false
+   }
+  },
+  "others": [
+   "Emma Mendelsohn (West)",
+   "Jo Garcia (FF)",
+   "Shohre Mansouri Jajaee (AJP)",
+   "Suchithra Chittedi (Ind)"
+  ]
+ },
+ {
+  "seat": "Lowan",
+  "heldBy": "National",
+  "cands": {
+   "ALP": {
+    "name": "Sue Pavlovich",
+    "inc": false
+   },
+   "COA": {
+    "name": "Emma Kealy",
+    "inc": true,
+    "sub": "N"
+   },
+   "GRN": {
+    "name": "Jeff Moran",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Andrew Partridge",
+    "inc": false
+   },
+   "VS": {
+    "name": "Jos Downey",
+    "inc": false
+   }
+  },
+  "others": [
+   "Kieran Butler (Ind)",
+   "Karen Hyslop (AD)",
+   "Lee-Ann Elmes (FF)"
+  ]
+ },
+ {
+  "seat": "Macedon",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Annette Death",
+    "inc": false
+   },
+   "COA": {
+    "name": "Kate Kendall",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Marley McRae McLeod",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Damien Parolin",
+    "inc": false
+   },
+   "VS": {
+    "name": "Catherine Wilson",
+    "inc": false
+   }
+  },
+  "others": [
+   "Dom Bonanno (Ind)",
+   "Michael Seton (Ind)",
+   "Bernadette Mayne (FF)",
+   "Natalie Korinfsky (AJP)"
+  ]
+ },
+ {
+  "seat": "Malvern",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Peter Martin",
+    "inc": false
+   },
+   "COA": {
+    "name": "Amelia Hamer",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Georgia Katsikis",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Edward Bode",
+    "inc": false
+   },
+   "VS": {
+    "name": "Gavin Leonard",
+    "inc": false
+   }
+  },
+  "others": [
+   "David Segal (LBT)",
+   "Christina Zigouras (Ind)"
+  ]
+ },
+ {
+  "seat": "Melbourne",
+  "heldBy": "Greens",
+  "cands": {
+   "ALP": {
+    "name": "Davydd Griffiths",
+    "inc": false
+   },
+   "COA": {
+    "name": "Rafael Camillo",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Ellen Sandell",
+    "inc": true
+   },
+   "ONP": {
+    "name": "Phillip Courtis",
+    "inc": false
+   },
+   "VS": {
+    "name": "Jordan van den Lamb",
+    "inc": false
+   }
+  },
+  "others": [
+   "Rowan Tuckfield (Ind)",
+   "Rob McCathie (LBT)",
+   "Mohamed Yusuf (Ind)",
+   "Naomi Jones (AJP)"
+  ]
+ },
+ {
+  "seat": "Melton",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Broden Borg",
+    "inc": false
+   },
+   "COA": {
+    "name": "Jarrod Bingham",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Veronika Levchenkova",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Matthew Katselis",
+    "inc": false
+   },
+   "VS": {
+    "name": "Daire Kelly",
+    "inc": false
+   }
+  },
+  "others": [
+   "Hayden Legro (West)",
+   "M.D. Omor Faruq (Ind)",
+   "Fiona Adin-James (AJP)",
+   "Marlene West (FF)",
+   "Jason Spencer Perera (Ind)",
+   "Jason Fraser (Ind)"
+  ]
+ },
+ {
+  "seat": "Mildura",
+  "heldBy": "National",
+  "cands": {
+   "ALP": {
+    "name": "Stella Zigouras",
+    "inc": false
+   },
+   "COA": {
+    "name": "Jade Benham",
+    "inc": true,
+    "sub": "N"
+   },
+   "GRN": {
+    "name": "Katie Clements",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Guy Cooper",
+    "inc": false
+   },
+   "VS": {
+    "name": "Renee Nayef",
+    "inc": false
+   }
+  },
+  "others": [
+   "Joselyne Ntahomvukiye (FF)",
+   "Vanessa Fries (AJP)"
+  ]
+ },
+ {
+  "seat": "Mill Park",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Elizabeth Nealy",
+    "inc": false
+   },
+   "COA": {
+    "name": "Joel Drysdale",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Binoy Zacharias",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Arthur Tsoutsoulis",
+    "inc": false
+   },
+   "VS": {
+    "name": "Jesse Lambourn",
+    "inc": false
+   }
+  },
+  "others": [
+   "Kath van der End (FF)",
+   "Aidan McLindon (Ind)",
+   "Eve Levens (AJP)"
+  ]
+ },
+ {
+  "seat": "Monbulk",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Daniela de Martino",
+    "inc": true
+   },
+   "COA": {
+    "name": "Clare Fitzmaurice",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Merran Blair",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Adrian Dowell",
+    "inc": false
+   },
+   "VS": {
+    "name": "Noah Briggs",
+    "inc": false
+   }
+  },
+  "others": [
+   "Craig Manners (FF)",
+   "Alyssa Wormald (AJP)"
+  ]
+ },
+ {
+  "seat": "Mordialloc",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Tim Richardson",
+    "inc": true
+   },
+   "COA": {
+    "name": "Paul O'Halloran",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Alex Breskin",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Nadia Ticehurst",
+    "inc": false
+   },
+   "VS": {
+    "name": "Mahee Hossain",
+    "inc": false
+   }
+  },
+  "others": [
+   "Lily Potucek (FF)",
+   "Rachel Versteegen (LBT)",
+   "Renee Thompson (Cannabis)"
+  ]
+ },
+ {
+  "seat": "Mornington",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Kerry MacDonald",
+    "inc": false
+   },
+   "COA": {
+    "name": "Chris Crewther",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Kai Titcher",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Ashli Beards",
+    "inc": false
+   },
+   "VS": {
+    "name": "Gene Brownlie",
+    "inc": false
+   }
+  },
+  "others": [
+   "Melissa Goffin (Ind)",
+   "Adrian Maher (Ind)"
+  ]
+ },
+ {
+  "seat": "Morwell",
+  "heldBy": "National",
+  "cands": {
+   "ALP": {
+    "name": "Tracie Lund",
+    "inc": false
+   },
+   "COA": {
+    "name": "Martin Cameron",
+    "inc": true,
+    "sub": "N"
+   },
+   "GRN": {
+    "name": "Rochelle Hine",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Casey Murphy",
+    "inc": false
+   },
+   "VS": {
+    "name": "Natalie Acreman",
+    "inc": false
+   }
+  },
+  "others": [
+   "Brendan Clarke (FF)",
+   "Ross McPhee (Ind)"
+  ]
+ },
+ {
+  "seat": "Mulgrave",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Eden Foster",
+    "inc": true
+   },
+   "COA": {
+    "name": "Charles Tran",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Paul J Schofield",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Cody Rebbechi",
+    "inc": false
+   },
+   "VS": {
+    "name": "Connor Buchanan",
+    "inc": false
+   }
+  },
+  "others": [
+   "Fotini Theodossopoulou (LBT)",
+   "Stewart Dobrzynski (FF)",
+   "Ian Cook (Ind)"
+  ]
+ },
+ {
+  "seat": "Murray Plains",
+  "heldBy": "National",
+  "cands": {
+   "ALP": {
+    "name": "Christine Grundy",
+    "inc": false
+   },
+   "COA": {
+    "name": "Brett Hosking",
+    "inc": false,
+    "sub": "N"
+   },
+   "GRN": {
+    "name": "Zoe Cook",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Garner Smith",
+    "inc": false
+   },
+   "VS": {
+    "name": "Asyiqin Sanif",
+    "inc": false
+   }
+  },
+  "others": [
+   "Peita Collard (AJP)",
+   "Ewan McDonald (FF)"
+  ]
+ },
+ {
+  "seat": "Narracan",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Jannette Langley",
+    "inc": false
+   },
+   "COA": {
+    "name": "Wayne Farnham",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Alyssa Weaver",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Ben Lucas",
+    "inc": false
+   },
+   "VS": {
+    "name": "Moss Page",
+    "inc": false
+   }
+  },
+  "others": [
+   "Geoff Dethlefs (FF)"
+  ]
+ },
+ {
+  "seat": "Narre Warren North",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Belinda Wilson",
+    "inc": true
+   },
+   "COA": {
+    "name": "Shemane Nathanielsz",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Hayley Perry",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Sebastian Crutchfield",
+    "inc": false
+   },
+   "VS": {
+    "name": "Lachlan McCracken",
+    "inc": false
+   }
+  },
+  "others": [
+   "Joshua Utoyo (LBT)",
+   "Cristina Emmanuel (FF)",
+   "Martin Leahy (Cannabis)"
+  ]
+ },
+ {
+  "seat": "Narre Warren South",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Stefan Koomen",
+    "inc": false
+   },
+   "COA": {
+    "name": "Norliah Peterson",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Jill Nambu",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Trevor Hammond",
+    "inc": false
+   },
+   "VS": {
+    "name": "Bailey McCracken",
+    "inc": false
+   }
+  },
+  "others": [
+   "Alan Currie (FF)",
+   "Lydia Denker (LBT)",
+   "Scott Watson (Ind)"
+  ]
+ },
+ {
+  "seat": "Nepean",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Surbhi Snowball",
+    "inc": false
+   },
+   "COA": {
+    "name": "Anthony Marsh",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Sianan Healy",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Darren Hercus",
+    "inc": false
+   },
+   "VS": {
+    "name": "Seth Willcocks",
+    "inc": false
+   }
+  },
+  "others": [
+   "Tamara Champion (AJP)",
+   "Kim Robbins (Ind)",
+   "Joseph Toscano (Ind)",
+   "Mike Brown (FF)"
+  ]
+ },
+ {
+  "seat": "Niddrie",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Ben Carroll",
+    "inc": true
+   },
+   "COA": {
+    "name": "Samantha Byrne",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Lana Nguyen",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Jason Taverna",
+    "inc": false
+   },
+   "VS": {
+    "name": "Brendan Laws",
+    "inc": false
+   }
+  },
+  "others": [
+   "Sam Sfameni (Ind)",
+   "George Theodorou (FF)",
+   "Domenic Mete (Ind)",
+   "Salomae Haselgrove (AJP)",
+   "Karthik Reddy Chittedi (Ind)",
+   "Brett Patrikeos (West)"
+  ]
+ },
+ {
+  "seat": "Northcote",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Kat Theophanous",
+    "inc": true
+   },
+   "COA": {
+    "name": "Lynda Awad",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Campbell Gome",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Christopher Bradbury",
+    "inc": false
+   },
+   "VS": {
+    "name": "Kath Larkin",
+    "inc": false
+   }
+  },
+  "others": [
+   "Richard Cimbaro (FF)",
+   "Jim Penman (LBT)",
+   "Clive Pilley (Ind)",
+   "Ian Hillman (Ind)",
+   "Hannah Kafel (Ind)"
+  ]
+ },
+ {
+  "seat": "Oakleigh",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Steve Dimopoulos",
+    "inc": true
+   },
+   "COA": {
+    "name": "Martin Jung",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Hsiang-Han Hsieh",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Brooke Carter",
+    "inc": false
+   },
+   "VS": {
+    "name": "Rowdy Bugter",
+    "inc": false
+   }
+  },
+  "others": [
+   "Matthew Grinter (FF)"
+  ]
+ },
+ {
+  "seat": "Ovens Valley",
+  "heldBy": "National",
+  "cands": {
+   "ALP": {
+    "name": "Jennifer Smith",
+    "inc": false
+   },
+   "COA": {
+    "name": "Tim McCurdy",
+    "inc": true,
+    "sub": "N"
+   },
+   "GRN": {
+    "name": "Benjamin Gilbert",
+    "inc": false
+   },
+   "ONP": {
+    "name": "James Rouel",
+    "inc": false
+   },
+   "VS": {
+    "name": "Bronwyn Murphy",
+    "inc": false
+   }
+  },
+  "others": [
+   "Julian Fidge (LBT)",
+   "Steve Manning (Ind)",
+   "Carol Norton-Smith (FF)",
+   "Sue Litchfield (AJP)"
+  ]
+ },
+ {
+  "seat": "Pakenham",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Alessandra Soliven",
+    "inc": false
+   },
+   "COA": {
+    "name": "Radmila Dyson",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Nasser Yawari",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Warren Pickering",
+    "inc": false
+   },
+   "VS": {
+    "name": "Stephanie Grigg",
+    "inc": false
+   }
+  },
+  "others": [
+   "Jesse Hamalainen (Ind)",
+   "Raymond French (Ind)",
+   "Kate Hands (LBT)",
+   "Lucas Ogden (Ind)",
+   "Stephanie Davies (Ind)"
+  ]
+ },
+ {
+  "seat": "Pascoe Vale",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Anthony Cianflone",
+    "inc": true
+   },
+   "COA": {
+    "name": "Rohit Taggar",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Angelica Panopoulos",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Rosemarie Pauline Ganci",
+    "inc": false
+   },
+   "VS": {
+    "name": "Yasemin Shamsili",
+    "inc": false
+   }
+  },
+  "others": [
+   "Amanda Hickey (Ind)",
+   "Stuart Lawrence (Climate)",
+   "Kathrine Ashton (FF)",
+   "Jacob Andrewartha (SA)",
+   "Kerry Haupt (Ind)"
+  ]
+ },
+ {
+  "seat": "Point Cook",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Mathew Hilakari",
+    "inc": true
+   },
+   "COA": {
+    "name": "Raja Reddy",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Ponraj Krishna Pandi",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Cameron Reid",
+    "inc": false
+   },
+   "VS": {
+    "name": "Taylor Laine",
+    "inc": false
+   }
+  },
+  "others": [
+   "Mark Grech (West)",
+   "Paul Kelly (Ind)",
+   "Kirti Alle (Ind)",
+   "Keith Meure (FF)"
+  ]
+ },
+ {
+  "seat": "Polwarth",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Hutch Hussein",
+    "inc": false
+   },
+   "COA": {
+    "name": "Richard Riordan",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Jesse Holden",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Anna Malcolm",
+    "inc": false
+   },
+   "VS": {
+    "name": "Lula Tolley",
+    "inc": false
+   }
+  },
+  "others": [
+   "Brenton Carbins (ACP)",
+   "Vince Colla (FF)"
+  ]
+ },
+ {
+  "seat": "Prahran",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Meghan Hopper",
+    "inc": false
+   },
+   "COA": {
+    "name": "Rachel Westaway",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Angelica di Camillo",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Shaun Virsu",
+    "inc": false
+   },
+   "VS": {
+    "name": "Clayton Doueihi",
+    "inc": false
+   }
+  },
+  "others": [
+   "Tosh-Jake Finnigan (Ind)",
+   "G. Daniel O'Neill (AJP)",
+   "George Leeton Watts (Ind)",
+   "Alan Menadue (Ind)",
+   "Nicholas Wong (Climate)",
+   "Daniel Jones (Ind)",
+   "Max Dicks (Ind)",
+   "Morgan Jonas (Ind)"
+  ]
+ },
+ {
+  "seat": "Preston",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Nathan Lambert",
+    "inc": true
+   },
+   "COA": {
+    "name": "Hamza Al Katranji",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Loki Sangarya",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Franco Guardiani",
+    "inc": false
+   },
+   "VS": {
+    "name": "Serena Ashmore",
+    "inc": false
+   }
+  },
+  "others": [
+   "Tim Date (Ind)",
+   "Zheng Chin (Ind)",
+   "Julio Valencia (FF)",
+   "William Fowles (Ind)",
+   "Mark Bryant (Ind)",
+   "Simon Dower (Climate)"
+  ]
+ },
+ {
+  "seat": "Richmond",
+  "heldBy": "Greens",
+  "cands": {
+   "ALP": {
+    "name": "Sarah McKenzie",
+    "inc": false
+   },
+   "COA": {
+    "name": "Charles Aponso",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Gabrielle de Vietri",
+    "inc": true
+   },
+   "ONP": {
+    "name": "Harrison Rindfleish",
+    "inc": false
+   },
+   "VS": {
+    "name": "Chris Dite",
+    "inc": false
+   }
+  },
+  "others": [
+   "Christine Maynard (Ind)",
+   "Bernadette Gray (LBT)",
+   "Jack Pead-Philipson (AD)",
+   "David Meyer (Ind)"
+  ]
+ },
+ {
+  "seat": "Ringwood",
+  "heldBy": "Independent",
+  "cands": {
+   "ALP": {
+    "name": "Rachel Halse",
+    "inc": false
+   },
+   "COA": {
+    "name": "Nick McGowan",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Amy Mills",
+    "inc": false
+   },
+   "ONP": {
+    "name": "John O'Connor",
+    "inc": false
+   },
+   "VS": {
+    "name": "Jack Gardner",
+    "inc": false
+   }
+  },
+  "others": [
+   "Christopher William Norton (Ind)",
+   "Elaine Huang (FF)",
+   "Prue Cutts (Ind)",
+   "Lyndon Walker (AJP)"
+  ]
+ },
+ {
+  "seat": "Ripon",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Martha Haylett",
+    "inc": true
+   },
+   "COA": {
+    "name": "Megan Read",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Tim Drylie",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Donna Buxton",
+    "inc": false
+   },
+   "VS": {
+    "name": "Taylah Brennan-Jones",
+    "inc": false
+   }
+  },
+  "others": [
+   "Krzysztof Wojtkowski (SFF)",
+   "Bernard Quince (Ind)",
+   "Mark McGrath (FF)",
+   "Ronald Skruzny (Ind)",
+   "Jeff Barry (LBT)",
+   "Trevor Scott Andrei (Ind)",
+   "Jo Armstrong (Nat)"
+  ]
+ },
+ {
+  "seat": "Rowville",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Muhammad Shahbaz",
+    "inc": false
+   },
+   "COA": {
+    "name": "Max Williams",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "David Massey",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Bradley Watt",
+    "inc": false
+   },
+   "VS": {
+    "name": "Lars Hiemstra",
+    "inc": false
+   }
+  },
+  "others": [
+   "Fiona Dobrzynski (FF)",
+   "Scott Robson (LBT)"
+  ]
+ },
+ {
+  "seat": "Sandringham",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Anastasia Sagris-Desmond",
+    "inc": false
+   },
+   "COA": {
+    "name": "Brad Rowswell",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Timon Fotakis",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Anthony Blight",
+    "inc": false
+   },
+   "VS": {
+    "name": "Lauren Stevenson",
+    "inc": false
+   }
+  },
+  "others": []
+ },
+ {
+  "seat": "Shepparton",
+  "heldBy": "National",
+  "cands": {
+   "ALP": {
+    "name": "Cayla Fin",
+    "inc": false
+   },
+   "COA": {
+    "name": "Shane Sali",
+    "inc": false,
+    "sub": "N"
+   },
+   "GRN": {
+    "name": "Grace Verney",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Phillip Bryant",
+    "inc": false
+   },
+   "VS": {
+    "name": "Karen Hocking",
+    "inc": false
+   }
+  },
+  "others": [
+   "Alison White (FF)",
+   "Lou Costa (Ind)",
+   "Faith Murphy-Ginger (AJP)",
+   "Johnson Varkey (Ind)"
+  ]
+ },
+ {
+  "seat": "South Barwon",
+  "heldBy": "Independent",
+  "cands": {
+   "ALP": {
+    "name": "Rebecca Thistleton",
+    "inc": false
+   },
+   "COA": {
+    "name": "Libby Pettit",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Izzy Scherrer",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Josh Geard",
+    "inc": false
+   },
+   "VS": {
+    "name": "Madilyn Gorman",
+    "inc": false
+   }
+  },
+  "others": [
+   "Ron Nelson (Ind)",
+   "Alan Barron (FF)",
+   "Freya Hedley (SA)"
+  ]
+ },
+ {
+  "seat": "South-West Coast",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Andrew Govanstone",
+    "inc": false
+   },
+   "COA": {
+    "name": "Roma Britnell",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Silver Rose Watts",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Richard Hughes",
+    "inc": false
+   },
+   "VS": {
+    "name": "Hera Sheppard",
+    "inc": false
+   }
+  },
+  "others": [
+   "Tamhas Buchan (FF)"
+  ]
+ },
+ {
+  "seat": "St Albans",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Natalie Suleyman",
+    "inc": true
+   },
+   "COA": {
+    "name": "Rob Dunstan",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Thuc Bao Huynh",
+    "inc": false
+   },
+   "ONP": {
+    "name": "John Cowell",
+    "inc": false
+   },
+   "VS": {
+    "name": "Leanna Nguyen",
+    "inc": false
+   }
+  },
+  "others": [
+   "Lu\u00e2n Walker (West)",
+   "Kerry Janten (Ind)",
+   "Alex Hakizimana (FF)"
+  ]
+ },
+ {
+  "seat": "Sunbury",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Josh Bull",
+    "inc": true
+   },
+   "COA": {
+    "name": "Simmone Cottom",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Lauren Granger-Brown",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Elita Dabrowski",
+    "inc": false
+   },
+   "VS": {
+    "name": "Adam Bremner",
+    "inc": false
+   }
+  },
+  "others": [
+   "Geoff Vine (West)",
+   "Rohanna Mohr (AJP)",
+   "Bhasker Reddy Bethi (Ind)",
+   "John Stafford (Ind)",
+   "Steve Jack Medcraft (Ind)",
+   "Elmer Batres (FF)"
+  ]
+ },
+ {
+  "seat": "Sydenham",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Uros Rasic",
+    "inc": false
+   },
+   "COA": {
+    "name": "Nathalie Moussi",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Maggie Jane",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Joh Bauch",
+    "inc": false
+   },
+   "VS": {
+    "name": "Shania Khan",
+    "inc": false
+   }
+  },
+  "others": [
+   "Ashleigh Vandenberg (Ind)",
+   "Nancy G Croes (FF)",
+   "Laxmi Lankala Kenderla (Ind)",
+   "Bruce Lancashire (West)",
+   "Maria Kerr (Ind)",
+   "Brandon Sinclair (Ind)",
+   "Bruce Poon (AJP)"
+  ]
+ },
+ {
+  "seat": "Tarneit",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Dylan Wight",
+    "inc": true
+   },
+   "COA": {
+    "name": "Venkat Ram Upparlapalle",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "A. Raheem Rifai",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Walter Villagonzalo",
+    "inc": false
+   },
+   "VS": {
+    "name": "Leah van Keulen",
+    "inc": false
+   }
+  },
+  "others": [
+   "Aijaz Moinuddin (Ind)",
+   "SM Zaberul Islam (Ind)",
+   "Andrew Elsbury (West)",
+   "Horizana Niyongabire (FF)",
+   "Rahima Ibrahim Ahmed (Ind)",
+   "Maurita Rahn (AJP)",
+   "Sindhu Sudhagani (Ind)"
+  ]
+ },
+ {
+  "seat": "Thomastown",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Bronwyn Halfpenny",
+    "inc": true
+   },
+   "COA": {
+    "name": "Belinda Stojcevski",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Gavin Trewella",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Nadia Anthony",
+    "inc": false
+   },
+   "VS": {
+    "name": "Priya Reddy",
+    "inc": false
+   }
+  },
+  "others": [
+   "Rob Rancie (FF)"
+  ]
+ },
+ {
+  "seat": "Warrandyte",
+  "heldBy": "Liberal",
+  "cands": {
+   "ALP": {
+    "name": "Rebecca Paterson",
+    "inc": false
+   },
+   "COA": {
+    "name": "Nicole Werner",
+    "inc": true,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Vanessa Muradian",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Mark Burnside",
+    "inc": false
+   },
+   "VS": {
+    "name": "John Stanley",
+    "inc": false
+   }
+  },
+  "others": [
+   "Caleb Schwab (LBT)"
+  ]
+ },
+ {
+  "seat": "Wendouree",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Juliana Addison",
+    "inc": true
+   },
+   "COA": {
+    "name": "Gav Ronan",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Ellen Burns",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Stuart Robinson",
+    "inc": false
+   },
+   "VS": {
+    "name": "Chris Meagher",
+    "inc": false
+   }
+  },
+  "others": [
+   "Ruth Byrne (FF)",
+   "Melissa Collins (AJP)"
+  ]
+ },
+ {
+  "seat": "Werribee",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "John Lister",
+    "inc": true
+   },
+   "COA": {
+    "name": "Reece Clark",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Tushar Kumar",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Paul Pateras",
+    "inc": false
+   },
+   "VS": {
+    "name": "Sue Munro",
+    "inc": false
+   }
+  },
+  "others": [
+   "Paul Hopper (West)",
+   "Matt Emerson (FF)",
+   "Jeremy Orchard (Ind)",
+   "Monica Sharma Raizada (Ind)",
+   "Sandhya Kayagurla (Ind)"
+  ]
+ },
+ {
+  "seat": "Williamstown",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Melissa Horne",
+    "inc": true
+   },
+   "COA": {
+    "name": "Paul Lindemann",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Ben Hocking",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Catherine Loughnan",
+    "inc": false
+   },
+   "VS": {
+    "name": "Oskar Martin",
+    "inc": false
+   }
+  },
+  "others": [
+   "Bruce O'Regan (FF)",
+   "Sagar Reddy Yarra (Ind)",
+   "Gill Gannon (West)",
+   "Tony Briffa (Ind)"
+  ]
+ },
+ {
+  "seat": "Yan Yean",
+  "heldBy": "Labor",
+  "cands": {
+   "ALP": {
+    "name": "Lauren Kathage",
+    "inc": true
+   },
+   "COA": {
+    "name": "Amanda Dow",
+    "inc": false,
+    "sub": "L"
+   },
+   "GRN": {
+    "name": "Gufran Mohammed",
+    "inc": false
+   },
+   "ONP": {
+    "name": "Jeremy Johnson",
+    "inc": false
+   },
+   "VS": {
+    "name": "Andrew Bell",
+    "inc": false
+   }
+  },
+  "others": [
+   "James Hall (FF)",
+   "Sinan Okatan (AJP)",
+   "Troy Cheers (LBT)"
+  ]
+ }
+]

@@ -1,0 +1,970 @@
+{
+"Albert Park": {
+"p": {
+"ALP": 36.4,
+"LNP": 29.8,
+"GRN": 20.9,
+"IND": 5.9,
+"OTH": 7.0
+},
+"topInd": 5.9,
+"alp2pp": 61.2
+},
+"Ashwood": {
+"p": {
+"ALP": 40.3,
+"LNP": 37.2,
+"GRN": 14.8,
+"IND": 2.6,
+"OTH": 5.2
+},
+"topInd": 1.6,
+"alp2pp": 56.2
+},
+"Bass": {
+"p": {
+"ALP": 32.6,
+"LNP": 43.400000000000006,
+"GRN": 8.1,
+"IND": 4.4,
+"OTH": 11.3
+},
+"topInd": 2.3,
+"alp2pp": null
+},
+"Bayswater": {
+"p": {
+"ALP": 41.3,
+"LNP": 35.6,
+"GRN": 7.4,
+"IND": 2.1,
+"OTH": 13.599999999999998
+},
+"topInd": 2.1,
+"alp2pp": null
+},
+"Bellarine": {
+"p": {
+"ALP": 42.6,
+"LNP": 33.1,
+"GRN": 11.7,
+"IND": 4.6,
+"OTH": 7.8999999999999995
+},
+"topInd": 4.6,
+"alp2pp": 58.5
+},
+"Benambra": {
+"p": {
+"ALP": 13.1,
+"LNP": 42.9,
+"GRN": 3.9,
+"IND": 31.7,
+"OTH": 8.5
+},
+"topInd": 31.7,
+"alp2pp": 36.7
+},
+"Bendigo East": {
+"p": {
+"ALP": 48.3,
+"LNP": 27.4,
+"GRN": 8.7,
+"IND": 3.5,
+"OTH": 12.2
+},
+"topInd": 3.5,
+"alp2pp": 60.8
+},
+"Bendigo West": {
+"p": {
+"ALP": 46.5,
+"LNP": 25.0,
+"GRN": 11.5,
+"IND": 3.3,
+"OTH": 13.700000000000001
+},
+"topInd": 2.4,
+"alp2pp": 64.6
+},
+"Bentleigh": {
+"p": {
+"ALP": 45.8,
+"LNP": 36.3,
+"GRN": 10.7,
+"IND": 1.7,
+"OTH": 5.3
+},
+"topInd": 1.7,
+"alp2pp": 58.0
+},
+"Berwick": {
+"p": {
+"ALP": 35.8,
+"LNP": 45.2,
+"GRN": 9.7,
+"IND": 0,
+"OTH": 9.2
+},
+"topInd": 0,
+"alp2pp": 45.3
+},
+"Box Hill": {
+"p": {
+"ALP": 41.3,
+"LNP": 35.2,
+"GRN": 14.1,
+"IND": 2.0,
+"OTH": 7.3
+},
+"topInd": 1.0,
+"alp2pp": 57.2
+},
+"Brighton": {
+"p": {
+"ALP": 24.7,
+"LNP": 45.6,
+"GRN": 13.8,
+"IND": 12.499999999999998,
+"OTH": 3.5
+},
+"topInd": 9.1,
+"alp2pp": 44.9
+},
+"Broadmeadows": {
+"p": {
+"ALP": 45.7,
+"LNP": 23.1,
+"GRN": 8.4,
+"IND": 4.8,
+"OTH": 17.9
+},
+"topInd": 3.8,
+"alp2pp": 65.5
+},
+"Brunswick": {
+"p": {
+"ALP": 28.5,
+"LNP": 10.9,
+"GRN": 43.6,
+"IND": 1.7000000000000002,
+"OTH": 15.299999999999999
+},
+"topInd": 1.3,
+"alp2pp": 84.1
+},
+"Bulleen": {
+"p": {
+"ALP": 32.7,
+"LNP": 48.1,
+"GRN": 10.7,
+"IND": 1.5,
+"OTH": 7.1
+},
+"topInd": 1.0,
+"alp2pp": 44.1
+},
+"Bundoora": {
+"p": {
+"ALP": 47.8,
+"LNP": 27.7,
+"GRN": 13.2,
+"IND": 1.0,
+"OTH": 10.4
+},
+"topInd": 1.0,
+"alp2pp": 62.7
+},
+"Carrum": {
+"p": {
+"ALP": 49.9,
+"LNP": 30.3,
+"GRN": 7.6,
+"IND": 2.3,
+"OTH": 9.899999999999999
+},
+"topInd": 2.3,
+"alp2pp": 59.8
+},
+"Caulfield": {
+"p": {
+"ALP": 27.8,
+"LNP": 44.5,
+"GRN": 15.8,
+"IND": 6.5,
+"OTH": 5.4
+},
+"topInd": 6.5,
+"alp2pp": 47.9
+},
+"Clarinda": {
+"p": {
+"ALP": 45.5,
+"LNP": 28.6,
+"GRN": 7.9,
+"IND": 10.6,
+"OTH": 7.4
+},
+"topInd": 7.8,
+"alp2pp": 60.2
+},
+"Cranbourne": {
+"p": {
+"ALP": 46.2,
+"LNP": 27.5,
+"GRN": 5.6,
+"IND": 0.6,
+"OTH": 20.1
+},
+"topInd": 0.6,
+"alp2pp": 59.0
+},
+"Croydon": {
+"p": {
+"ALP": 34.1,
+"LNP": 43.0,
+"GRN": 10.8,
+"IND": 0,
+"OTH": 12.100000000000001
+},
+"topInd": 0,
+"alp2pp": 48.6
+},
+"Dandenong": {
+"p": {
+"ALP": 54.9,
+"LNP": 21.5,
+"GRN": 8.1,
+"IND": 0,
+"OTH": 15.500000000000002
+},
+"topInd": 0,
+"alp2pp": 68.3
+},
+"Eildon": {
+"p": {
+"ALP": 29.0,
+"LNP": 47.4,
+"GRN": 11.2,
+"IND": 2.5,
+"OTH": 10.0
+},
+"topInd": 1.4,
+"alp2pp": 43.0
+},
+"Eltham": {
+"p": {
+"ALP": 44.5,
+"LNP": 35.6,
+"GRN": 13.5,
+"IND": 0,
+"OTH": 6.4
+},
+"topInd": 0,
+"alp2pp": 59.0
+},
+"Essendon": {
+"p": {
+"ALP": 41.1,
+"LNP": 29.5,
+"GRN": 15.1,
+"IND": 0,
+"OTH": 14.3
+},
+"topInd": 0,
+"alp2pp": 62.5
+},
+"Eureka": {
+"p": {
+"ALP": 41.0,
+"LNP": 31.6,
+"GRN": 10.8,
+"IND": 4.4,
+"OTH": 12.200000000000001
+},
+"topInd": 2.4,
+"alp2pp": 57.2
+},
+"Euroa": {
+"p": {
+"ALP": 30.4,
+"LNP": 53.8,
+"GRN": 5.3,
+"IND": 0,
+"OTH": 10.5
+},
+"topInd": 0,
+"alp2pp": 40.1
+},
+"Evelyn": {
+"p": {
+"ALP": 32.7,
+"LNP": 46.7,
+"GRN": 9.3,
+"IND": 1.8,
+"OTH": 9.5
+},
+"topInd": 1.0,
+"alp2pp": 44.6
+},
+"Footscray": {
+"p": {
+"ALP": 43.1,
+"LNP": 17.9,
+"GRN": 22.4,
+"IND": 0,
+"OTH": 16.6
+},
+"topInd": 0,
+"alp2pp": 75.7
+},
+"Frankston": {
+"p": {
+"ALP": 41.6,
+"LNP": 29.4,
+"GRN": 12.7,
+"IND": 3.0,
+"OTH": 13.3
+},
+"topInd": 2.1,
+"alp2pp": 58.7
+},
+"Geelong": {
+"p": {
+"ALP": 46.4,
+"LNP": 27.2,
+"GRN": 15.3,
+"IND": 3.2,
+"OTH": 7.8999999999999995
+},
+"topInd": 2.2,
+"alp2pp": 64.7
+},
+"Gippsland East": {
+"p": {
+"ALP": 17.0,
+"LNP": 63.3,
+"GRN": 6.4,
+"IND": 0,
+"OTH": 13.2
+},
+"topInd": 0,
+"alp2pp": 25.4
+},
+"Gippsland South": {
+"p": {
+"ALP": 23.4,
+"LNP": 53.3,
+"GRN": 8.3,
+"IND": 5.7,
+"OTH": 9.3
+},
+"topInd": 5.7,
+"alp2pp": 34.4
+},
+"Glen Waverley": {
+"p": {
+"ALP": 40.6,
+"LNP": 40.2,
+"GRN": 9.6,
+"IND": 0,
+"OTH": 9.6
+},
+"topInd": 0,
+"alp2pp": null
+},
+"Greenvale": {
+"p": {
+"ALP": 41.5,
+"LNP": 25.4,
+"GRN": 5.8,
+"IND": 6.4,
+"OTH": 20.9
+},
+"topInd": 6.4,
+"alp2pp": 57.1
+},
+"Hastings": {
+"p": {
+"ALP": 37.3,
+"LNP": 39.8,
+"GRN": 10.0,
+"IND": 1.3,
+"OTH": 11.6
+},
+"topInd": 1.3,
+"alp2pp": 51.4
+},
+"Hawthorn": {
+"p": {
+"ALP": 22.1,
+"LNP": 42.3,
+"GRN": 11.1,
+"IND": 20.0,
+"OTH": 4.5
+},
+"topInd": 20.0,
+"alp2pp": null
+},
+"Ivanhoe": {
+"p": {
+"ALP": 42.7,
+"LNP": 31.0,
+"GRN": 19.2,
+"IND": 1.8,
+"OTH": 5.3
+},
+"topInd": 1.8,
+"alp2pp": 62.8
+},
+"Kalkallo": {
+"p": {
+"ALP": 53.9,
+"LNP": 22.9,
+"GRN": 5.3,
+"IND": 2.3,
+"OTH": 15.599999999999998
+},
+"topInd": 1.5,
+"alp2pp": 66.5
+},
+"Kew": {
+"p": {
+"ALP": 22.7,
+"LNP": 44.3,
+"GRN": 8.3,
+"IND": 21.8,
+"OTH": 2.9
+},
+"topInd": 21.1,
+"alp2pp": 46.0
+},
+"Kororoit": {
+"p": {
+"ALP": 43.3,
+"LNP": 24.3,
+"GRN": 6.6,
+"IND": 2.4,
+"OTH": 23.500000000000004
+},
+"topInd": 2.4,
+"alp2pp": 64.5
+},
+"Lara": {
+"p": {
+"ALP": 49.7,
+"LNP": 21.4,
+"GRN": 11.3,
+"IND": 2.6,
+"OTH": 15.000000000000002
+},
+"topInd": 2.6,
+"alp2pp": 65.9
+},
+"Laverton": {
+"p": {
+"ALP": 45.9,
+"LNP": 22.2,
+"GRN": 9.4,
+"IND": 1.0,
+"OTH": 21.499999999999996
+},
+"topInd": 1.0,
+"alp2pp": 68.4
+},
+"Lowan": {
+"p": {
+"ALP": 19.6,
+"LNP": 59.0,
+"GRN": 6.0,
+"IND": 5.5,
+"OTH": 9.9
+},
+"topInd": 5.5,
+"alp2pp": 28.4
+},
+"Macedon": {
+"p": {
+"ALP": 41.4,
+"LNP": 30.0,
+"GRN": 12.5,
+"IND": 5.4,
+"OTH": 10.700000000000001
+},
+"topInd": 5.4,
+"alp2pp": 59.5
+},
+"Malvern": {
+"p": {
+"ALP": 26.1,
+"LNP": 52.8,
+"GRN": 15.6,
+"IND": 1.5,
+"OTH": 4.0
+},
+"topInd": 1.5,
+"alp2pp": 41.9
+},
+"Melbourne": {
+"p": {
+"ALP": 30.6,
+"LNP": 17.7,
+"GRN": 37.3,
+"IND": 0,
+"OTH": 14.4
+},
+"topInd": 0,
+"alp2pp": 75.0
+},
+"Melton": {
+"p": {
+"ALP": 37.7,
+"LNP": 24.3,
+"GRN": 4.6,
+"IND": 15.2,
+"OTH": 18.200000000000003
+},
+"topInd": 9.1,
+"alp2pp": 54.6
+},
+"Mildura": {
+"p": {
+"ALP": 6.5,
+"LNP": 45.0,
+"GRN": 2.3,
+"IND": 41.199999999999996,
+"OTH": 5.0
+},
+"topInd": 33.9,
+"alp2pp": 35.9
+},
+"Mill Park": {
+"p": {
+"ALP": 49.9,
+"LNP": 25.9,
+"GRN": 7.3,
+"IND": 0,
+"OTH": 16.9
+},
+"topInd": 0,
+"alp2pp": 61.6
+},
+"Monbulk": {
+"p": {
+"ALP": 36.1,
+"LNP": 29.5,
+"GRN": 15.0,
+"IND": 10.3,
+"OTH": 9.3
+},
+"topInd": 5.3,
+"alp2pp": 57.6
+},
+"Mordialloc": {
+"p": {
+"ALP": 44.0,
+"LNP": 31.4,
+"GRN": 10.3,
+"IND": 7.7,
+"OTH": 6.6
+},
+"topInd": 7.4,
+"alp2pp": 58.2
+},
+"Mornington": {
+"p": {
+"ALP": 21.98,
+"LNP": 42.58,
+"GRN": 6.38,
+"IND": 23.94,
+"OTH": 5.12
+},
+"topInd": 22.42,
+"alp2pp": 41.72
+},
+"Morwell": {
+"p": {
+"ALP": 31.5,
+"LNP": 38.4,
+"GRN": 4.2,
+"IND": 9.7,
+"OTH": 16.2
+},
+"topInd": 5.8,
+"alp2pp": null
+},
+"Mulgrave": {
+"p": {
+"ALP": 51.0,
+"LNP": 17.2,
+"GRN": 5.1,
+"IND": 20.499999999999996,
+"OTH": 6.200000000000001
+},
+"topInd": 18.0,
+"alp2pp": 60.2
+},
+"Murray Plains": {
+"p": {
+"ALP": 18.8,
+"LNP": 61.8,
+"GRN": 3.9,
+"IND": 2.5,
+"OTH": 13.100000000000001
+},
+"topInd": 2.5,
+"alp2pp": 26.6
+},
+"Narracan": {
+"p": {
+"ALP": 0,
+"LNP": 45.0,
+"GRN": 11.1,
+"IND": 15.9,
+"OTH": 28.0
+},
+"topInd": 11.0,
+"alp2pp": null
+},
+"Narre Warren North": {
+"p": {
+"ALP": 46.8,
+"LNP": 27.3,
+"GRN": 6.8,
+"IND": 2.2,
+"OTH": 17.0
+},
+"topInd": 2.2,
+"alp2pp": 58.7
+},
+"Narre Warren South": {
+"p": {
+"ALP": 48.0,
+"LNP": 28.7,
+"GRN": 6.6,
+"IND": 0.7,
+"OTH": 16.0
+},
+"topInd": 0.7,
+"alp2pp": 58.3
+},
+"Nepean": {
+"p": {
+"ALP": 32.6,
+"LNP": 48.1,
+"GRN": 8.8,
+"IND": 2.5,
+"OTH": 8.0
+},
+"topInd": 1.2,
+"alp2pp": null
+},
+"Niddrie": {
+"p": {
+"ALP": 43.9,
+"LNP": 34.0,
+"GRN": 7.4,
+"IND": 0,
+"OTH": 14.7
+},
+"topInd": 0,
+"alp2pp": 56.7
+},
+"Northcote": {
+"p": {
+"ALP": 40.6,
+"LNP": 12.2,
+"GRN": 30.0,
+"IND": 1.4,
+"OTH": 15.7
+},
+"topInd": 1.2,
+"alp2pp": 81.7
+},
+"Oakleigh": {
+"p": {
+"ALP": 45.0,
+"LNP": 29.3,
+"GRN": 16.6,
+"IND": 3.0,
+"OTH": 6.1000000000000005
+},
+"topInd": 2.5,
+"alp2pp": 63.5
+},
+"Ovens Valley": {
+"p": {
+"ALP": 20.7,
+"LNP": 52.1,
+"GRN": 9.0,
+"IND": 0,
+"OTH": 18.2
+},
+"topInd": 0,
+"alp2pp": 32.2
+},
+"Pakenham": {
+"p": {
+"ALP": 33.8,
+"LNP": 32.4,
+"GRN": 6.6,
+"IND": 8.7,
+"OTH": 18.4
+},
+"topInd": 8.1,
+"alp2pp": 50.4
+},
+"Pascoe Vale": {
+"p": {
+"ALP": 38.8,
+"LNP": 21.0,
+"GRN": 22.4,
+"IND": 4.2,
+"OTH": 13.599999999999998
+},
+"topInd": 4.2,
+"alp2pp": 72.2
+},
+"Point Cook": {
+"p": {
+"ALP": 40.0,
+"LNP": 24.7,
+"GRN": 6.8,
+"IND": 10.2,
+"OTH": 18.3
+},
+"topInd": 6.9,
+"alp2pp": 58.3
+},
+"Polwarth": {
+"p": {
+"ALP": 29.3,
+"LNP": 42.5,
+"GRN": 16.7,
+"IND": 4.4,
+"OTH": 7.2
+},
+"topInd": 4.4,
+"alp2pp": 48.2
+},
+"Prahran": {
+"p": {
+"ALP": 26.6,
+"LNP": 31.1,
+"GRN": 36.4,
+"IND": 1.1,
+"OTH": 4.800000000000001
+},
+"topInd": 1.1,
+"alp2pp": 61.1
+},
+"Preston": {
+"p": {
+"ALP": 37.6,
+"LNP": 17.3,
+"GRN": 15.1,
+"IND": 14.399999999999999,
+"OTH": 15.6
+},
+"topInd": 13.7,
+"alp2pp": 69.7
+},
+"Richmond": {
+"p": {
+"ALP": 32.8,
+"LNP": 18.8,
+"GRN": 34.7,
+"IND": 1.0,
+"OTH": 12.7
+},
+"topInd": 1.0,
+"alp2pp": 74.1
+},
+"Ringwood": {
+"p": {
+"ALP": 39.0,
+"LNP": 33.8,
+"GRN": 15.5,
+"IND": 0,
+"OTH": 11.7
+},
+"topInd": 0,
+"alp2pp": 57.5
+},
+"Ripon": {
+"p": {
+"ALP": 38.5,
+"LNP": 36.2,
+"GRN": 6.0,
+"IND": 2.8,
+"OTH": 16.5
+},
+"topInd": 2.1,
+"alp2pp": 53.0
+},
+"Rowville": {
+"p": {
+"ALP": 32.9,
+"LNP": 40.6,
+"GRN": 7.0,
+"IND": 12.1,
+"OTH": 7.4
+},
+"topInd": 12.1,
+"alp2pp": 46.3
+},
+"Sandringham": {
+"p": {
+"ALP": 25.7,
+"LNP": 46.4,
+"GRN": 14.7,
+"IND": 7.2,
+"OTH": 6.1
+},
+"topInd": 6.9,
+"alp2pp": 45.0
+},
+"Shepparton": {
+"p": {
+"ALP": 7.95,
+"LNP": 52.620000000000005,
+"GRN": 2.56,
+"IND": 29.41,
+"OTH": 7.46
+},
+"topInd": 29.41,
+"alp2pp": 25.66
+},
+"South Barwon": {
+"p": {
+"ALP": 44.2,
+"LNP": 32.1,
+"GRN": 12.6,
+"IND": 0,
+"OTH": 11.100000000000001
+},
+"topInd": 0,
+"alp2pp": 59.8
+},
+"South-West Coast": {
+"p": {
+"ALP": 21.2,
+"LNP": 42.9,
+"GRN": 5.4,
+"IND": 25.9,
+"OTH": 4.6
+},
+"topInd": 14.4,
+"alp2pp": 42.0
+},
+"St Albans": {
+"p": {
+"ALP": 42.3,
+"LNP": 25.4,
+"GRN": 6.8,
+"IND": 3.2,
+"OTH": 22.299999999999997
+},
+"topInd": 3.2,
+"alp2pp": 59.6
+},
+"Sunbury": {
+"p": {
+"ALP": 43.1,
+"LNP": 31.6,
+"GRN": 6.5,
+"IND": 3.8,
+"OTH": 14.999999999999998
+},
+"topInd": 3.8,
+"alp2pp": 56.4
+},
+"Sydenham": {
+"p": {
+"ALP": 43.5,
+"LNP": 29.0,
+"GRN": 5.8,
+"IND": 0,
+"OTH": 21.7
+},
+"topInd": 0,
+"alp2pp": 58.8
+},
+"Tarneit": {
+"p": {
+"ALP": 46.6,
+"LNP": 26.8,
+"GRN": 7.4,
+"IND": 1.4,
+"OTH": 17.9
+},
+"topInd": 1.4,
+"alp2pp": 62.3
+},
+"Thomastown": {
+"p": {
+"ALP": 51.7,
+"LNP": 24.0,
+"GRN": 6.8,
+"IND": 0,
+"OTH": 17.5
+},
+"topInd": 0,
+"alp2pp": 65.8
+},
+"Warrandyte": {
+"p": {
+"ALP": 33.2,
+"LNP": 47.3,
+"GRN": 11.7,
+"IND": 1.5,
+"OTH": 6.3
+},
+"topInd": 1.5,
+"alp2pp": 45.7
+},
+"Wendouree": {
+"p": {
+"ALP": 47.6,
+"LNP": 29.7,
+"GRN": 10.4,
+"IND": 1.1,
+"OTH": 11.2
+},
+"topInd": 1.1,
+"alp2pp": 61.9
+},
+"Werribee": {
+"p": {
+"ALP": 45.4,
+"LNP": 25.3,
+"GRN": 6.8,
+"IND": 6.6,
+"OTH": 15.9
+},
+"topInd": 5.9,
+"alp2pp": 60.9
+},
+"Williamstown": {
+"p": {
+"ALP": 41.5,
+"LNP": 28.0,
+"GRN": 15.4,
+"IND": 0,
+"OTH": 15.0
+},
+"topInd": 0,
+"alp2pp": 63.4
+},
+"Yan Yean": {
+"p": {
+"ALP": 41.4,
+"LNP": 33.9,
+"GRN": 6.4,
+"IND": 0,
+"OTH": 18.299999999999997
+},
+"topInd": 0,
+"alp2pp": 54.3
+}
+}
