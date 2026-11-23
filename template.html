@@ -558,6 +558,7 @@ h1{font-size:clamp(36px,5vw,64px);margin:0 0 14px}
 .hyrs button{padding:7px 12px}
 #hlegend{flex-wrap:wrap!important;overflow:visible!important;max-width:calc(100% - 28px)}
 @media (max-width:1000px){#paneHist .mapbox{height:clamp(420px,70vh,560px)}#paneHist .panel{height:auto;overflow:visible}}
+.nightbar{background:var(--accent);color:var(--on-accent);font-weight:700;font-size:14px;line-height:1.45;padding:10px max(16px,env(safe-area-inset-left,0px));text-align:center}.nightbar a{color:inherit;text-decoration:underline;font-weight:800}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
@@ -574,6 +575,7 @@ h1{font-size:clamp(36px,5vw,64px);margin:0 0 14px}
     <div class="tb-right"><span class="cd"><b id="days">6</b><span id="dayslbl">days to go</span></span><button type="button" class="btn-s" id="copyPage">Copy link</button></div>
   </div>
 </header>
+<div class="nightbar" id="nightbar" role="status" hidden></div>
 <section class="hero">
   <div class="wrap hero-in">
     <div class="hero-l">
@@ -1050,6 +1052,14 @@ function hPanel(){
   var o=$('hOpen');if(o)o.onclick=function(){showTab('map',true);select(n,true)};
   var b=$('hBack');if(b)b.onclick=function(){hs.seat=null;hPaint();hPanel()};
 }
+/* polling-day and election-night banner (times are Melbourne: polls open 8am, close 6pm, Sat 28 Nov) */
+function drawNight(t){
+  var el=$('nightbar'),day=Date.UTC(2026,10,27,13,0),closed=Date.UTC(2026,10,28,7,0),v='<a href="https://www.vec.vic.gov.au/" target="_blank" rel="noopener">';
+  if(t>=closed){el.innerHTML='Polls have closed and the votes are being counted. This site shows pre-election estimates, not results. '+v+'Follow the official count at the VEC</a>.';el.hidden=false}
+  else if(t>=day){el.innerHTML='Polling day: polls are open 8am to 6pm today. '+v+'Find where to vote on the VEC website</a>.';el.hidden=false}
+  else el.hidden=true;
+}
+drawNight(Date.now());
 /* ---------- tabs ---------- */
 var tab='map';
 var panes={map:$('paneMap'),news:$('paneNews'),track:$('paneTrack'),hist:$('paneHist'),post:$('panePost')},tbtn={map:$('tMap'),news:$('tNews'),track:$('tTrack'),hist:$('tHist'),post:$('tPost')};
