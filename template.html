@@ -559,6 +559,11 @@ h1{font-size:clamp(36px,5vw,64px);margin:0 0 14px}
 #hlegend{flex-wrap:wrap!important;overflow:visible!important;max-width:calc(100% - 28px)}
 @media (max-width:1000px){#paneHist .mapbox{height:clamp(420px,70vh,560px)}#paneHist .panel{height:auto;overflow:visible}}
 .nightbar{background:var(--accent);color:var(--on-accent);font-weight:700;font-size:14px;line-height:1.45;padding:10px max(16px,env(safe-area-inset-left,0px));text-align:center}.nightbar a{color:inherit;text-decoration:underline;font-weight:800}
+.howto{margin:20px 0 8px}.howto h2{font-size:clamp(22px,2.6vw,30px);font-weight:800;letter-spacing:-.03em;margin:4px 0 14px}.howto .lbl{color:var(--mute)}
+.how-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.how-grid>div{background:var(--bg);border:1px solid var(--hair);border-radius:16px;padding:14px}.how-grid b{display:block;font-size:15px;margin-bottom:4px}.how-grid p{margin:0;font-size:13.5px;line-height:1.5;color:var(--mute)}
+.how-note{margin:14px 0 0;font-size:12.5px;color:var(--mute)}.how-note a{color:inherit;font-weight:700}
+.ios-tip{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:14px 0 0;background:var(--accent);color:var(--on-accent);border-radius:14px;padding:10px 14px;font-size:13.5px;font-weight:600}.ios-tip[hidden]{display:none}.ios-tip button{flex:none;border:1.5px solid var(--on-accent);background:transparent;color:inherit;border-radius:999px;padding:6px 14px;font-size:12.5px;font-weight:800}
+@media (max-width:1000px){.how-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (max-width:560px){.how-grid{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
@@ -615,6 +620,16 @@ h1{font-size:clamp(36px,5vw,64px);margin:0 0 14px}
     </section>
     <aside class="panel" id="panel" aria-label="Seat and statewide details"></aside>
   </main>
+  <section class="howto" id="howto" aria-labelledby="howH"><div class="card"><span class="lbl">Before Saturday</span><h2 id="howH">How to vote</h2>
+    <div class="how-grid">
+      <div><b>Voting is compulsory</b><p>If you are enrolled, you must vote. Polls are open 8am to 6pm on Saturday 28 November.</p></div>
+      <div><b>No photo ID needed</b><p>You do not need photo ID to vote in Victoria. You will be asked for your name and address.</p></div>
+      <div><b>Number every box</b><p>For your local MP (the Legislative Assembly ballot), number every box in order of preference. Leave one blank and the vote does not count.</p></div>
+      <div><b>Find your polling place</b><p>The VEC website shows where to vote and the other ways to vote.</p></div>
+    </div>
+    <p class="how-note">Rules and dates can change, so check the <a href="https://www.vec.vic.gov.au/" target="_blank" rel="noopener">Victorian Electoral Commission</a> for the latest.</p>
+    <p class="ios-tip" id="iosTip" hidden><span>Tip for iPhone: tap the Share button in Safari, then <b>Add to Home Screen</b> to open this site in one tap.</span><button type="button" id="iosTipX">Got it</button></p>
+  </div></section>
   </div>
   <section id="paneNews" hidden role="tabpanel" aria-labelledby="tNews" aria-label="News"></section>
   <section id="paneTrack" hidden role="tabpanel" aria-labelledby="tTrack" aria-label="Seat tracker"></section>
@@ -1058,8 +1073,18 @@ function drawNight(t){
   if(t>=closed){el.innerHTML='Polls have closed and the votes are being counted. This site shows pre-election estimates, not results. '+v+'Follow the official count at the VEC</a>.';el.hidden=false}
   else if(t>=day){el.innerHTML='Polling day: polls are open 8am to 6pm today. '+v+'Find where to vote on the VEC website</a>.';el.hidden=false}
   else el.hidden=true;
+  var hw=$('howto');if(hw)hw.hidden=(t>=closed);
 }
 drawNight(Date.now());
+/* iPhone: suggest adding the site to the home screen (once, dismissible) */
+(function(){
+  var tip=$('iosTip');if(!tip)return;
+  var ios=/iP(hone|ad|od)/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+  var standalone=window.navigator.standalone===true||(window.matchMedia&&matchMedia('(display-mode: standalone)').matches);
+  var gone=false;try{gone=localStorage.getItem('vv-iostip')==='1'}catch(e){}
+  if(ios&&!standalone&&!gone)tip.hidden=false;
+  $('iosTipX').onclick=function(){tip.hidden=true;try{localStorage.setItem('vv-iostip','1')}catch(e){}};
+})();
 /* ---------- tabs ---------- */
 var tab='map';
 var panes={map:$('paneMap'),news:$('paneNews'),track:$('paneTrack'),hist:$('paneHist'),post:$('panePost')},tbtn={map:$('tMap'),news:$('tNews'),track:$('tTrack'),hist:$('tHist'),post:$('tPost')};
